@@ -1,0 +1,33 @@
+﻿@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-cae: <https://lop.com/fibo/lifestyle/cae/> .
+@prefix lop-ext-prog: <https://lop.com/fibo/lifestyle/extensions/programs/> .
+
+<https://lop.com/fibo/lifestyle/extensions/lop-lifestyle/LOPFitness-Programs> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/bp/Engagements/ProgramLifecycle> ,
+                <https://lop.com/fibo/lifestyle/cae/ProgramParticipationAgreement> .
+
+lop-ext-prog:StudioProgramAlignment a owl:Class ;
+    skos:definition "스튜디오-프로그램 정합"@ko .
+
+lop-ext-prog:alignmentStudio a owl:ObjectProperty ;
+    rdfs:domain lop-ext-prog:StudioProgramAlignment ;
+    rdfs:range lop-core:WellnessStudio .
+
+lop-ext-prog:alignmentProgram a owl:ObjectProperty ;
+    rdfs:domain lop-ext-prog:StudioProgramAlignment ;
+    rdfs:range lop-core:FitnessProgram .
+
+lop-ext-prog:Alignment-SGANG01 a lop-ext-prog:StudioProgramAlignment ;
+    rdfs:label "SGANG01-Kickoff alignment"@en ;
+    lop-ext-prog:alignmentStudio lop-core:SGANG01 ;
+    lop-ext-prog:alignmentProgram lop-core:FitnessPlusKickoff .
+
+lop-ext-prog:Alignment-SBRCH02 a lop-ext-prog:StudioProgramAlignment ;
+    lop-ext-prog:alignmentStudio lop-core:SBRCH02 ;
+    lop-ext-prog:alignmentProgram lop-core:FitnessPlusSeniors .
+
+lop-core:FitnessPlusSeniors a lop-core:FitnessProgram ;
+    skos:definition "시니어 대상 프로그램"@ko .

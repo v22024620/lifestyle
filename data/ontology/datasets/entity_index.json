@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "iri": "https://lop.com/fibo/lifestyle/fnd/agents/LOPWellnessAgent",
+      "label": "LOP Wellness Agent",
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/fnd/agents/LOPTrainer",
+      "label": "LOP Trainer",
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/fnd/contracts/LOPProgramContract",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/fnd/time/ProgramWindow",
+      "label": "Program Window",
+      "comment": "LOP 프로그램 시작/종료 기간"
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/core/WellnessStudio",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/core/TrainerNetwork",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/core/FitnessProgram",
+      "label": "LOP Program",
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/bp/ProgramLifecycleEvent",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/cae/ProgramParticipationAgreement",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/core/KPISet",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/core/FitnessSubscriptionProduct",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/core/SettlementProfile",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/der/DerivedMetric",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/ind/FitnessRiskEvent",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/ind/InsuranceCoverage",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/loan/StudioCapexLoan",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/sec/ReceivablePool",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/extensions/programs/StudioProgramAlignment",
+      "label": null,
+      "comment": null
+    },
+    {
+      "iri": "https://lop.com/fibo/lifestyle/extensions/individuals/DerivedEvidence",
+      "label": null,
+      "comment": null
+    }
+  ]
+}

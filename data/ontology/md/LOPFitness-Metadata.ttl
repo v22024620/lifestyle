@@ -1,0 +1,56 @@
+﻿@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lop-md: <https://lop.com/fibo/lifestyle/md/> .
+
+lop-md:LOPFitnessMetadata a owl:Ontology ;
+    dcterms:title "LOP Lifestyle Ontology"@ko ;
+    dcterms:creator "LOP Partnerships PM"@ko ;
+    dcterms:description "LOP 기획 조직이 edmcouncil/fibo 구조를 확장하여 사용하는 메타데이터 카탈로그"@ko ;
+    dcterms:issued "2025-11-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    skos:note "모든 LOP 모듈은 본 메타데이터 파일을 통해 버전/의존성을 관리합니다."@ko ;
+    owl:imports <https://lop.com/fibo/lifestyle/fnd/Agents/LOPAgents> ,
+                <https://lop.com/fibo/lifestyle/fnd/Arrangements/LOPContracts> ,
+                <https://lop.com/fibo/lifestyle/fnd/DatesAndTimes/LOPTime> ,
+                <https://lop.com/fibo/lifestyle/be/Organizations/Studios> ,
+                <https://lop.com/fibo/lifestyle/be/FunctionalEntities/TrainerNetworks> ,
+                <https://lop.com/fibo/lifestyle/bp/Engagements/ProgramLifecycle> ,
+                <https://lop.com/fibo/lifestyle/cae/ProgramParticipationAgreement> ,
+                <https://lop.com/fibo/lifestyle/fbc/Products/FitnessSubscriptions> ,
+                <https://lop.com/fibo/lifestyle/fbc/Accounting/FitnessSettlement> ,
+                <https://lop.com/fibo/lifestyle/der/FitnessRiskDerivedMetrics> ,
+                <https://lop.com/fibo/lifestyle/ind/Insurance/FitnessRisk> ,
+                <https://lop.com/fibo/lifestyle/loan/StudioCapexLoans> ,
+                <https://lop.com/fibo/lifestyle/sec/FitnessReceivablesSecuritization> .
+
+lop-md:module-fnd a owl:NamedIndividual ;
+    dcterms:title "기초(Foundations)"@ko ;
+    skos:definition "Agent, Contract, Time 정보를 LOP 용어와 연결"@ko .
+
+lop-md:module-be a owl:NamedIndividual ;
+    dcterms:title "조직(BE)"@ko ;
+    skos:definition "Wellness Studio / Trainer Network 조직 구조"@ko .
+
+lop-md:module-bp a owl:NamedIndividual ;
+    dcterms:title "비즈니스 프로세스"@ko ;
+    skos:definition "프로그램 수명주기 및 KPI 이벤트"@ko .
+
+lop-md:module-fbc a owl:NamedIndividual ;
+    dcterms:title "상거래"@ko ;
+    skos:definition "구독 상품과 정산 흐름"@ko .
+
+lop-md:module-der a owl:NamedIndividual ;
+    dcterms:title "파생 KPI"@ko ;
+    skos:definition "Activation Momentum 등 파생 메트릭"@ko .
+
+lop-md:module-risk a owl:NamedIndividual ;
+    dcterms:title "산업/보험"@ko ;
+    skos:definition "Risk Event / 보험 커버리지"@ko .
+
+lop-md:module-loan a owl:NamedIndividual ;
+    dcterms:title "Loan"@ko ;
+    skos:definition "스튜디오 CAPEX 대출"@ko .
+
+lop-md:module-sec a owl:NamedIndividual ;
+    dcterms:title "Securities"@ko ;
+    skos:definition "구독 매출 유동화"@ko .

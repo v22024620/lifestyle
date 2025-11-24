@@ -1,0 +1,17 @@
+﻿{
+  "schema_version": "0.1",
+  "description": "GraphRAG evidence 구조: graph/vector/neo4j 결과를 증거 아이템으로 통합",
+  "item_fields": [
+    {"name": "source", "type": "string", "desc": "graph|vector|neo4j"},
+    {"name": "subject", "type": "string", "desc": "IRI 또는 스튜디오 ID"},
+    {"name": "predicate", "type": "string", "desc": "관계 타입"},
+    {"name": "object", "type": "string", "desc": "트리플 또는 텍스트"},
+    {"name": "label", "type": "string", "desc": "엔티티 라벨(있다면)"},
+    {"name": "score", "type": "number", "desc": "벡터 거리/점수"},
+    {"name": "confidence", "type": "number", "desc": "출처 가중치"}
+  ],
+  "summary_fields": [
+    {"name": "total_evidence", "type": "integer"},
+    {"name": "by_source", "type": "object"}
+  ]
+}

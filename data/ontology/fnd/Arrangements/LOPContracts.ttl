@@ -1,0 +1,31 @@
+﻿@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix fibo-fnd-agr: <https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-cae: <https://lop.com/fibo/lifestyle/cae/> .
+@prefix lop-fnd-ctr: <https://lop.com/fibo/lifestyle/fnd/contracts/> .
+
+<https://lop.com/fibo/lifestyle/fnd/Arrangements/LOPContracts> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/md/LOPFitnessMetadata> ;
+    rdfs:label "LOP Contracts"@en .
+
+lop-fnd-ctr:LOPProgramContract a owl:Class ;
+    rdfs:subClassOf fibo-fnd-agr:ContractualAgreement ;
+    skos:definition "LOP 프로그램과 스튜디오 사이의 기본 계약"@ko .
+
+lop-fnd-ctr:governsProgram a owl:ObjectProperty ;
+    rdfs:domain lop-fnd-ctr:LOPProgramContract ;
+    rdfs:range lop-core:FitnessProgram ;
+    skos:definition "어떤 프로그램을 규율하는지"@ko .
+
+lop-fnd-ctr:hasSettlementProfile a owl:ObjectProperty ;
+    rdfs:domain lop-fnd-ctr:LOPProgramContract ;
+    rdfs:range lop-core:SettlementProfile ;
+    skos:definition "정산 프로파일 연결"@ko .
+
+lop-fnd-ctr:ParticipationContract-001 a lop-fnd-ctr:LOPProgramContract ;
+    rdfs:label "SGANG01-Participation"@en ;
+    lop-fnd-ctr:governsProgram lop-core:FitnessPlusKickoff ;
+    lop-fnd-ctr:hasSettlementProfile lop-core:SettlementProfile-Std .

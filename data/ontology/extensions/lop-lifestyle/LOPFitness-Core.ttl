@@ -1,0 +1,17 @@
+﻿@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-ext: <https://lop.com/fibo/lifestyle/extensions/lop/> .
+
+<https://lop.com/fibo/lifestyle/extensions/lop-lifestyle/LOPFitness-Core> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/md/LOPFitness-Metadata> ,
+                <https://lop.com/fibo/lifestyle/be/Organizations/Studios> ,
+                <https://lop.com/fibo/lifestyle/fbc/Products/FitnessSubscriptions> .
+
+lop-ext:LOPHealthKitSyncLevel a owl:DatatypeProperty ;
+    rdfs:domain lop-core:WellnessStudio ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#decimal> ;
+    skos:definition "HealthKit 동기화율"@ko .
+
+lop-core:SGANG01 lop-ext:LOPHealthKitSyncLevel "0.87"^^<http://www.w3.org/2001/XMLSchema#decimal> .

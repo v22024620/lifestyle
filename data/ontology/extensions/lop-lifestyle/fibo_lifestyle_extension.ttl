@@ -1,0 +1,473 @@
+﻿@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fibo-life: <https://example.com/fibo/lifestyle#> .
+@prefix fibo-fbc-pas-caa: <https://spec.edmcouncil.org/fibo/FBC/PAS/CreditCardsAndAccounts/> .
+@prefix fibo-fbc-pas-tx: <https://spec.edmcouncil.org/fibo/FBC/PAS/Transactions/> .
+@prefix fibo-fbc-ins-fun: <https://spec.edmcouncil.org/fibo/FBC/Insurance/InsuranceContracts/> .
+@prefix fibo-be-le-lp: <https://spec.edmcouncil.org/fibo/BE/LegalEntities/LegalPersons/> .
+@prefix fibo-fnd-agr-ctr: <https://spec.edmcouncil.org/fibo/FND/Agreements/Contracts/> .
+@prefix fibo-fnd-acc-cur: <https://spec.edmcouncil.org/fibo/FND/Accounting/CurrencyAmount/> .
+@prefix fibo-fnd-qt-qtu: <https://spec.edmcouncil.org/fibo/FND/Quantities/QuantitiesAndUnits/> .
+@prefix fibo-fnd-rel-rel: <https://spec.edmcouncil.org/fibo/FND/Relations/Relations/> .
+
+<https://example.com/fibo/lifestyle-extension>
+    a owl:Ontology ;
+    owl:imports <https://example.com/fibo/core-subset> ;
+    dcterms:title "FIBO Lifestyle Extension for LOP Partnerships"@en ;
+    dcterms:creator "LOP planning team"@en ;
+    dcterms:description "Aligns Bloomberg FIBO legal/transaction concepts with Korean wellness studios participating in LOP."@en .
+
+fibo-life:WellnessStudio a owl:Class ;
+    rdfs:label "LOP-aligned wellness studio"@en ;
+    rdfs:subClassOf fibo-be-le-lp:LegalEntity .
+
+fibo-life:Trainer a owl:Class ;
+    rdfs:label "Partner trainer"@en ;
+    rdfs:subClassOf fibo-be-le-lp:LegalEntity .
+
+fibo-life:WellnessProgram a owl:Class ;
+    rdfs:label "Wellness program"@en ;
+    rdfs:subClassOf fibo-fnd-agr-ctr:ContractualAgreement .
+
+fibo-life:LOPFitnessAlignment a owl:Class ;
+    rdfs:label "LOP alignment contract"@en ;
+    rdfs:subClassOf fibo-fnd-agr-ctr:ContractualAgreement .
+
+fibo-life:ProgramParticipationAgreement a owl:Class ;
+    rdfs:label "Program participation agreement"@en ;
+    rdfs:subClassOf fibo-fnd-agr-ctr:PerformanceCommitment .
+
+fibo-life:EngagementMeasurement a owl:Class ;
+    rdfs:label "Engagement measurement"@en ;
+    rdfs:subClassOf fibo-fnd-qt-qtu:Measurement .
+
+fibo-life:FitnessRiskEvent a owl:Class ;
+    rdfs:label "Fitness program risk event"@en ;
+    rdfs:subClassOf fibo-fbc-pas-tx:Transaction .
+
+fibo-life:ChargebackEvent a owl:Class ;
+    rdfs:label "Fitness chargeback"@en ;
+    rdfs:subClassOf fibo-fbc-pas-tx:Chargeback .
+
+fibo-life:RefundEvent a owl:Class ;
+    rdfs:label "Fitness refund"@en ;
+    rdfs:subClassOf fibo-fbc-pas-tx:Refund .
+
+fibo-life:UsageSettlementInstruction a owl:Class ;
+    rdfs:label "Usage settlement instruction"@en ;
+    rdfs:subClassOf fibo-fbc-pas-tx:SettlementInstruction .
+
+fibo-life:lopFitnessTier a owl:DatatypeProperty ;
+    rdfs:label "LOP tier"@en ;
+    rdfs:domain fibo-life:WellnessStudio ;
+    rdfs:range xsd:string .
+
+fibo-life:lopCommerceTier a owl:DatatypeProperty ;
+    rdfs:label "LOP commerce tier"@en ;
+    rdfs:domain fibo-life:WellnessStudio ;
+    rdfs:range xsd:string .
+
+fibo-life:supportsFitnessPlusPrograms a owl:DatatypeProperty ;
+    rdfs:label "Fitness+ program coverage"@en ;
+    rdfs:domain fibo-life:WellnessStudio ;
+    rdfs:range xsd:string .
+
+fibo-life:lopMetricSyncLevel a owl:DatatypeProperty ;
+    rdfs:label "LOP metric sync level"@en ;
+    rdfs:domain fibo-life:WellnessStudio ;
+    rdfs:range xsd:string .
+
+fibo-life:studioRiskCategory a owl:DatatypeProperty ;
+    rdfs:label "Studio risk category"@en ;
+    rdfs:domain fibo-life:WellnessStudio ;
+    rdfs:range xsd:string .
+
+fibo-life:alignsWithContract a owl:ObjectProperty ;
+    rdfs:label "aligns with contract"@en ;
+    rdfs:domain fibo-life:EngagementMeasurement ;
+    rdfs:range fibo-fnd-agr-ctr:ContractualAgreement .
+
+fibo-life:reportedForStudio a owl:ObjectProperty ;
+    rdfs:label "reported for studio"@en ;
+    rdfs:domain fibo-life:EngagementMeasurement ;
+    rdfs:range fibo-life:WellnessStudio .
+
+fibo-life:tracksProgram a owl:ObjectProperty ;
+    rdfs:label "tracks program"@en ;
+    rdfs:domain fibo-life:ProgramParticipationAgreement ;
+    rdfs:range fibo-life:WellnessProgram .
+
+fibo-life:hasPrimaryTrainer a owl:ObjectProperty ;
+    rdfs:label "has primary trainer"@en ;
+    rdfs:domain fibo-life:WellnessStudio ;
+    rdfs:range fibo-life:Trainer .
+
+fibo-life:usesSettlementAccount a owl:ObjectProperty ;
+    rdfs:label "uses settlement account"@en ;
+    rdfs:domain fibo-life:WellnessStudio ;
+    rdfs:range fibo-fbc-pas-caa:Account .
+
+fibo-life:sharesHealthDataWith a owl:ObjectProperty ;
+    rdfs:label "shares health data with"@en ;
+    rdfs:domain fibo-life:WellnessStudio ;
+    rdfs:range fibo-be-le-lp:LegalEntity .
+
+fibo-life:lopRingCompletionRate a owl:DatatypeProperty ;
+    rdfs:label "LOP ring completion rate"@en ;
+    rdfs:domain fibo-life:EngagementMeasurement ;
+    rdfs:range xsd:decimal .
+
+fibo-life:lopWatchHeartRateVariance a owl:DatatypeProperty ;
+    rdfs:label "LOP Watch heart rate variance"@en ;
+    rdfs:domain fibo-life:EngagementMeasurement ;
+    rdfs:range xsd:decimal .
+
+fibo-life:watchActiveEnergyDelta a owl:DatatypeProperty ;
+    rdfs:label "Active energy delta"@en ;
+    rdfs:domain fibo-life:EngagementMeasurement ;
+    rdfs:range xsd:decimal .
+
+fibo-life:healthKitOptInRate a owl:DatatypeProperty ;
+    rdfs:label "HealthKit opt-in rate"@en ;
+    rdfs:domain fibo-life:EngagementMeasurement ;
+    rdfs:range xsd:decimal .
+
+fibo-life:fitnessPlusActivationRate a owl:DatatypeProperty ;
+    rdfs:label "Fitness+ activation rate"@en ;
+    rdfs:domain fibo-life:EngagementMeasurement ;
+    rdfs:range xsd:decimal .
+
+fibo-life:LOPFitnessDivision a fibo-be-le-lp:LegalEntity ;
+    rdfs:label "LOP Partnerships"@en .
+
+# --- Programs ---
+
+fibo-life:Program-CoreFlow-SGANG01 a fibo-life:WellnessProgram ;
+    rdfs:label "Core Flow Elite"@en .
+
+fibo-life:Program-Rehab-SBRCH02 a fibo-life:WellnessProgram ;
+    rdfs:label "Spine Recovery Intensive"@en .
+
+fibo-life:Program-Conditioning-SINC04 a fibo-life:WellnessProgram ;
+    rdfs:label "Hybrid Conditioning Camp"@en .
+
+fibo-life:Program-Pilates-SDAEG03 a fibo-life:WellnessProgram ;
+    rdfs:label "Atlas Core Flow"@en .
+
+fibo-life:Program-Mobility-SGWANG05 a fibo-life:WellnessProgram ;
+    rdfs:label "Joint Mobility Sprint"@en .
+
+# --- Studios ---
+
+fibo-life:Studio-SGANG01 a fibo-life:WellnessStudio ;
+    rdfs:label "Lumo Balance Lab"@en ;
+    fibo-life:lopFitnessTier "Tier-1" ;
+    fibo-life:lopCommerceTier "Premier" ;
+    fibo-life:supportsFitnessPlusPrograms "Strength,Mobility" ;
+    fibo-life:lopMetricSyncLevel "Full-HealthKit" ;
+    fibo-life:studioRiskCategory "Low" ;
+    fibo-life:hasPrimaryTrainer fibo-life:Trainer-TR100 ;
+    fibo-life:sharesHealthDataWith fibo-life:LOPFitnessDivision .
+
+fibo-life:Studio-SBRCH02 a fibo-life:WellnessStudio ;
+    rdfs:label "PulseFrame Rehab Studio"@en ;
+    fibo-life:lopFitnessTier "Tier-1" ;
+    fibo-life:lopCommerceTier "Premier" ;
+    fibo-life:supportsFitnessPlusPrograms "Recovery,Stretch" ;
+    fibo-life:lopMetricSyncLevel "PT-Specific" ;
+    fibo-life:studioRiskCategory "Moderate" ;
+    fibo-life:hasPrimaryTrainer fibo-life:Trainer-TR205 ;
+    fibo-life:sharesHealthDataWith fibo-life:LOPFitnessDivision .
+
+fibo-life:Studio-SINC04 a fibo-life:WellnessStudio ;
+    rdfs:label "NovaSpark Boxing Loft"@en ;
+    fibo-life:lopFitnessTier "Tier-2" ;
+    fibo-life:lopCommerceTier "Growth" ;
+    fibo-life:supportsFitnessPlusPrograms "Conditioning,HIIT" ;
+    fibo-life:lopMetricSyncLevel "MetricsOnly" ;
+    fibo-life:studioRiskCategory "High" ;
+    fibo-life:hasPrimaryTrainer fibo-life:Trainer-TR350 ;
+    fibo-life:sharesHealthDataWith fibo-life:LOPFitnessDivision .
+
+fibo-life:Studio-SDAEG03 a fibo-life:WellnessStudio ;
+    rdfs:label "Atlas Flow Pilates"@en ;
+    fibo-life:lopFitnessTier "Tier-2" ;
+    fibo-life:lopCommerceTier "Growth" ;
+    fibo-life:supportsFitnessPlusPrograms "Pilates,Recovery" ;
+    fibo-life:lopMetricSyncLevel "BodyMetric+HeartRate" ;
+    fibo-life:studioRiskCategory "Balanced" ;
+    fibo-life:hasPrimaryTrainer fibo-life:Trainer-TR312 ;
+    fibo-life:sharesHealthDataWith fibo-life:LOPFitnessDivision .
+
+fibo-life:Studio-SGWANG05 a fibo-life:WellnessStudio ;
+    rdfs:label "Skyline Mobility Center"@en ;
+    fibo-life:lopFitnessTier "Tier-2" ;
+    fibo-life:lopCommerceTier "Emerging" ;
+    fibo-life:supportsFitnessPlusPrograms "Mobility,PhysicalTherapy" ;
+    fibo-life:lopMetricSyncLevel "VitalsOnly" ;
+    fibo-life:studioRiskCategory "Moderate" ;
+    fibo-life:hasPrimaryTrainer fibo-life:Trainer-TR440 ;
+    fibo-life:sharesHealthDataWith fibo-life:LOPFitnessDivision .
+
+# --- Trainers ---
+
+fibo-life:Trainer-TR100 a fibo-life:Trainer ;
+    rdfs:label "Coach Ryu"@en ;
+    fibo-fnd-rel-rel:hasFormalRelationship fibo-life:Studio-SGANG01 .
+
+fibo-life:Trainer-TR205 a fibo-life:Trainer ;
+    rdfs:label "Therapist Min"@en ;
+    fibo-fnd-rel-rel:hasFormalRelationship fibo-life:Studio-SBRCH02 .
+
+fibo-life:Trainer-TR312 a fibo-life:Trainer ;
+    rdfs:label "Instructor Jina"@en ;
+    fibo-fnd-rel-rel:hasFormalRelationship fibo-life:Studio-SDAEG03 .
+
+fibo-life:Trainer-TR350 a fibo-life:Trainer ;
+    rdfs:label "Coach Woo"@en ;
+    fibo-fnd-rel-rel:hasFormalRelationship fibo-life:Studio-SINC04 .
+
+fibo-life:Trainer-TR440 a fibo-life:Trainer ;
+    rdfs:label "Physio Han"@en ;
+    fibo-fnd-rel-rel:hasFormalRelationship fibo-life:Studio-SGWANG05 .
+
+# --- Contracts ---
+
+fibo-life:Contract-SGANG01-FitnessPlus a fibo-life:LOPFitnessAlignment ;
+    rdfs:label "LOP alignment for Lumo Balance Lab"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SGANG01 , fibo-life:LOPFitnessDivision ;
+    fibo-fnd-agr-ctr:hasEffectiveDate "2024-01-01"^^xsd:date ;
+    fibo-fnd-agr-ctr:hasExpirationDate "2024-12-31"^^xsd:date .
+
+fibo-life:Contract-SBRCH02-Rehab a fibo-life:LOPFitnessAlignment ;
+    rdfs:label "LOP Rehab alliance"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SBRCH02 , fibo-life:LOPFitnessDivision ;
+    fibo-fnd-agr-ctr:hasEffectiveDate "2024-02-01"^^xsd:date .
+
+fibo-life:Contract-SINC04-Boxing a fibo-life:LOPFitnessAlignment ;
+    rdfs:label "LOP Boxing Conditioning"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SINC04 , fibo-life:LOPFitnessDivision ;
+    fibo-fnd-agr-ctr:hasEffectiveDate "2024-03-01"^^xsd:date .
+
+fibo-life:Contract-SDAEG03-Pilates a fibo-life:LOPFitnessAlignment ;
+    rdfs:label "LOP Pilates Collaboration"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SDAEG03 , fibo-life:LOPFitnessDivision ;
+    fibo-fnd-agr-ctr:hasEffectiveDate "2024-01-15"^^xsd:date .
+
+fibo-life:Contract-SGWANG05-Mobility a fibo-life:LOPFitnessAlignment ;
+    rdfs:label "LOP Mobility Sprint"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SGWANG05 , fibo-life:LOPFitnessDivision ;
+    fibo-fnd-agr-ctr:hasEffectiveDate "2024-04-01"^^xsd:date .
+
+# --- Program participation ---
+
+fibo-life:PPA-SGANG01-CoreFlow a fibo-life:ProgramParticipationAgreement ;
+    rdfs:label "Core Flow Elite performance"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SGANG01 , fibo-life:LOPFitnessDivision ;
+    fibo-life:tracksProgram fibo-life:Program-CoreFlow-SGANG01 .
+
+fibo-life:PPA-SBRCH02-Rehab a fibo-life:ProgramParticipationAgreement ;
+    rdfs:label "Recovery intensive performance"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SBRCH02 , fibo-life:LOPFitnessDivision ;
+    fibo-life:tracksProgram fibo-life:Program-Rehab-SBRCH02 .
+
+fibo-life:PPA-SINC04-Conditioning a fibo-life:ProgramParticipationAgreement ;
+    rdfs:label "Boxing HIIT performance"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SINC04 , fibo-life:LOPFitnessDivision ;
+    fibo-life:tracksProgram fibo-life:Program-Conditioning-SINC04 .
+
+fibo-life:PPA-SDAEG03-Pilates a fibo-life:ProgramParticipationAgreement ;
+    rdfs:label "Pilates alignment"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SDAEG03 , fibo-life:LOPFitnessDivision ;
+    fibo-life:tracksProgram fibo-life:Program-Pilates-SDAEG03 .
+
+fibo-life:PPA-SGWANG05-Mobility a fibo-life:ProgramParticipationAgreement ;
+    rdfs:label "Mobility sprint commitment"@en ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:Studio-SGWANG05 , fibo-life:LOPFitnessDivision ;
+    fibo-life:tracksProgram fibo-life:Program-Mobility-SGWANG05 .
+
+# --- Accounts ---
+
+fibo-life:Account-SGANG01-Revenue a fibo-fbc-pas-caa:Account ;
+    rdfs:label "Revenue share account - SGANG01"@en ;
+    fibo-fbc-pas-caa:hasAccountHolder fibo-life:Studio-SGANG01 ;
+    fibo-fbc-pas-caa:hasServicingParty fibo-life:LOPFitnessDivision .
+
+fibo-life:Account-SBRCH02-Settlement a fibo-fbc-pas-caa:Account ;
+    rdfs:label "Settlement account - SBRCH02"@en ;
+    fibo-fbc-pas-caa:hasAccountHolder fibo-life:Studio-SBRCH02 ;
+    fibo-fbc-pas-caa:hasServicingParty fibo-life:LOPFitnessDivision .
+
+fibo-life:Account-SINC04-Usage a fibo-fbc-pas-caa:Account ;
+    rdfs:label "Usage account - SINC04"@en ;
+    fibo-fbc-pas-caa:hasAccountHolder fibo-life:Studio-SINC04 ;
+    fibo-fbc-pas-caa:hasServicingParty fibo-life:LOPFitnessDivision .
+
+fibo-life:Account-SDAEG03-Pilates a fibo-fbc-pas-caa:Account ;
+    rdfs:label "Pilates account - SDAEG03"@en ;
+    fibo-fbc-pas-caa:hasAccountHolder fibo-life:Studio-SDAEG03 ;
+    fibo-fbc-pas-caa:hasServicingParty fibo-life:LOPFitnessDivision .
+
+fibo-life:Account-SGWANG05-Mobility a fibo-fbc-pas-caa:Account ;
+    rdfs:label "Mobility account - SGWANG05"@en ;
+    fibo-fbc-pas-caa:hasAccountHolder fibo-life:Studio-SGWANG05 ;
+    fibo-fbc-pas-caa:hasServicingParty fibo-life:LOPFitnessDivision .
+
+fibo-life:Studio-SGANG01 fibo-life:usesSettlementAccount fibo-life:Account-SGANG01-Revenue .
+
+fibo-life:Studio-SBRCH02 fibo-life:usesSettlementAccount fibo-life:Account-SBRCH02-Settlement .
+
+fibo-life:Studio-SINC04 fibo-life:usesSettlementAccount fibo-life:Account-SINC04-Usage .
+
+fibo-life:Studio-SDAEG03 fibo-life:usesSettlementAccount fibo-life:Account-SDAEG03-Pilates .
+
+fibo-life:Studio-SGWANG05 fibo-life:usesSettlementAccount fibo-life:Account-SGWANG05-Mobility .
+
+# --- Monetary amounts ---
+
+fibo-life:Amount-2024Q1-SGANG01 a fibo-fnd-acc-cur:MonetaryAmount ;
+    fibo-fnd-acc-cur:hasAmount "125000000"^^xsd:decimal ;
+    fibo-fnd-acc-cur:hasCurrency "KRW" .
+
+fibo-life:Amount-2024Q1-SBRCH02 a fibo-fnd-acc-cur:MonetaryAmount ;
+    fibo-fnd-acc-cur:hasAmount "88000000"^^xsd:decimal ;
+    fibo-fnd-acc-cur:hasCurrency "KRW" .
+
+fibo-life:Amount-2024Q1-SINC04 a fibo-fnd-acc-cur:MonetaryAmount ;
+    fibo-fnd-acc-cur:hasAmount "54000000"^^xsd:decimal ;
+    fibo-fnd-acc-cur:hasCurrency "KRW" .
+
+fibo-life:Amount-2024Q1-SDAEG03 a fibo-fnd-acc-cur:MonetaryAmount ;
+    fibo-fnd-acc-cur:hasAmount "46000000"^^xsd:decimal ;
+    fibo-fnd-acc-cur:hasCurrency "KRW" .
+
+fibo-life:Amount-2024Q1-SGWANG05 a fibo-fnd-acc-cur:MonetaryAmount ;
+    fibo-fnd-acc-cur:hasAmount "31000000"^^xsd:decimal ;
+    fibo-fnd-acc-cur:hasCurrency "KRW" .
+
+# --- Transactions & settlement instructions ---
+
+fibo-life:Txn-SGANG01-2024Q1 a fibo-fbc-pas-tx:Transaction ;
+    rdfs:label "Revenue share Q1"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-04-05T10:00:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:amount fibo-life:Amount-2024Q1-SGANG01 ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SGANG01-Revenue ;
+    fibo-fbc-pas-tx:hasCounterparty fibo-life:LOPFitnessDivision , fibo-life:Studio-SGANG01 .
+
+fibo-life:Txn-SBRCH02-2024Q1 a fibo-fbc-pas-tx:Transaction ;
+    rdfs:label "Therapy package payout"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-04-07T09:00:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:amount fibo-life:Amount-2024Q1-SBRCH02 ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SBRCH02-Settlement ;
+    fibo-fbc-pas-tx:hasCounterparty fibo-life:LOPFitnessDivision , fibo-life:Studio-SBRCH02 .
+
+fibo-life:Txn-SINC04-2024Q1 a fibo-fbc-pas-tx:Transaction ;
+    rdfs:label "Usage surge payout"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-04-10T08:30:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:amount fibo-life:Amount-2024Q1-SINC04 ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SINC04-Usage ;
+    fibo-fbc-pas-tx:hasCounterparty fibo-life:LOPFitnessDivision , fibo-life:Studio-SINC04 .
+
+fibo-life:Txn-SDAEG03-2024Q1 a fibo-fbc-pas-tx:Transaction ;
+    rdfs:label "Pilates bundle payout"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-04-08T11:00:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:amount fibo-life:Amount-2024Q1-SDAEG03 ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SDAEG03-Pilates ;
+    fibo-fbc-pas-tx:hasCounterparty fibo-life:LOPFitnessDivision , fibo-life:Studio-SDAEG03 .
+
+fibo-life:Txn-SGWANG05-2024Q1 a fibo-fbc-pas-tx:Transaction ;
+    rdfs:label "Mobility sprint payout"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-04-12T07:30:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:amount fibo-life:Amount-2024Q1-SGWANG05 ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SGWANG05-Mobility ;
+    fibo-fbc-pas-tx:hasCounterparty fibo-life:LOPFitnessDivision , fibo-life:Studio-SGWANG05 .
+
+fibo-life:SettlementInstruction-SINC04-May a fibo-life:UsageSettlementInstruction ;
+    rdfs:label "Usage settlement for May"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-05-05T03:00:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SINC04-Usage .
+
+# --- Insurance ---
+
+fibo-life:Policy-SGANG01-PTShield a fibo-fbc-ins-fun:InsurancePolicy ;
+    rdfs:label "PT Shield"@en ;
+    fibo-fbc-ins-fun:coversParty fibo-life:Studio-SGANG01 ;
+    fibo-fnd-agr-ctr:hasCounterparty fibo-life:LOPFitnessDivision ;
+    fibo-fnd-agr-ctr:hasEffectiveDate "2024-01-15"^^xsd:date .
+
+# --- Engagement measurements ---
+
+fibo-life:Measure-SGANG01-Rings a fibo-life:EngagementMeasurement ;
+    rdfs:label "Ring completion SGANG01"@en ;
+    fibo-life:alignsWithContract fibo-life:PPA-SGANG01-CoreFlow ;
+    fibo-life:reportedForStudio fibo-life:Studio-SGANG01 ;
+    fibo-life:lopRingCompletionRate "0.82"^^xsd:decimal ;
+    fibo-life:fitnessPlusActivationRate "0.74"^^xsd:decimal ;
+    fibo-fnd-qt-qtu:hasUnit "ratio" ;
+    fibo-fnd-qt-qtu:hasObservationDate "2024-04-30"^^xsd:date .
+
+fibo-life:Measure-SBRCH02-HeartRate a fibo-life:EngagementMeasurement ;
+    rdfs:label "Recovery heart rate variance"@en ;
+    fibo-life:alignsWithContract fibo-life:PPA-SBRCH02-Rehab ;
+    fibo-life:reportedForStudio fibo-life:Studio-SBRCH02 ;
+    fibo-life:lopWatchHeartRateVariance "4.2"^^xsd:decimal ;
+    fibo-life:healthKitOptInRate "0.68"^^xsd:decimal ;
+    fibo-fnd-qt-qtu:hasUnit "bpm" ;
+    fibo-fnd-qt-qtu:hasObservationDate "2024-04-28"^^xsd:date .
+
+fibo-life:Measure-SINC04-Conditioning a fibo-life:EngagementMeasurement ;
+    rdfs:label "Conditioning move streak"@en ;
+    fibo-life:alignsWithContract fibo-life:PPA-SINC04-Conditioning ;
+    fibo-life:reportedForStudio fibo-life:Studio-SINC04 ;
+    fibo-life:lopRingCompletionRate "0.71"^^xsd:decimal ;
+    fibo-life:watchActiveEnergyDelta "125.0"^^xsd:decimal ;
+    fibo-fnd-qt-qtu:hasUnit "ratio" ;
+    fibo-fnd-qt-qtu:hasObservationDate "2024-04-29"^^xsd:date .
+
+fibo-life:Measure-SDAEG03-Pilates a fibo-life:EngagementMeasurement ;
+    rdfs:label "Pilates posture consistency"@en ;
+    fibo-life:alignsWithContract fibo-life:PPA-SDAEG03-Pilates ;
+    fibo-life:reportedForStudio fibo-life:Studio-SDAEG03 ;
+    fibo-life:healthKitOptInRate "0.63"^^xsd:decimal ;
+    fibo-life:lopRingCompletionRate "0.77"^^xsd:decimal ;
+    fibo-fnd-qt-qtu:hasUnit "ratio" ;
+    fibo-fnd-qt-qtu:hasObservationDate "2024-04-27"^^xsd:date .
+
+fibo-life:Measure-SGWANG05-Mobility a fibo-life:EngagementMeasurement ;
+    rdfs:label "Mobility adherence"@en ;
+    fibo-life:alignsWithContract fibo-life:PPA-SGWANG05-Mobility ;
+    fibo-life:reportedForStudio fibo-life:Studio-SGWANG05 ;
+    fibo-life:lopRingCompletionRate "0.69"^^xsd:decimal ;
+    fibo-life:fitnessPlusActivationRate "0.58"^^xsd:decimal ;
+    fibo-fnd-qt-qtu:hasUnit "ratio" ;
+    fibo-fnd-qt-qtu:hasObservationDate "2024-04-26"^^xsd:date .
+
+# --- Risk events ---
+
+fibo-life:RiskEvent-SGANG01-Refund a fibo-life:RefundEvent ;
+    rdfs:label "Refund spike during heat wave"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-05-01T12:00:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SGANG01-Revenue ;
+    fibo-fbc-pas-tx:hasCounterparty fibo-life:Studio-SGANG01 .
+
+fibo-life:RiskEvent-SBRCH02-Refund a fibo-life:RefundEvent ;
+    rdfs:label "Therapy refund request spike"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-05-03T09:30:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SBRCH02-Settlement ;
+    fibo-fbc-pas-tx:hasCounterparty fibo-life:Studio-SBRCH02 .
+
+fibo-life:RiskEvent-SINC04-Chargeback a fibo-life:ChargebackEvent ;
+    rdfs:label "Chargeback after contest"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-05-06T15:00:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SINC04-Usage ;
+    fibo-fbc-pas-tx:hasCounterparty fibo-life:Studio-SINC04 .
+
+fibo-life:RiskEvent-SGWANG05-Usage a fibo-life:FitnessRiskEvent ;
+    rdfs:label "Usage drop due to weather"@en ;
+    fibo-fbc-pas-tx:hasTransactionDate "2024-05-04T08:00:00"^^xsd:dateTime ;
+    fibo-fbc-pas-tx:involvesAccount fibo-life:Account-SGWANG05-Mobility ;
+    fibo-fbc-pas-tx:hasCounterparty fibo-life:Studio-SGWANG05 .
+

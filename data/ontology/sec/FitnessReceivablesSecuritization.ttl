@@ -1,0 +1,21 @@
+﻿@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix fibo-sec-sec: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Securities/> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-sec: <https://lop.com/fibo/lifestyle/sec/> .
+
+<https://lop.com/fibo/lifestyle/sec/FitnessReceivablesSecuritization> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/md/LOPFitness-Metadata> .
+
+lop-sec:ReceivablePool a owl:Class ;
+    rdfs:subClassOf fibo-sec-sec:SecuritizationVehicle ;
+    skos:definition "LOP 구독 매출채권 풀"@ko .
+
+lop-sec:backedByStudio a owl:ObjectProperty ;
+    rdfs:domain lop-sec:ReceivablePool ;
+    rdfs:range lop-core:WellnessStudio .
+
+lop-sec:ReceivablePool-2025Q1 a lop-sec:ReceivablePool ;
+    rdfs:label "구독채권 Pool 2025Q1"@ko ;
+    lop-sec:backedByStudio lop-core:SGANG01 , lop-core:SBRCH02 .

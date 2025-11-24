@@ -1,0 +1,5 @@
+﻿@prefix lop-ind: <https://lop.com/fibo/lifestyle/ind/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+lop-ind:Event-002 a lop-ind:FitnessRiskEvent ;
+    <http://purl.org/dc/terms/date> "2025-02-12"^^xsd:date .

@@ -1,0 +1,14 @@
+﻿fastapi
+uvicorn
+pydantic
+pydantic-settings
+httpx
+SPARQLWrapper
+py2neo
+rdflib
+chromadb
+pandas
+pytest
+streamlit
+openai
+neo4j>=5.16.0

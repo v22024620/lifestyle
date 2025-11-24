@@ -1,0 +1,37 @@
+﻿@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix fibo-fnd-agt: <https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-fnd-agt: <https://lop.com/fibo/lifestyle/fnd/agents/> .
+
+<https://lop.com/fibo/lifestyle/fnd/Agents/LOPAgents> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/md/LOPFitnessMetadata> ;
+    rdfs:label "LOP Agents"@en ;
+    skos:definition "LOP 기획자가 관리하는 대행인/역할 정의"@ko .
+
+lop-fnd-agt:LOPWellnessAgent a owl:Class ;
+    rdfs:label "LOP Wellness Agent"@en ;
+    skos:definition "LOP 파트너 프로그램을 관리하는 담당자"@ko ;
+    rdfs:subClassOf fibo-fnd-agt:Agent .
+
+lop-fnd-agt:LOPTrainer a owl:Class ;
+    rdfs:label "LOP Trainer"@en ;
+    rdfs:subClassOf fibo-fnd-agt:Agent ;
+    skos:definition "트레이너 네트워크에 속하며 LOP 세션을 제공"@ko .
+
+lop-fnd-agt:representsStudio a owl:ObjectProperty ;
+    rdfs:label "represents studio"@en ;
+    rdfs:domain lop-fnd-agt:LOPWellnessAgent ;
+    rdfs:range lop-core:WellnessStudio .
+
+lop-fnd-agt:assignedTier a owl:DatatypeProperty ;
+    rdfs:domain lop-fnd-agt:LOPWellnessAgent ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#string> ;
+    skos:definition "파트너십 티어"@ko .
+
+lop-fnd-agt:PlannerLee a lop-fnd-agt:LOPWellnessAgent ;
+    rdfs:label "Planner Lee"@en ;
+    lop-fnd-agt:assignedTier "Tier-1" ;
+    lop-fnd-agt:representsStudio lop-core:SGANG01 .

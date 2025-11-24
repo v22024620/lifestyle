@@ -1,0 +1,26 @@
+﻿@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fibo-fnd-dt: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-fnd-time: <https://lop.com/fibo/lifestyle/fnd/time/> .
+
+<https://lop.com/fibo/lifestyle/fnd/DatesAndTimes/LOPTime> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/md/LOPFitness-Metadata> .
+
+lop-fnd-time:ProgramWindow a owl:Class ;
+    rdfs:subClassOf fibo-fnd-dt:ExplicitDatePeriod ;
+    rdfs:label "Program Window"@en ;
+    rdfs:comment "LOP 프로그램 시작/종료 기간"@ko .
+
+lop-fnd-time:windowStart a owl:DatatypeProperty ;
+    rdfs:domain lop-fnd-time:ProgramWindow ;
+    rdfs:range xsd:date .
+
+lop-fnd-time:windowEnd a owl:DatatypeProperty ;
+    rdfs:domain lop-fnd-time:ProgramWindow ;
+    rdfs:range xsd:date .
+
+lop-core:LaunchWindow-2025Q1 a lop-fnd-time:ProgramWindow ;
+    lop-fnd-time:windowStart "2025-01-10"^^xsd:date ;
+    lop-fnd-time:windowEnd "2025-03-31"^^xsd:date .

@@ -1,0 +1,28 @@
+﻿@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix fibo-ind-ir-ri: <https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/RiskIndicators/> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-ind: <https://lop.com/fibo/lifestyle/ind/> .
+
+<https://lop.com/fibo/lifestyle/ind/Insurance/FitnessRisk> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/md/LOPFitness-Metadata> .
+
+lop-ind:FitnessRiskEvent a owl:Class ;
+    rdfs:subClassOf fibo-ind-ir-ri:RiskEvent ;
+    skos:definition "장비 고장, 부상 등 LOP 리스크"@ko .
+
+lop-ind:occursAtStudio a owl:ObjectProperty ;
+    rdfs:domain lop-ind:FitnessRiskEvent ;
+    rdfs:range lop-core:WellnessStudio .
+
+lop-ind:requiresCoverage a owl:ObjectProperty ;
+    rdfs:domain lop-ind:FitnessRiskEvent ;
+    rdfs:range lop-ind:InsuranceCoverage .
+
+lop-ind:InsuranceCoverage a owl:Class ;
+    skos:definition "보험 커버리지"@ko .
+
+lop-ind:Event-001 a lop-ind:FitnessRiskEvent ;
+    rdfs:label "장비 센서 오류"@ko ;
+    lop-ind:occursAtStudio lop-core:SGANG01 .

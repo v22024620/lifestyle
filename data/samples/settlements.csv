@@ -1,0 +1,6 @@
+﻿settlement_id,studio_id,period,amount,fee_ratio,payout_date,notes,fibo_contract
+S2024-09-SGANG01,SGANG01,2024-09-01/2024-09-30,1880000,0.031,2024-10-03,"Includes PT premium loyalty rebate",fibo-fbc-pas-caa:FeeAgreement
+S2024-09-SBRCH02,SBRCH02,2024-09-01/2024-09-30,2570000,0.029,2024-10-04,"Rehab performance bonus",fibo-fbc-pas-caa:RevenueParticipationAgreement
+S2024-09-SDAEG03,SDAEG03,2024-09-01/2024-09-30,540000,0.028,2024-10-02,"Pilates flow bundle",fibo-fbc-pas-caa:FeeAgreement
+S2024-09-SINC04,SINC04,2024-09-01/2024-09-30,500000,0.030,2024-10-05,"Hybrid boxing sessions",fibo-fbc-pas-caa:FeeAgreement
+S2024-09-SGWANG05,SGWANG05,2024-09-01/2024-09-30,1650000,0.032,2024-10-03,"Installment payout schedule",fibo-fbc-pas-caa:InstallmentContract

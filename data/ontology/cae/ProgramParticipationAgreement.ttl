@@ -1,0 +1,29 @@
+﻿@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix fibo-fbc-pas-caa: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ContractsAndAgreements/> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-cae: <https://lop.com/fibo/lifestyle/cae/> .
+
+<https://lop.com/fibo/lifestyle/cae/ProgramParticipationAgreement> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/md/LOPFitness-Metadata> .
+
+lop-cae:ProgramParticipationAgreement a owl:Class ;
+    rdfs:subClassOf fibo-fbc-pas-caa:ContractualCommitment ;
+    skos:definition "LOP 프로그램 참여계약"@ko .
+
+lop-cae:hasParticipant a owl:ObjectProperty ;
+    rdfs:domain lop-cae:ProgramParticipationAgreement ;
+    rdfs:range lop-core:WellnessStudio .
+
+lop-cae:tracksKPI a owl:ObjectProperty ;
+    rdfs:domain lop-cae:ProgramParticipationAgreement ;
+    rdfs:range lop-core:KPISet .
+
+lop-core:KPISet a owl:Class ;
+    skos:definition "Activation, Opt-in 등 KPI 묶음"@ko .
+
+lop-cae:PPA-SGANG01-2025 a lop-cae:ProgramParticipationAgreement ;
+    rdfs:label "SGANG01 참여계약 2025"@ko ;
+    lop-cae:hasParticipant lop-core:SGANG01 ;
+    lop-cae:tracksKPI lop-core:KPISet-Base .

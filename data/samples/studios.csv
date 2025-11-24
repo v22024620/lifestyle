@@ -1,0 +1,6 @@
+﻿studio_id,name,category,city,modality,signature_program,target_focus,plan_type,billing_model,fibo_entity
+SGANG01,"Lumo Balance Lab",WellnessStudio,Seoul,PersonalTraining,Strength & Mobility,BodyComposition,FIXED,Monthly Subscription,fibo-well:WellnessStudio
+SBRCH02,"PulseFrame Rehab Studio",WellnessStudio,Busan,Rehab&Stretch,Spine Recovery Intensive,Recovery,MIXED,"Subscription + Performance",fibo-well:WellnessStudio
+SDAEG03,"Atlas Flow Pilates",WellnessStudio,Daegu,Pilates,Core Flow Signature,Posture,FIXED,Term Contract,fibo-well:WellnessStudio
+SINC04,"NovaSpark Boxing Loft",WellnessStudio,Incheon,Boxing/Conditioning,Hybrid Conditioning Camp,Endurance,VARIABLE,Usage Based,fibo-well:WellnessStudio
+SGWANG05,"Skyline Mobility Center",WellnessStudio,Gwangju,PhysicalTherapy,Joint Mobility Sprint,Rehab,MIXED,Installment Contract,fibo-well:WellnessStudio

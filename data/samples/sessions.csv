@@ -1,0 +1,7 @@
+﻿session_id,studio_id,session_date,trainer_id,member_id,session_type,attendance_status,body_metric_notes
+SESS-001,SGANG01,2024-09-02T08:00:00+09:00,TR100,MEM1001,PT-Strength,attended,"SMM +0.4kg"
+SESS-002,SGANG01,2024-09-06T08:00:00+09:00,TR101,MEM1002,PT-Rehab,missed,"Member sick"
+SESS-003,SBRCH02,2024-09-05T11:00:00+09:00,TR210,MEM2002,Rehab-Manual,attended,"Pain scale ↓"
+SESS-004,SDAEG03,2024-09-07T14:00:00+09:00,TR330,MEM3004,Pilates-Core,attended,"Posture improved"
+SESS-005,SINC04,2024-09-09T19:00:00+09:00,TR420,MEM4001,Boxing-Conditioning,attended,"VO2 est +2"
+SESS-006,SGWANG05,2024-09-10T09:30:00+09:00,TR510,MEM5002,Mobility,attended,"ROM +8deg"

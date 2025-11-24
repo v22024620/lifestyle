@@ -1,0 +1,33 @@
+﻿@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-ind: <https://lop.com/fibo/lifestyle/ind/> .
+@prefix lop-der: <https://lop.com/fibo/lifestyle/der/> .
+@prefix lop-ext-ind: <https://lop.com/fibo/lifestyle/extensions/individuals/> .
+
+<https://lop.com/fibo/lifestyle/extensions/lop-lifestyle/LOPFitness-Individuals> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/ind/Insurance/FitnessRisk> ,
+                <https://lop.com/fibo/lifestyle/der/FitnessRiskDerivedMetrics> .
+
+lop-ext-ind:DerivedEvidence a owl:Class ;
+    skos:definition "그래프·벡터·Neo4j에서 수집한 복합 증거"@ko .
+
+lop-ext-ind:evidenceURI a owl:DatatypeProperty ;
+    rdfs:domain lop-ind:FitnessRiskEvent ;
+    rdfs:range <http://www.w3.org/2001/XMLSchema#anyURI> .
+
+lop-ext-ind:referencesMetric a owl:ObjectProperty ;
+    rdfs:domain lop-ext-ind:DerivedEvidence ;
+    rdfs:range lop-der:DerivedMetric .
+
+lop-ext-ind:referencesStudio a owl:ObjectProperty ;
+    rdfs:domain lop-ext-ind:DerivedEvidence ;
+    rdfs:range lop-core:WellnessStudio .
+
+lop-ext-ind:EvidenceBundle-SGANG01 a lop-ext-ind:DerivedEvidence ;
+    rdfs:label "SGANG01 Evidence"@en ;
+    lop-ext-ind:referencesMetric lop-der:ActivationMomentum ;
+    lop-ext-ind:referencesStudio lop-core:SGANG01 .
+
+lop-ind:Event-001 lop-ext-ind:evidenceURI "https://lop.com/evidence/risk/event001"^^<http://www.w3.org/2001/XMLSchema#anyURI> .

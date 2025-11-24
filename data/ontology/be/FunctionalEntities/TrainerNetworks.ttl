@@ -1,0 +1,21 @@
+﻿@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix fibo-be-fct-fce: <https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/FunctionalEntities/> .
+@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
+@prefix lop-be-fn: <https://lop.com/fibo/lifestyle/be/functional/> .
+
+<https://lop.com/fibo/lifestyle/be/FunctionalEntities/TrainerNetworks> a owl:Ontology ;
+    owl:imports <https://lop.com/fibo/lifestyle/md/LOPFitness-Metadata> .
+
+lop-core:TrainerNetwork a owl:Class ;
+    rdfs:subClassOf fibo-be-fct-fce:FunctionalEntity ;
+    skos:definition "LOP 인증 트레이너 네트워크"@ko .
+
+lop-be-fn:coversStudio a owl:ObjectProperty ;
+    rdfs:domain lop-core:TrainerNetwork ;
+    rdfs:range lop-core:WellnessStudio .
+
+lop-core:TrainerNetwork-East a lop-core:TrainerNetwork ;
+    rdfs:label "동부권 트레이너 네트워크"@ko ;
+    lop-be-fn:coversStudio lop-core:SGANG01 .
