@@ -1,501 +1,501 @@
-È¸¿øID,½ºÆ©µð¿ÀID,ÇÁ·Î±×·¥,¼¼±×¸ÕÆ®,Âü¿©Á¡¼ö,Ãâ¼®·ü,Çï½ºÅ¶µ¿ÀÇ,¸ñÇ¥´Þ¼ºµµ,Æò±Õ½É¹Ú,ÃßÃµ¾×¼Ç
-MEM-SGANG01-01,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.65,0.71,µ¿ÀÇ,0.91,74,ÄÚÄª ¿¬°á
-MEM-SGANG01-02,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.69,0.76,µ¿ÀÇ,0.45,104,Ã§¸°Áö Á¦¾È
-MEM-SGANG01-03,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.85,0.88,µ¿ÀÇ,0.69,96,ÈÞ½Ä ±ÇÀå
-MEM-SGANG01-04,SGANG01,Strength & Mobility,ÇÏÀÌ¸®½ºÅ©,0.82,0.9,ºñµ¿ÀÇ,0.91,102,ÈÞ½Ä ±ÇÀå
-MEM-SGANG01-05,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.69,0.8,ºñµ¿ÀÇ,0.59,76,°Ý·Á ¸Þ½ÃÁö
-MEM-SGANG01-06,SGANG01,Strength & Mobility,È¸º¹Áß,0.92,0.9,ºñµ¿ÀÇ,0.64,72,°Ý·Á ¸Þ½ÃÁö
-MEM-SGANG01-07,SGANG01,Strength & Mobility,È¸º¹Áß,0.88,0.77,µ¿ÀÇ,0.78,101,ÄÚÄª ¿¬°á
-MEM-SGANG01-08,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.58,0.51,ºñµ¿ÀÇ,0.86,70,ÈÞ½Ä ±ÇÀå
-MEM-SGANG01-09,SGANG01,Strength & Mobility,È¸º¹Áß,0.73,0.59,µ¿ÀÇ,0.75,68,Ã§¸°Áö Á¦¾È
-MEM-SGANG01-10,SGANG01,Strength & Mobility,ÇÏÀÌ¸®½ºÅ©,0.87,0.92,ºñµ¿ÀÇ,0.82,83,ÈÞ½Ä ±ÇÀå
-MEM-SGANG01-11,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.85,0.72,µ¿ÀÇ,0.69,104,ÈÞ½Ä ±ÇÀå
-MEM-SGANG01-12,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.75,0.54,µ¿ÀÇ,0.64,85,ÄÚÄª ¿¬°á
-MEM-SGANG01-13,SGANG01,Strength & Mobility,¾×Æ¼ºê¿öÃ³,0.81,0.79,µ¿ÀÇ,0.78,75,Ã§¸°Áö Á¦¾È
-MEM-SGANG01-14,SGANG01,Strength & Mobility,È¸º¹Áß,0.89,0.82,ºñµ¿ÀÇ,0.55,90,Ã§¸°Áö Á¦¾È
-MEM-SGANG01-15,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.95,0.93,ºñµ¿ÀÇ,0.91,72,°Ý·Á ¸Þ½ÃÁö
-MEM-SGANG01-16,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.6,0.68,µ¿ÀÇ,0.82,100,ÄÚÄª ¿¬°á
-MEM-SGANG01-17,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.67,0.58,µ¿ÀÇ,0.51,78,ÈÞ½Ä ±ÇÀå
-MEM-SGANG01-18,SGANG01,Strength & Mobility,¾×Æ¼ºê¿öÃ³,0.9,0.89,ºñµ¿ÀÇ,0.89,99,°Ý·Á ¸Þ½ÃÁö
-MEM-SGANG01-19,SGANG01,Strength & Mobility,½Å±ÔÈ¸¿ø,0.84,0.52,µ¿ÀÇ,0.77,68,Ã§¸°Áö Á¦¾È
-MEM-SGANG01-20,SGANG01,Strength & Mobility,È¸º¹Áß,0.94,0.75,ºñµ¿ÀÇ,0.56,107,ÄÚÄª ¿¬°á
-MEM-SGANG01-21,SGANG01,Strength & Mobility,ÇÏÀÌ¸®½ºÅ©,0.94,0.85,ºñµ¿ÀÇ,0.94,96,ÄÚÄª ¿¬°á
-MEM-SGANG01-22,SGANG01,Strength & Mobility,¾×Æ¼ºê¿öÃ³,0.58,0.93,µ¿ÀÇ,0.77,96,ÈÞ½Ä ±ÇÀå
-MEM-SGANG01-23,SGANG01,Strength & Mobility,ÇÏÀÌ¸®½ºÅ©,0.71,0.65,ºñµ¿ÀÇ,0.91,72,ÄÚÄª ¿¬°á
-MEM-SGANG01-24,SGANG01,Strength & Mobility,¾×Æ¼ºê¿öÃ³,0.81,0.71,ºñµ¿ÀÇ,0.68,84,Ã§¸°Áö Á¦¾È
-MEM-SGANG01-25,SGANG01,Strength & Mobility,ÇÏÀÌ¸®½ºÅ©,0.87,0.71,ºñµ¿ÀÇ,0.71,65,°Ý·Á ¸Þ½ÃÁö
-MEM-SBRCH02-01,SBRCH02,Spine Recovery Intensive,¾×Æ¼ºê¿öÃ³,0.95,0.75,ºñµ¿ÀÇ,0.55,72,ÄÚÄª ¿¬°á
-MEM-SBRCH02-02,SBRCH02,Spine Recovery Intensive,½Å±ÔÈ¸¿ø,0.83,0.88,µ¿ÀÇ,0.76,110,ÈÞ½Ä ±ÇÀå
-MEM-SBRCH02-03,SBRCH02,Spine Recovery Intensive,¾×Æ¼ºê¿öÃ³,0.95,0.79,µ¿ÀÇ,0.6,100,Ã§¸°Áö Á¦¾È
-MEM-SBRCH02-04,SBRCH02,Spine Recovery Intensive,ÇÏÀÌ¸®½ºÅ©,0.78,0.81,µ¿ÀÇ,0.76,89,Ã§¸°Áö Á¦¾È
-MEM-SBRCH02-05,SBRCH02,Spine Recovery Intensive,¾×Æ¼ºê¿öÃ³,0.56,0.76,µ¿ÀÇ,0.71,78,°Ý·Á ¸Þ½ÃÁö
-MEM-SBRCH02-06,SBRCH02,Spine Recovery Intensive,È¸º¹Áß,0.62,0.52,ºñµ¿ÀÇ,0.63,82,ÈÞ½Ä ±ÇÀå
-MEM-SBRCH02-07,SBRCH02,Spine Recovery Intensive,ÇÏÀÌ¸®½ºÅ©,0.66,0.66,ºñµ¿ÀÇ,0.82,63,ÈÞ½Ä ±ÇÀå
-MEM-SBRCH02-08,SBRCH02,Spine Recovery Intensive,È¸º¹Áß,0.76,0.82,ºñµ¿ÀÇ,0.94,80,ÈÞ½Ä ±ÇÀå
-MEM-SBRCH02-09,SBRCH02,Spine Recovery Intensive,ÇÏÀÌ¸®½ºÅ©,0.96,0.91,ºñµ¿ÀÇ,0.52,87,ÄÚÄª ¿¬°á
-MEM-SBRCH02-10,SBRCH02,Spine Recovery Intensive,½Å±ÔÈ¸¿ø,0.62,0.55,µ¿ÀÇ,0.82,70,ÈÞ½Ä ±ÇÀå
-MEM-SBRCH02-11,SBRCH02,Spine Recovery Intensive,½Å±ÔÈ¸¿ø,0.94,0.73,µ¿ÀÇ,0.76,89,ÈÞ½Ä ±ÇÀå
-MEM-SBRCH02-12,SBRCH02,Spine Recovery Intensive,È¸º¹Áß,0.95,0.82,µ¿ÀÇ,0.54,64,°Ý·Á ¸Þ½ÃÁö
-MEM-SBRCH02-13,SBRCH02,Spine Recovery Intensive,ÇÏÀÌ¸®½ºÅ©,0.88,0.72,µ¿ÀÇ,0.8,101,°Ý·Á ¸Þ½ÃÁö
-MEM-SBRCH02-14,SBRCH02,Spine Recovery Intensive,½Å±ÔÈ¸¿ø,0.79,0.91,ºñµ¿ÀÇ,0.55,66,ÈÞ½Ä ±ÇÀå
-MEM-SBRCH02-15,SBRCH02,Spine Recovery Intensive,ÇÏÀÌ¸®½ºÅ©,0.61,0.5,ºñµ¿ÀÇ,0.57,65,ÈÞ½Ä ±ÇÀå
-MEM-SBRCH02-16,SBRCH02,Spine Recovery Intensive,½Å±ÔÈ¸¿ø,0.64,0.76,µ¿ÀÇ,0.83,76,ÄÚÄª ¿¬°á
-MEM-SBRCH02-17,SBRCH02,Spine Recovery Intensive,¾×Æ¼ºê¿öÃ³,0.64,0.74,ºñµ¿ÀÇ,0.51,87,°Ý·Á ¸Þ½ÃÁö
-MEM-SBRCH02-18,SBRCH02,Spine Recovery Intensive,È¸º¹Áß,0.66,0.87,µ¿ÀÇ,0.73,89,°Ý·Á ¸Þ½ÃÁö
-MEM-SBRCH02-19,SBRCH02,Spine Recovery Intensive,½Å±ÔÈ¸¿ø,0.79,0.65,µ¿ÀÇ,0.9,77,ÄÚÄª ¿¬°á
-MEM-SBRCH02-20,SBRCH02,Spine Recovery Intensive,½Å±ÔÈ¸¿ø,0.87,0.61,ºñµ¿ÀÇ,0.75,66,Ã§¸°Áö Á¦¾È
-MEM-SBRCH02-21,SBRCH02,Spine Recovery Intensive,ÇÏÀÌ¸®½ºÅ©,0.97,0.55,ºñµ¿ÀÇ,0.59,88,°Ý·Á ¸Þ½ÃÁö
-MEM-SBRCH02-22,SBRCH02,Spine Recovery Intensive,ÇÏÀÌ¸®½ºÅ©,0.64,0.51,µ¿ÀÇ,0.58,88,°Ý·Á ¸Þ½ÃÁö
-MEM-SBRCH02-23,SBRCH02,Spine Recovery Intensive,ÇÏÀÌ¸®½ºÅ©,0.91,0.61,µ¿ÀÇ,0.7,79,ÄÚÄª ¿¬°á
-MEM-SBRCH02-24,SBRCH02,Spine Recovery Intensive,¾×Æ¼ºê¿öÃ³,0.66,0.93,µ¿ÀÇ,0.82,79,Ã§¸°Áö Á¦¾È
-MEM-SBRCH02-25,SBRCH02,Spine Recovery Intensive,ÇÏÀÌ¸®½ºÅ©,0.59,0.6,µ¿ÀÇ,0.91,65,ÄÚÄª ¿¬°á
-MEM-SDAEG03-01,SDAEG03,Core Flow Signature,ÇÏÀÌ¸®½ºÅ©,0.58,0.67,µ¿ÀÇ,0.57,96,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAEG03-02,SDAEG03,Core Flow Signature,¾×Æ¼ºê¿öÃ³,0.84,0.71,µ¿ÀÇ,0.59,101,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAEG03-03,SDAEG03,Core Flow Signature,¾×Æ¼ºê¿öÃ³,0.94,0.92,ºñµ¿ÀÇ,0.67,90,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAEG03-04,SDAEG03,Core Flow Signature,ÇÏÀÌ¸®½ºÅ©,0.55,0.86,µ¿ÀÇ,0.63,71,ÈÞ½Ä ±ÇÀå
-MEM-SDAEG03-05,SDAEG03,Core Flow Signature,È¸º¹Áß,0.89,0.75,ºñµ¿ÀÇ,0.68,80,ÈÞ½Ä ±ÇÀå
-MEM-SDAEG03-06,SDAEG03,Core Flow Signature,½Å±ÔÈ¸¿ø,0.69,0.69,ºñµ¿ÀÇ,0.82,80,ÈÞ½Ä ±ÇÀå
-MEM-SDAEG03-07,SDAEG03,Core Flow Signature,½Å±ÔÈ¸¿ø,0.59,0.77,µ¿ÀÇ,0.51,79,Ã§¸°Áö Á¦¾È
-MEM-SDAEG03-08,SDAEG03,Core Flow Signature,½Å±ÔÈ¸¿ø,0.96,0.72,µ¿ÀÇ,0.87,74,ÈÞ½Ä ±ÇÀå
-MEM-SDAEG03-09,SDAEG03,Core Flow Signature,½Å±ÔÈ¸¿ø,0.75,0.66,µ¿ÀÇ,0.48,108,Ã§¸°Áö Á¦¾È
-MEM-SDAEG03-10,SDAEG03,Core Flow Signature,È¸º¹Áß,0.75,0.74,µ¿ÀÇ,0.7,78,Ã§¸°Áö Á¦¾È
-MEM-SDAEG03-11,SDAEG03,Core Flow Signature,ÇÏÀÌ¸®½ºÅ©,0.55,0.86,ºñµ¿ÀÇ,0.64,74,ÄÚÄª ¿¬°á
-MEM-SDAEG03-12,SDAEG03,Core Flow Signature,¾×Æ¼ºê¿öÃ³,0.67,0.72,µ¿ÀÇ,0.77,100,ÈÞ½Ä ±ÇÀå
-MEM-SDAEG03-13,SDAEG03,Core Flow Signature,ÇÏÀÌ¸®½ºÅ©,0.58,0.66,µ¿ÀÇ,0.71,62,ÄÚÄª ¿¬°á
-MEM-SDAEG03-14,SDAEG03,Core Flow Signature,ÇÏÀÌ¸®½ºÅ©,0.86,0.72,ºñµ¿ÀÇ,0.49,92,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAEG03-15,SDAEG03,Core Flow Signature,È¸º¹Áß,0.62,0.67,ºñµ¿ÀÇ,0.8,108,ÈÞ½Ä ±ÇÀå
-MEM-SDAEG03-16,SDAEG03,Core Flow Signature,È¸º¹Áß,0.75,0.56,µ¿ÀÇ,0.69,61,ÄÚÄª ¿¬°á
-MEM-SDAEG03-17,SDAEG03,Core Flow Signature,È¸º¹Áß,0.72,0.94,µ¿ÀÇ,0.52,99,ÈÞ½Ä ±ÇÀå
-MEM-SDAEG03-18,SDAEG03,Core Flow Signature,È¸º¹Áß,0.93,0.85,ºñµ¿ÀÇ,0.64,110,ÄÚÄª ¿¬°á
-MEM-SDAEG03-19,SDAEG03,Core Flow Signature,¾×Æ¼ºê¿öÃ³,0.93,0.86,µ¿ÀÇ,0.73,64,ÄÚÄª ¿¬°á
-MEM-SDAEG03-20,SDAEG03,Core Flow Signature,ÇÏÀÌ¸®½ºÅ©,0.64,0.57,µ¿ÀÇ,0.74,109,Ã§¸°Áö Á¦¾È
-MEM-SDAEG03-21,SDAEG03,Core Flow Signature,È¸º¹Áß,0.64,0.89,µ¿ÀÇ,0.52,95,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAEG03-22,SDAEG03,Core Flow Signature,¾×Æ¼ºê¿öÃ³,0.55,0.62,µ¿ÀÇ,0.54,72,ÄÚÄª ¿¬°á
-MEM-SDAEG03-23,SDAEG03,Core Flow Signature,È¸º¹Áß,0.97,0.85,µ¿ÀÇ,0.87,77,Ã§¸°Áö Á¦¾È
-MEM-SDAEG03-24,SDAEG03,Core Flow Signature,¾×Æ¼ºê¿öÃ³,0.56,0.51,µ¿ÀÇ,0.78,72,ÄÚÄª ¿¬°á
-MEM-SDAEG03-25,SDAEG03,Core Flow Signature,¾×Æ¼ºê¿öÃ³,0.55,0.77,ºñµ¿ÀÇ,0.49,103,ÈÞ½Ä ±ÇÀå
-MEM-SINC04-01,SINC04,Hybrid Conditioning Camp,½Å±ÔÈ¸¿ø,0.63,0.51,ºñµ¿ÀÇ,0.73,85,ÈÞ½Ä ±ÇÀå
-MEM-SINC04-02,SINC04,Hybrid Conditioning Camp,È¸º¹Áß,0.73,0.61,ºñµ¿ÀÇ,0.9,103,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC04-03,SINC04,Hybrid Conditioning Camp,È¸º¹Áß,0.61,0.51,µ¿ÀÇ,0.87,73,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC04-04,SINC04,Hybrid Conditioning Camp,¾×Æ¼ºê¿öÃ³,0.94,0.87,µ¿ÀÇ,0.71,63,Ã§¸°Áö Á¦¾È
-MEM-SINC04-05,SINC04,Hybrid Conditioning Camp,È¸º¹Áß,0.65,0.75,ºñµ¿ÀÇ,0.93,64,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC04-06,SINC04,Hybrid Conditioning Camp,½Å±ÔÈ¸¿ø,0.55,0.8,µ¿ÀÇ,0.6,100,ÄÚÄª ¿¬°á
-MEM-SINC04-07,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.57,0.56,µ¿ÀÇ,0.49,67,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC04-08,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.89,0.79,µ¿ÀÇ,0.49,67,ÈÞ½Ä ±ÇÀå
-MEM-SINC04-09,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.96,0.71,ºñµ¿ÀÇ,0.82,87,ÈÞ½Ä ±ÇÀå
-MEM-SINC04-10,SINC04,Hybrid Conditioning Camp,½Å±ÔÈ¸¿ø,0.78,0.68,µ¿ÀÇ,0.59,107,ÈÞ½Ä ±ÇÀå
-MEM-SINC04-11,SINC04,Hybrid Conditioning Camp,½Å±ÔÈ¸¿ø,0.67,0.68,ºñµ¿ÀÇ,0.84,67,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC04-12,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.63,0.6,ºñµ¿ÀÇ,0.55,65,Ã§¸°Áö Á¦¾È
-MEM-SINC04-13,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.87,0.8,ºñµ¿ÀÇ,0.47,104,Ã§¸°Áö Á¦¾È
-MEM-SINC04-14,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.66,0.82,µ¿ÀÇ,0.8,72,ÄÚÄª ¿¬°á
-MEM-SINC04-15,SINC04,Hybrid Conditioning Camp,½Å±ÔÈ¸¿ø,0.72,0.94,µ¿ÀÇ,0.64,89,ÄÚÄª ¿¬°á
-MEM-SINC04-16,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.79,0.6,ºñµ¿ÀÇ,0.52,109,Ã§¸°Áö Á¦¾È
-MEM-SINC04-17,SINC04,Hybrid Conditioning Camp,È¸º¹Áß,0.85,0.6,ºñµ¿ÀÇ,0.49,72,ÈÞ½Ä ±ÇÀå
-MEM-SINC04-18,SINC04,Hybrid Conditioning Camp,¾×Æ¼ºê¿öÃ³,0.88,0.6,µ¿ÀÇ,0.52,109,ÄÚÄª ¿¬°á
-MEM-SINC04-19,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.69,0.91,µ¿ÀÇ,0.52,98,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC04-20,SINC04,Hybrid Conditioning Camp,¾×Æ¼ºê¿öÃ³,0.92,0.76,µ¿ÀÇ,0.88,108,ÄÚÄª ¿¬°á
-MEM-SINC04-21,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.83,0.86,ºñµ¿ÀÇ,0.64,75,ÈÞ½Ä ±ÇÀå
-MEM-SINC04-22,SINC04,Hybrid Conditioning Camp,ÇÏÀÌ¸®½ºÅ©,0.85,0.67,µ¿ÀÇ,0.6,100,ÈÞ½Ä ±ÇÀå
-MEM-SINC04-23,SINC04,Hybrid Conditioning Camp,È¸º¹Áß,0.72,0.53,µ¿ÀÇ,0.75,106,ÈÞ½Ä ±ÇÀå
-MEM-SINC04-24,SINC04,Hybrid Conditioning Camp,È¸º¹Áß,0.71,0.63,ºñµ¿ÀÇ,0.56,69,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC04-25,SINC04,Hybrid Conditioning Camp,È¸º¹Áß,0.71,0.51,ºñµ¿ÀÇ,0.49,91,ÈÞ½Ä ±ÇÀå
-MEM-SGWANG05-01,SGWANG05,Joint Mobility Sprint,¾×Æ¼ºê¿öÃ³,0.81,0.95,µ¿ÀÇ,0.64,89,°Ý·Á ¸Þ½ÃÁö
-MEM-SGWANG05-02,SGWANG05,Joint Mobility Sprint,¾×Æ¼ºê¿öÃ³,0.87,0.57,µ¿ÀÇ,0.62,75,°Ý·Á ¸Þ½ÃÁö
-MEM-SGWANG05-03,SGWANG05,Joint Mobility Sprint,ÇÏÀÌ¸®½ºÅ©,0.92,0.85,µ¿ÀÇ,0.5,70,°Ý·Á ¸Þ½ÃÁö
-MEM-SGWANG05-04,SGWANG05,Joint Mobility Sprint,¾×Æ¼ºê¿öÃ³,0.73,0.54,µ¿ÀÇ,0.6,109,ÄÚÄª ¿¬°á
-MEM-SGWANG05-05,SGWANG05,Joint Mobility Sprint,¾×Æ¼ºê¿öÃ³,0.88,0.67,µ¿ÀÇ,0.85,80,ÄÚÄª ¿¬°á
-MEM-SGWANG05-06,SGWANG05,Joint Mobility Sprint,ÇÏÀÌ¸®½ºÅ©,0.63,0.63,ºñµ¿ÀÇ,0.69,107,°Ý·Á ¸Þ½ÃÁö
-MEM-SGWANG05-07,SGWANG05,Joint Mobility Sprint,È¸º¹Áß,0.66,0.6,µ¿ÀÇ,0.47,71,Ã§¸°Áö Á¦¾È
-MEM-SGWANG05-08,SGWANG05,Joint Mobility Sprint,½Å±ÔÈ¸¿ø,0.6,0.66,µ¿ÀÇ,0.9,64,ÄÚÄª ¿¬°á
-MEM-SGWANG05-09,SGWANG05,Joint Mobility Sprint,È¸º¹Áß,0.89,0.78,µ¿ÀÇ,0.62,99,°Ý·Á ¸Þ½ÃÁö
-MEM-SGWANG05-10,SGWANG05,Joint Mobility Sprint,È¸º¹Áß,0.65,0.75,µ¿ÀÇ,0.53,86,ÈÞ½Ä ±ÇÀå
-MEM-SGWANG05-11,SGWANG05,Joint Mobility Sprint,È¸º¹Áß,0.7,0.84,ºñµ¿ÀÇ,0.93,89,ÄÚÄª ¿¬°á
-MEM-SGWANG05-12,SGWANG05,Joint Mobility Sprint,½Å±ÔÈ¸¿ø,0.86,0.76,ºñµ¿ÀÇ,0.87,84,ÈÞ½Ä ±ÇÀå
-MEM-SGWANG05-13,SGWANG05,Joint Mobility Sprint,È¸º¹Áß,0.84,0.93,ºñµ¿ÀÇ,0.61,101,ÈÞ½Ä ±ÇÀå
-MEM-SGWANG05-14,SGWANG05,Joint Mobility Sprint,¾×Æ¼ºê¿öÃ³,0.66,0.58,ºñµ¿ÀÇ,0.5,95,Ã§¸°Áö Á¦¾È
-MEM-SGWANG05-15,SGWANG05,Joint Mobility Sprint,ÇÏÀÌ¸®½ºÅ©,0.85,0.65,ºñµ¿ÀÇ,0.86,74,Ã§¸°Áö Á¦¾È
-MEM-SGWANG05-16,SGWANG05,Joint Mobility Sprint,È¸º¹Áß,0.77,0.81,ºñµ¿ÀÇ,0.6,98,Ã§¸°Áö Á¦¾È
-MEM-SGWANG05-17,SGWANG05,Joint Mobility Sprint,½Å±ÔÈ¸¿ø,0.87,0.83,µ¿ÀÇ,0.94,109,°Ý·Á ¸Þ½ÃÁö
-MEM-SGWANG05-18,SGWANG05,Joint Mobility Sprint,½Å±ÔÈ¸¿ø,0.97,0.54,µ¿ÀÇ,0.47,102,ÄÚÄª ¿¬°á
-MEM-SGWANG05-19,SGWANG05,Joint Mobility Sprint,ÇÏÀÌ¸®½ºÅ©,0.77,0.55,ºñµ¿ÀÇ,0.67,104,ÄÚÄª ¿¬°á
-MEM-SGWANG05-20,SGWANG05,Joint Mobility Sprint,ÇÏÀÌ¸®½ºÅ©,0.59,0.72,µ¿ÀÇ,0.65,86,ÄÚÄª ¿¬°á
-MEM-SGWANG05-21,SGWANG05,Joint Mobility Sprint,½Å±ÔÈ¸¿ø,0.89,0.6,ºñµ¿ÀÇ,0.69,106,ÈÞ½Ä ±ÇÀå
-MEM-SGWANG05-22,SGWANG05,Joint Mobility Sprint,¾×Æ¼ºê¿öÃ³,0.6,0.77,µ¿ÀÇ,0.84,72,ÈÞ½Ä ±ÇÀå
-MEM-SGWANG05-23,SGWANG05,Joint Mobility Sprint,È¸º¹Áß,0.74,0.7,ºñµ¿ÀÇ,0.56,77,ÈÞ½Ä ±ÇÀå
-MEM-SGWANG05-24,SGWANG05,Joint Mobility Sprint,½Å±ÔÈ¸¿ø,0.95,0.76,µ¿ÀÇ,0.68,69,°Ý·Á ¸Þ½ÃÁö
-MEM-SGWANG05-25,SGWANG05,Joint Mobility Sprint,½Å±ÔÈ¸¿ø,0.9,0.68,ºñµ¿ÀÇ,0.63,92,ÈÞ½Ä ±ÇÀå
-MEM-SBUND06-01,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.81,0.94,ºñµ¿ÀÇ,0.56,104,ÄÚÄª ¿¬°á
-MEM-SBUND06-02,SBUND06,ÇÑ°­ HIIT Sprint,¾×Æ¼ºê¿öÃ³,0.71,0.55,ºñµ¿ÀÇ,0.67,60,ÈÞ½Ä ±ÇÀå
-MEM-SBUND06-03,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.72,0.84,µ¿ÀÇ,0.7,96,ÈÞ½Ä ±ÇÀå
-MEM-SBUND06-04,SBUND06,ÇÑ°­ HIIT Sprint,¾×Æ¼ºê¿öÃ³,0.84,0.57,µ¿ÀÇ,0.51,95,ÈÞ½Ä ±ÇÀå
-MEM-SBUND06-05,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.94,0.58,ºñµ¿ÀÇ,0.47,61,ÈÞ½Ä ±ÇÀå
-MEM-SBUND06-06,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.63,0.6,µ¿ÀÇ,0.78,99,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUND06-07,SBUND06,ÇÑ°­ HIIT Sprint,¾×Æ¼ºê¿öÃ³,0.67,0.79,µ¿ÀÇ,0.93,91,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUND06-08,SBUND06,ÇÑ°­ HIIT Sprint,½Å±ÔÈ¸¿ø,0.89,0.76,µ¿ÀÇ,0.69,87,ÄÚÄª ¿¬°á
-MEM-SBUND06-09,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.85,0.88,µ¿ÀÇ,0.76,101,Ã§¸°Áö Á¦¾È
-MEM-SBUND06-10,SBUND06,ÇÑ°­ HIIT Sprint,½Å±ÔÈ¸¿ø,0.93,0.61,ºñµ¿ÀÇ,0.52,71,ÄÚÄª ¿¬°á
-MEM-SBUND06-11,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.69,0.56,µ¿ÀÇ,0.63,102,Ã§¸°Áö Á¦¾È
-MEM-SBUND06-12,SBUND06,ÇÑ°­ HIIT Sprint,È¸º¹Áß,0.94,0.69,ºñµ¿ÀÇ,0.6,70,Ã§¸°Áö Á¦¾È
-MEM-SBUND06-13,SBUND06,ÇÑ°­ HIIT Sprint,È¸º¹Áß,0.78,0.69,ºñµ¿ÀÇ,0.61,67,ÈÞ½Ä ±ÇÀå
-MEM-SBUND06-14,SBUND06,ÇÑ°­ HIIT Sprint,½Å±ÔÈ¸¿ø,0.63,0.78,µ¿ÀÇ,0.89,66,Ã§¸°Áö Á¦¾È
-MEM-SBUND06-15,SBUND06,ÇÑ°­ HIIT Sprint,È¸º¹Áß,0.81,0.86,ºñµ¿ÀÇ,0.88,105,Ã§¸°Áö Á¦¾È
-MEM-SBUND06-16,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.77,0.58,µ¿ÀÇ,0.72,84,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUND06-17,SBUND06,ÇÑ°­ HIIT Sprint,½Å±ÔÈ¸¿ø,0.62,0.9,µ¿ÀÇ,0.68,92,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUND06-18,SBUND06,ÇÑ°­ HIIT Sprint,È¸º¹Áß,0.87,0.6,ºñµ¿ÀÇ,0.77,101,ÈÞ½Ä ±ÇÀå
-MEM-SBUND06-19,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.7,0.69,ºñµ¿ÀÇ,0.81,108,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUND06-20,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.72,0.54,ºñµ¿ÀÇ,0.56,106,ÄÚÄª ¿¬°á
-MEM-SBUND06-21,SBUND06,ÇÑ°­ HIIT Sprint,È¸º¹Áß,0.65,0.88,µ¿ÀÇ,0.83,95,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUND06-22,SBUND06,ÇÑ°­ HIIT Sprint,¾×Æ¼ºê¿öÃ³,0.81,0.81,µ¿ÀÇ,0.79,82,ÄÚÄª ¿¬°á
-MEM-SBUND06-23,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.72,0.84,ºñµ¿ÀÇ,0.92,105,ÄÚÄª ¿¬°á
-MEM-SBUND06-24,SBUND06,ÇÑ°­ HIIT Sprint,È¸º¹Áß,0.84,0.89,µ¿ÀÇ,0.89,63,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUND06-25,SBUND06,ÇÑ°­ HIIT Sprint,ÇÏÀÌ¸®½ºÅ©,0.63,0.76,ºñµ¿ÀÇ,0.63,105,ÄÚÄª ¿¬°á
-MEM-SNOW07-01,SNOW07,µî»ê È¸º¹ ÇÃ·£,ÇÏÀÌ¸®½ºÅ©,0.81,0.85,µ¿ÀÇ,0.72,99,ÄÚÄª ¿¬°á
-MEM-SNOW07-02,SNOW07,µî»ê È¸º¹ ÇÃ·£,ÇÏÀÌ¸®½ºÅ©,0.7,0.89,µ¿ÀÇ,0.85,97,ÈÞ½Ä ±ÇÀå
-MEM-SNOW07-03,SNOW07,µî»ê È¸º¹ ÇÃ·£,½Å±ÔÈ¸¿ø,0.7,0.65,µ¿ÀÇ,0.93,92,°Ý·Á ¸Þ½ÃÁö
-MEM-SNOW07-04,SNOW07,µî»ê È¸º¹ ÇÃ·£,¾×Æ¼ºê¿öÃ³,0.72,0.7,µ¿ÀÇ,0.9,60,ÈÞ½Ä ±ÇÀå
-MEM-SNOW07-05,SNOW07,µî»ê È¸º¹ ÇÃ·£,½Å±ÔÈ¸¿ø,0.78,0.62,µ¿ÀÇ,0.73,99,Ã§¸°Áö Á¦¾È
-MEM-SNOW07-06,SNOW07,µî»ê È¸º¹ ÇÃ·£,È¸º¹Áß,0.69,0.72,µ¿ÀÇ,0.94,88,°Ý·Á ¸Þ½ÃÁö
-MEM-SNOW07-07,SNOW07,µî»ê È¸º¹ ÇÃ·£,ÇÏÀÌ¸®½ºÅ©,0.85,0.94,ºñµ¿ÀÇ,0.8,94,ÄÚÄª ¿¬°á
-MEM-SNOW07-08,SNOW07,µî»ê È¸º¹ ÇÃ·£,ÇÏÀÌ¸®½ºÅ©,0.59,0.82,µ¿ÀÇ,0.95,97,°Ý·Á ¸Þ½ÃÁö
-MEM-SNOW07-09,SNOW07,µî»ê È¸º¹ ÇÃ·£,½Å±ÔÈ¸¿ø,0.77,0.87,µ¿ÀÇ,0.64,65,Ã§¸°Áö Á¦¾È
-MEM-SNOW07-10,SNOW07,µî»ê È¸º¹ ÇÃ·£,È¸º¹Áß,0.84,0.75,ºñµ¿ÀÇ,0.75,79,Ã§¸°Áö Á¦¾È
-MEM-SNOW07-11,SNOW07,µî»ê È¸º¹ ÇÃ·£,¾×Æ¼ºê¿öÃ³,0.68,0.85,µ¿ÀÇ,0.67,77,ÄÚÄª ¿¬°á
-MEM-SNOW07-12,SNOW07,µî»ê È¸º¹ ÇÃ·£,¾×Æ¼ºê¿öÃ³,0.72,0.59,µ¿ÀÇ,0.56,84,ÈÞ½Ä ±ÇÀå
-MEM-SNOW07-13,SNOW07,µî»ê È¸º¹ ÇÃ·£,È¸º¹Áß,0.91,0.71,µ¿ÀÇ,0.48,97,Ã§¸°Áö Á¦¾È
-MEM-SNOW07-14,SNOW07,µî»ê È¸º¹ ÇÃ·£,ÇÏÀÌ¸®½ºÅ©,0.64,0.94,µ¿ÀÇ,0.82,97,°Ý·Á ¸Þ½ÃÁö
-MEM-SNOW07-15,SNOW07,µî»ê È¸º¹ ÇÃ·£,¾×Æ¼ºê¿öÃ³,0.75,0.58,ºñµ¿ÀÇ,0.66,90,ÄÚÄª ¿¬°á
-MEM-SNOW07-16,SNOW07,µî»ê È¸º¹ ÇÃ·£,È¸º¹Áß,0.71,0.52,ºñµ¿ÀÇ,0.93,65,ÄÚÄª ¿¬°á
-MEM-SNOW07-17,SNOW07,µî»ê È¸º¹ ÇÃ·£,¾×Æ¼ºê¿öÃ³,0.58,0.61,ºñµ¿ÀÇ,0.58,88,ÈÞ½Ä ±ÇÀå
-MEM-SNOW07-18,SNOW07,µî»ê È¸º¹ ÇÃ·£,È¸º¹Áß,0.93,0.79,µ¿ÀÇ,0.77,60,Ã§¸°Áö Á¦¾È
-MEM-SNOW07-19,SNOW07,µî»ê È¸º¹ ÇÃ·£,½Å±ÔÈ¸¿ø,0.84,0.51,µ¿ÀÇ,0.51,66,ÄÚÄª ¿¬°á
-MEM-SNOW07-20,SNOW07,µî»ê È¸º¹ ÇÃ·£,¾×Æ¼ºê¿öÃ³,0.89,0.71,ºñµ¿ÀÇ,0.53,84,ÈÞ½Ä ±ÇÀå
-MEM-SNOW07-21,SNOW07,µî»ê È¸º¹ ÇÃ·£,½Å±ÔÈ¸¿ø,0.85,0.68,ºñµ¿ÀÇ,0.62,86,Ã§¸°Áö Á¦¾È
-MEM-SNOW07-22,SNOW07,µî»ê È¸º¹ ÇÃ·£,¾×Æ¼ºê¿öÃ³,0.96,0.93,ºñµ¿ÀÇ,0.89,91,Ã§¸°Áö Á¦¾È
-MEM-SNOW07-23,SNOW07,µî»ê È¸º¹ ÇÃ·£,ÇÏÀÌ¸®½ºÅ©,0.71,0.68,µ¿ÀÇ,0.94,72,ÈÞ½Ä ±ÇÀå
-MEM-SNOW07-24,SNOW07,µî»ê È¸º¹ ÇÃ·£,ÇÏÀÌ¸®½ºÅ©,0.58,0.91,ºñµ¿ÀÇ,0.53,76,ÄÚÄª ¿¬°á
-MEM-SNOW07-25,SNOW07,µî»ê È¸º¹ ÇÃ·£,È¸º¹Áß,0.67,0.91,µ¿ÀÇ,0.92,79,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-01,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,È¸º¹Áß,0.82,0.85,µ¿ÀÇ,0.49,62,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-02,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,½Å±ÔÈ¸¿ø,0.66,0.8,ºñµ¿ÀÇ,0.68,83,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-03,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,¾×Æ¼ºê¿öÃ³,0.61,0.62,µ¿ÀÇ,0.85,89,ÄÚÄª ¿¬°á
-MEM-SBUS08-04,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,½Å±ÔÈ¸¿ø,0.76,0.59,µ¿ÀÇ,0.53,73,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-05,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,¾×Æ¼ºê¿öÃ³,0.74,0.8,µ¿ÀÇ,0.91,86,ÄÚÄª ¿¬°á
-MEM-SBUS08-06,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,ÇÏÀÌ¸®½ºÅ©,0.59,0.94,µ¿ÀÇ,0.62,67,ÄÚÄª ¿¬°á
-MEM-SBUS08-07,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,ÇÏÀÌ¸®½ºÅ©,0.82,0.67,µ¿ÀÇ,0.91,103,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-08,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,ÇÏÀÌ¸®½ºÅ©,0.76,0.65,µ¿ÀÇ,0.5,65,ÄÚÄª ¿¬°á
-MEM-SBUS08-09,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,È¸º¹Áß,0.58,0.69,ºñµ¿ÀÇ,0.84,102,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUS08-10,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,È¸º¹Áß,0.68,0.76,ºñµ¿ÀÇ,0.53,64,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-11,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,È¸º¹Áß,0.82,0.5,ºñµ¿ÀÇ,0.7,99,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUS08-12,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,È¸º¹Áß,0.97,0.91,ºñµ¿ÀÇ,0.72,102,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-13,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,½Å±ÔÈ¸¿ø,0.55,0.89,ºñµ¿ÀÇ,0.58,101,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUS08-14,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,¾×Æ¼ºê¿öÃ³,0.63,0.68,µ¿ÀÇ,0.54,103,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-15,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,È¸º¹Áß,0.8,0.95,ºñµ¿ÀÇ,0.7,101,°Ý·Á ¸Þ½ÃÁö
-MEM-SBUS08-16,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,½Å±ÔÈ¸¿ø,0.67,0.52,ºñµ¿ÀÇ,0.47,66,ÄÚÄª ¿¬°á
-MEM-SBUS08-17,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,¾×Æ¼ºê¿öÃ³,0.67,0.56,ºñµ¿ÀÇ,0.73,63,ÄÚÄª ¿¬°á
-MEM-SBUS08-18,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,ÇÏÀÌ¸®½ºÅ©,0.69,0.62,µ¿ÀÇ,0.49,68,ÄÚÄª ¿¬°á
-MEM-SBUS08-19,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,½Å±ÔÈ¸¿ø,0.62,0.55,µ¿ÀÇ,0.67,83,Ã§¸°Áö Á¦¾È
-MEM-SBUS08-20,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,È¸º¹Áß,0.59,0.63,ºñµ¿ÀÇ,0.74,65,Ã§¸°Áö Á¦¾È
-MEM-SBUS08-21,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,¾×Æ¼ºê¿öÃ³,0.87,0.69,µ¿ÀÇ,0.55,86,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-22,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,¾×Æ¼ºê¿öÃ³,0.61,0.83,ºñµ¿ÀÇ,0.52,65,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-23,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,½Å±ÔÈ¸¿ø,0.72,0.64,ºñµ¿ÀÇ,0.6,98,ÈÞ½Ä ±ÇÀå
-MEM-SBUS08-24,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,ÇÏÀÌ¸®½ºÅ©,0.9,0.7,µ¿ÀÇ,0.83,98,ÄÚÄª ¿¬°á
-MEM-SBUS08-25,SBUS08,¸¶¸®³ª ÆÄ¿ö¶óÀÌµå,½Å±ÔÈ¸¿ø,0.67,0.75,µ¿ÀÇ,0.56,105,ÄÚÄª ¿¬°á
-MEM-SDJE09-01,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,½Å±ÔÈ¸¿ø,0.79,0.69,µ¿ÀÇ,0.78,61,ÈÞ½Ä ±ÇÀå
-MEM-SDJE09-02,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,ÇÏÀÌ¸®½ºÅ©,0.82,0.81,µ¿ÀÇ,0.79,109,ÈÞ½Ä ±ÇÀå
-MEM-SDJE09-03,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,ÇÏÀÌ¸®½ºÅ©,0.58,0.64,ºñµ¿ÀÇ,0.55,74,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-04,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,ÇÏÀÌ¸®½ºÅ©,0.81,0.78,µ¿ÀÇ,0.57,89,ÈÞ½Ä ±ÇÀå
-MEM-SDJE09-05,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,¾×Æ¼ºê¿öÃ³,0.66,0.69,ºñµ¿ÀÇ,0.65,68,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-06,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,ÇÏÀÌ¸®½ºÅ©,0.96,0.51,µ¿ÀÇ,0.62,76,ÈÞ½Ä ±ÇÀå
-MEM-SDJE09-07,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,¾×Æ¼ºê¿öÃ³,0.87,0.63,ºñµ¿ÀÇ,0.93,69,ÄÚÄª ¿¬°á
-MEM-SDJE09-08,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,È¸º¹Áß,0.57,0.63,ºñµ¿ÀÇ,0.55,84,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-09,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,½Å±ÔÈ¸¿ø,0.9,0.74,µ¿ÀÇ,0.71,100,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-10,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,½Å±ÔÈ¸¿ø,0.95,0.72,µ¿ÀÇ,0.72,106,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-11,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,ÇÏÀÌ¸®½ºÅ©,0.9,0.86,µ¿ÀÇ,0.79,87,Ã§¸°Áö Á¦¾È
-MEM-SDJE09-12,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,È¸º¹Áß,0.96,0.59,µ¿ÀÇ,0.83,103,ÄÚÄª ¿¬°á
-MEM-SDJE09-13,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,¾×Æ¼ºê¿öÃ³,0.95,0.6,µ¿ÀÇ,0.51,83,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-14,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,¾×Æ¼ºê¿öÃ³,0.74,0.89,ºñµ¿ÀÇ,0.53,71,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-15,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,¾×Æ¼ºê¿öÃ³,0.7,0.83,ºñµ¿ÀÇ,0.89,109,ÈÞ½Ä ±ÇÀå
-MEM-SDJE09-16,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,¾×Æ¼ºê¿öÃ³,0.67,0.66,ºñµ¿ÀÇ,0.83,68,ÈÞ½Ä ±ÇÀå
-MEM-SDJE09-17,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,½Å±ÔÈ¸¿ø,0.66,0.66,ºñµ¿ÀÇ,0.51,80,ÈÞ½Ä ±ÇÀå
-MEM-SDJE09-18,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,½Å±ÔÈ¸¿ø,0.87,0.72,ºñµ¿ÀÇ,0.59,92,Ã§¸°Áö Á¦¾È
-MEM-SDJE09-19,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,½Å±ÔÈ¸¿ø,0.75,0.58,µ¿ÀÇ,0.9,70,ÈÞ½Ä ±ÇÀå
-MEM-SDJE09-20,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,ÇÏÀÌ¸®½ºÅ©,0.72,0.86,ºñµ¿ÀÇ,0.53,65,Ã§¸°Áö Á¦¾È
-MEM-SDJE09-21,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,¾×Æ¼ºê¿öÃ³,0.56,0.55,ºñµ¿ÀÇ,0.85,100,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-22,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,½Å±ÔÈ¸¿ø,0.62,0.57,µ¿ÀÇ,0.59,64,Ã§¸°Áö Á¦¾È
-MEM-SDJE09-23,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,ÇÏÀÌ¸®½ºÅ©,0.73,0.58,µ¿ÀÇ,0.88,66,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-24,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,½Å±ÔÈ¸¿ø,0.79,0.82,ºñµ¿ÀÇ,0.9,71,°Ý·Á ¸Þ½ÃÁö
-MEM-SDJE09-25,SDJE09,Èú¸µ ºñÄ¡ ¿ä°¡,ÇÏÀÌ¸®½ºÅ©,0.89,0.88,ºñµ¿ÀÇ,0.74,72,ÈÞ½Ä ±ÇÀå
-MEM-SINC10-01,SINC10,µµ½É ¸±¸®Áî,È¸º¹Áß,0.76,0.91,µ¿ÀÇ,0.69,106,ÄÚÄª ¿¬°á
-MEM-SINC10-02,SINC10,µµ½É ¸±¸®Áî,¾×Æ¼ºê¿öÃ³,0.8,0.87,µ¿ÀÇ,0.93,87,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-03,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.94,0.71,ºñµ¿ÀÇ,0.73,102,ÄÚÄª ¿¬°á
-MEM-SINC10-04,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.61,0.88,ºñµ¿ÀÇ,0.61,92,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-05,SINC10,µµ½É ¸±¸®Áî,½Å±ÔÈ¸¿ø,0.94,0.79,ºñµ¿ÀÇ,0.55,103,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-06,SINC10,µµ½É ¸±¸®Áî,¾×Æ¼ºê¿öÃ³,0.91,0.93,ºñµ¿ÀÇ,0.68,76,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-07,SINC10,µµ½É ¸±¸®Áî,È¸º¹Áß,0.6,0.76,ºñµ¿ÀÇ,0.9,81,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-08,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.8,0.72,ºñµ¿ÀÇ,0.72,76,Ã§¸°Áö Á¦¾È
-MEM-SINC10-09,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.83,0.7,µ¿ÀÇ,0.56,102,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-10,SINC10,µµ½É ¸±¸®Áî,È¸º¹Áß,0.64,0.81,µ¿ÀÇ,0.57,89,ÈÞ½Ä ±ÇÀå
-MEM-SINC10-11,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.86,0.65,µ¿ÀÇ,0.89,98,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-12,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.86,0.56,µ¿ÀÇ,0.65,91,ÄÚÄª ¿¬°á
-MEM-SINC10-13,SINC10,µµ½É ¸±¸®Áî,½Å±ÔÈ¸¿ø,0.92,0.77,µ¿ÀÇ,0.56,101,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-14,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.65,0.55,ºñµ¿ÀÇ,0.64,95,ÄÚÄª ¿¬°á
-MEM-SINC10-15,SINC10,µµ½É ¸±¸®Áî,¾×Æ¼ºê¿öÃ³,0.81,0.78,ºñµ¿ÀÇ,0.55,84,ÈÞ½Ä ±ÇÀå
-MEM-SINC10-16,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.93,0.81,µ¿ÀÇ,0.89,77,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-17,SINC10,µµ½É ¸±¸®Áî,½Å±ÔÈ¸¿ø,0.63,0.61,µ¿ÀÇ,0.87,82,ÄÚÄª ¿¬°á
-MEM-SINC10-18,SINC10,µµ½É ¸±¸®Áî,¾×Æ¼ºê¿öÃ³,0.62,0.51,ºñµ¿ÀÇ,0.53,103,ÈÞ½Ä ±ÇÀå
-MEM-SINC10-19,SINC10,µµ½É ¸±¸®Áî,È¸º¹Áß,0.59,0.91,ºñµ¿ÀÇ,0.56,86,ÈÞ½Ä ±ÇÀå
-MEM-SINC10-20,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.9,0.54,ºñµ¿ÀÇ,0.69,64,°Ý·Á ¸Þ½ÃÁö
-MEM-SINC10-21,SINC10,µµ½É ¸±¸®Áî,½Å±ÔÈ¸¿ø,0.66,0.89,ºñµ¿ÀÇ,0.59,79,ÈÞ½Ä ±ÇÀå
-MEM-SINC10-22,SINC10,µµ½É ¸±¸®Áî,È¸º¹Áß,0.7,0.66,ºñµ¿ÀÇ,0.94,107,ÄÚÄª ¿¬°á
-MEM-SINC10-23,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.79,0.78,µ¿ÀÇ,0.54,108,ÄÚÄª ¿¬°á
-MEM-SINC10-24,SINC10,µµ½É ¸±¸®Áî,ÇÏÀÌ¸®½ºÅ©,0.85,0.86,ºñµ¿ÀÇ,0.71,72,ÄÚÄª ¿¬°á
-MEM-SINC10-25,SINC10,µµ½É ¸±¸®Áî,½Å±ÔÈ¸¿ø,0.75,0.83,µ¿ÀÇ,0.69,68,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-01,SSUW11,Æ®·¢ ÄÁµð¼Å´×,ÇÏÀÌ¸®½ºÅ©,0.56,0.67,ºñµ¿ÀÇ,0.48,75,ÄÚÄª ¿¬°á
-MEM-SSUW11-02,SSUW11,Æ®·¢ ÄÁµð¼Å´×,½Å±ÔÈ¸¿ø,0.87,0.61,µ¿ÀÇ,0.55,73,ÈÞ½Ä ±ÇÀå
-MEM-SSUW11-03,SSUW11,Æ®·¢ ÄÁµð¼Å´×,½Å±ÔÈ¸¿ø,0.78,0.53,ºñµ¿ÀÇ,0.92,75,ÈÞ½Ä ±ÇÀå
-MEM-SSUW11-04,SSUW11,Æ®·¢ ÄÁµð¼Å´×,½Å±ÔÈ¸¿ø,0.76,0.55,ºñµ¿ÀÇ,0.7,92,ÈÞ½Ä ±ÇÀå
-MEM-SSUW11-05,SSUW11,Æ®·¢ ÄÁµð¼Å´×,È¸º¹Áß,0.64,0.88,µ¿ÀÇ,0.78,72,Ã§¸°Áö Á¦¾È
-MEM-SSUW11-06,SSUW11,Æ®·¢ ÄÁµð¼Å´×,ÇÏÀÌ¸®½ºÅ©,0.91,0.86,ºñµ¿ÀÇ,0.6,84,ÈÞ½Ä ±ÇÀå
-MEM-SSUW11-07,SSUW11,Æ®·¢ ÄÁµð¼Å´×,½Å±ÔÈ¸¿ø,0.64,0.74,ºñµ¿ÀÇ,0.91,108,Ã§¸°Áö Á¦¾È
-MEM-SSUW11-08,SSUW11,Æ®·¢ ÄÁµð¼Å´×,½Å±ÔÈ¸¿ø,0.64,0.64,ºñµ¿ÀÇ,0.61,65,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-09,SSUW11,Æ®·¢ ÄÁµð¼Å´×,¾×Æ¼ºê¿öÃ³,0.69,0.93,ºñµ¿ÀÇ,0.67,74,ÄÚÄª ¿¬°á
-MEM-SSUW11-10,SSUW11,Æ®·¢ ÄÁµð¼Å´×,È¸º¹Áß,0.89,0.87,ºñµ¿ÀÇ,0.89,94,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-11,SSUW11,Æ®·¢ ÄÁµð¼Å´×,È¸º¹Áß,0.69,0.61,µ¿ÀÇ,0.8,109,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-12,SSUW11,Æ®·¢ ÄÁµð¼Å´×,È¸º¹Áß,0.62,0.53,ºñµ¿ÀÇ,0.86,65,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-13,SSUW11,Æ®·¢ ÄÁµð¼Å´×,¾×Æ¼ºê¿öÃ³,0.95,0.56,ºñµ¿ÀÇ,0.89,108,ÈÞ½Ä ±ÇÀå
-MEM-SSUW11-14,SSUW11,Æ®·¢ ÄÁµð¼Å´×,ÇÏÀÌ¸®½ºÅ©,0.82,0.67,µ¿ÀÇ,0.48,102,ÄÚÄª ¿¬°á
-MEM-SSUW11-15,SSUW11,Æ®·¢ ÄÁµð¼Å´×,ÇÏÀÌ¸®½ºÅ©,0.77,0.75,ºñµ¿ÀÇ,0.55,66,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-16,SSUW11,Æ®·¢ ÄÁµð¼Å´×,È¸º¹Áß,0.64,0.7,ºñµ¿ÀÇ,0.79,92,ÈÞ½Ä ±ÇÀå
-MEM-SSUW11-17,SSUW11,Æ®·¢ ÄÁµð¼Å´×,ÇÏÀÌ¸®½ºÅ©,0.84,0.92,µ¿ÀÇ,0.62,70,Ã§¸°Áö Á¦¾È
-MEM-SSUW11-18,SSUW11,Æ®·¢ ÄÁµð¼Å´×,¾×Æ¼ºê¿öÃ³,0.63,0.79,µ¿ÀÇ,0.83,73,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-19,SSUW11,Æ®·¢ ÄÁµð¼Å´×,½Å±ÔÈ¸¿ø,0.82,0.64,µ¿ÀÇ,0.48,101,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-20,SSUW11,Æ®·¢ ÄÁµð¼Å´×,½Å±ÔÈ¸¿ø,0.7,0.8,µ¿ÀÇ,0.64,109,ÄÚÄª ¿¬°á
-MEM-SSUW11-21,SSUW11,Æ®·¢ ÄÁµð¼Å´×,¾×Æ¼ºê¿öÃ³,0.59,0.53,µ¿ÀÇ,0.69,63,Ã§¸°Áö Á¦¾È
-MEM-SSUW11-22,SSUW11,Æ®·¢ ÄÁµð¼Å´×,¾×Æ¼ºê¿öÃ³,0.67,0.77,ºñµ¿ÀÇ,0.64,67,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-23,SSUW11,Æ®·¢ ÄÁµð¼Å´×,È¸º¹Áß,0.76,0.63,ºñµ¿ÀÇ,0.84,90,°Ý·Á ¸Þ½ÃÁö
-MEM-SSUW11-24,SSUW11,Æ®·¢ ÄÁµð¼Å´×,¾×Æ¼ºê¿öÃ³,0.81,0.57,ºñµ¿ÀÇ,0.91,102,ÄÚÄª ¿¬°á
-MEM-SSUW11-25,SSUW11,Æ®·¢ ÄÁµð¼Å´×,½Å±ÔÈ¸¿ø,0.67,0.88,µ¿ÀÇ,0.52,74,ÈÞ½Ä ±ÇÀå
-MEM-SDAE12-01,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,È¸º¹Áß,0.57,0.53,ºñµ¿ÀÇ,0.74,60,ÄÚÄª ¿¬°á
-MEM-SDAE12-02,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,¾×Æ¼ºê¿öÃ³,0.9,0.87,ºñµ¿ÀÇ,0.84,76,ÄÚÄª ¿¬°á
-MEM-SDAE12-03,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,ÇÏÀÌ¸®½ºÅ©,0.76,0.74,µ¿ÀÇ,0.72,80,Ã§¸°Áö Á¦¾È
-MEM-SDAE12-04,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,½Å±ÔÈ¸¿ø,0.72,0.74,µ¿ÀÇ,0.87,60,ÈÞ½Ä ±ÇÀå
-MEM-SDAE12-05,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,½Å±ÔÈ¸¿ø,0.58,0.59,µ¿ÀÇ,0.48,93,ÈÞ½Ä ±ÇÀå
-MEM-SDAE12-06,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,È¸º¹Áß,0.86,0.62,µ¿ÀÇ,0.61,105,Ã§¸°Áö Á¦¾È
-MEM-SDAE12-07,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,½Å±ÔÈ¸¿ø,0.71,0.81,µ¿ÀÇ,0.78,78,ÈÞ½Ä ±ÇÀå
-MEM-SDAE12-08,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,½Å±ÔÈ¸¿ø,0.8,0.66,µ¿ÀÇ,0.49,90,ÄÚÄª ¿¬°á
-MEM-SDAE12-09,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,¾×Æ¼ºê¿öÃ³,0.91,0.8,µ¿ÀÇ,0.71,75,ÄÚÄª ¿¬°á
-MEM-SDAE12-10,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,¾×Æ¼ºê¿öÃ³,0.67,0.53,µ¿ÀÇ,0.57,86,Ã§¸°Áö Á¦¾È
-MEM-SDAE12-11,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,¾×Æ¼ºê¿öÃ³,0.91,0.64,µ¿ÀÇ,0.45,62,ÄÚÄª ¿¬°á
-MEM-SDAE12-12,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,ÇÏÀÌ¸®½ºÅ©,0.79,0.77,ºñµ¿ÀÇ,0.47,100,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAE12-13,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,½Å±ÔÈ¸¿ø,0.66,0.75,µ¿ÀÇ,0.91,70,ÄÚÄª ¿¬°á
-MEM-SDAE12-14,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,¾×Æ¼ºê¿öÃ³,0.64,0.63,ºñµ¿ÀÇ,0.68,70,ÈÞ½Ä ±ÇÀå
-MEM-SDAE12-15,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,¾×Æ¼ºê¿öÃ³,0.6,0.62,ºñµ¿ÀÇ,0.56,105,Ã§¸°Áö Á¦¾È
-MEM-SDAE12-16,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,ÇÏÀÌ¸®½ºÅ©,0.74,0.88,µ¿ÀÇ,0.64,82,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAE12-17,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,½Å±ÔÈ¸¿ø,0.61,0.69,µ¿ÀÇ,0.95,78,Ã§¸°Áö Á¦¾È
-MEM-SDAE12-18,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,È¸º¹Áß,0.59,0.9,µ¿ÀÇ,0.83,95,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAE12-19,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,½Å±ÔÈ¸¿ø,0.57,0.71,µ¿ÀÇ,0.87,87,Ã§¸°Áö Á¦¾È
-MEM-SDAE12-20,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,¾×Æ¼ºê¿öÃ³,0.85,0.88,µ¿ÀÇ,0.49,67,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAE12-21,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,¾×Æ¼ºê¿öÃ³,0.84,0.67,µ¿ÀÇ,0.77,103,ÈÞ½Ä ±ÇÀå
-MEM-SDAE12-22,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,½Å±ÔÈ¸¿ø,0.6,0.58,µ¿ÀÇ,0.9,63,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAE12-23,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,È¸º¹Áß,0.86,0.6,µ¿ÀÇ,0.54,96,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAE12-24,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,È¸º¹Áß,0.6,0.79,ºñµ¿ÀÇ,0.9,65,°Ý·Á ¸Þ½ÃÁö
-MEM-SDAE12-25,SDAE12,½½·Î¿ì ÄÁÆ®·Ñ,¾×Æ¼ºê¿öÃ³,0.94,0.9,µ¿ÀÇ,0.53,72,ÄÚÄª ¿¬°á
-MEM-SGIM13-01,SGIM13,¿¡¾î·Î º¹½Ì,ÇÏÀÌ¸®½ºÅ©,0.61,0.85,ºñµ¿ÀÇ,0.66,109,ÈÞ½Ä ±ÇÀå
-MEM-SGIM13-02,SGIM13,¿¡¾î·Î º¹½Ì,ÇÏÀÌ¸®½ºÅ©,0.9,0.54,µ¿ÀÇ,0.81,82,ÄÚÄª ¿¬°á
-MEM-SGIM13-03,SGIM13,¿¡¾î·Î º¹½Ì,¾×Æ¼ºê¿öÃ³,0.59,0.79,µ¿ÀÇ,0.77,100,ÈÞ½Ä ±ÇÀå
-MEM-SGIM13-04,SGIM13,¿¡¾î·Î º¹½Ì,½Å±ÔÈ¸¿ø,0.58,0.52,ºñµ¿ÀÇ,0.68,61,°Ý·Á ¸Þ½ÃÁö
-MEM-SGIM13-05,SGIM13,¿¡¾î·Î º¹½Ì,½Å±ÔÈ¸¿ø,0.78,0.52,µ¿ÀÇ,0.75,60,Ã§¸°Áö Á¦¾È
-MEM-SGIM13-06,SGIM13,¿¡¾î·Î º¹½Ì,ÇÏÀÌ¸®½ºÅ©,0.68,0.53,ºñµ¿ÀÇ,0.63,104,°Ý·Á ¸Þ½ÃÁö
-MEM-SGIM13-07,SGIM13,¿¡¾î·Î º¹½Ì,ÇÏÀÌ¸®½ºÅ©,0.78,0.73,µ¿ÀÇ,0.8,94,ÈÞ½Ä ±ÇÀå
-MEM-SGIM13-08,SGIM13,¿¡¾î·Î º¹½Ì,ÇÏÀÌ¸®½ºÅ©,0.94,0.72,µ¿ÀÇ,0.6,82,°Ý·Á ¸Þ½ÃÁö
-MEM-SGIM13-09,SGIM13,¿¡¾î·Î º¹½Ì,½Å±ÔÈ¸¿ø,0.96,0.53,µ¿ÀÇ,0.83,84,ÈÞ½Ä ±ÇÀå
-MEM-SGIM13-10,SGIM13,¿¡¾î·Î º¹½Ì,ÇÏÀÌ¸®½ºÅ©,0.74,0.84,ºñµ¿ÀÇ,0.78,75,°Ý·Á ¸Þ½ÃÁö
-MEM-SGIM13-11,SGIM13,¿¡¾î·Î º¹½Ì,½Å±ÔÈ¸¿ø,0.58,0.71,ºñµ¿ÀÇ,0.53,69,ÈÞ½Ä ±ÇÀå
-MEM-SGIM13-12,SGIM13,¿¡¾î·Î º¹½Ì,¾×Æ¼ºê¿öÃ³,0.56,0.75,ºñµ¿ÀÇ,0.78,71,Ã§¸°Áö Á¦¾È
-MEM-SGIM13-13,SGIM13,¿¡¾î·Î º¹½Ì,ÇÏÀÌ¸®½ºÅ©,0.65,0.72,µ¿ÀÇ,0.74,107,°Ý·Á ¸Þ½ÃÁö
-MEM-SGIM13-14,SGIM13,¿¡¾î·Î º¹½Ì,È¸º¹Áß,0.92,0.57,ºñµ¿ÀÇ,0.49,60,Ã§¸°Áö Á¦¾È
-MEM-SGIM13-15,SGIM13,¿¡¾î·Î º¹½Ì,½Å±ÔÈ¸¿ø,0.85,0.94,ºñµ¿ÀÇ,0.46,107,°Ý·Á ¸Þ½ÃÁö
-MEM-SGIM13-16,SGIM13,¿¡¾î·Î º¹½Ì,½Å±ÔÈ¸¿ø,0.85,0.81,ºñµ¿ÀÇ,0.64,94,ÄÚÄª ¿¬°á
-MEM-SGIM13-17,SGIM13,¿¡¾î·Î º¹½Ì,È¸º¹Áß,0.87,0.86,µ¿ÀÇ,0.63,81,°Ý·Á ¸Þ½ÃÁö
-MEM-SGIM13-18,SGIM13,¿¡¾î·Î º¹½Ì,ÇÏÀÌ¸®½ºÅ©,0.78,0.66,µ¿ÀÇ,0.66,99,Ã§¸°Áö Á¦¾È
-MEM-SGIM13-19,SGIM13,¿¡¾î·Î º¹½Ì,È¸º¹Áß,0.96,0.67,ºñµ¿ÀÇ,0.85,74,Ã§¸°Áö Á¦¾È
-MEM-SGIM13-20,SGIM13,¿¡¾î·Î º¹½Ì,È¸º¹Áß,0.92,0.86,µ¿ÀÇ,0.5,106,°Ý·Á ¸Þ½ÃÁö
-MEM-SGIM13-21,SGIM13,¿¡¾î·Î º¹½Ì,È¸º¹Áß,0.65,0.82,µ¿ÀÇ,0.47,108,°Ý·Á ¸Þ½ÃÁö
-MEM-SGIM13-22,SGIM13,¿¡¾î·Î º¹½Ì,È¸º¹Áß,0.89,0.72,µ¿ÀÇ,0.93,60,Ã§¸°Áö Á¦¾È
-MEM-SGIM13-23,SGIM13,¿¡¾î·Î º¹½Ì,È¸º¹Áß,0.71,0.53,ºñµ¿ÀÇ,0.45,62,ÈÞ½Ä ±ÇÀå
-MEM-SGIM13-24,SGIM13,¿¡¾î·Î º¹½Ì,¾×Æ¼ºê¿öÃ³,0.76,0.65,ºñµ¿ÀÇ,0.75,70,ÈÞ½Ä ±ÇÀå
-MEM-SGIM13-25,SGIM13,¿¡¾î·Î º¹½Ì,ÇÏÀÌ¸®½ºÅ©,0.73,0.8,ºñµ¿ÀÇ,0.62,85,ÈÞ½Ä ±ÇÀå
-MEM-SSCH14-01,SSCH14,¸ÞÅ¸ ¹ë·±½º,½Å±ÔÈ¸¿ø,0.91,0.95,µ¿ÀÇ,0.55,82,ÄÚÄª ¿¬°á
-MEM-SSCH14-02,SSCH14,¸ÞÅ¸ ¹ë·±½º,È¸º¹Áß,0.65,0.54,µ¿ÀÇ,0.53,95,Ã§¸°Áö Á¦¾È
-MEM-SSCH14-03,SSCH14,¸ÞÅ¸ ¹ë·±½º,¾×Æ¼ºê¿öÃ³,0.56,0.57,ºñµ¿ÀÇ,0.63,71,°Ý·Á ¸Þ½ÃÁö
-MEM-SSCH14-04,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.87,0.74,µ¿ÀÇ,0.75,92,°Ý·Á ¸Þ½ÃÁö
-MEM-SSCH14-05,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.59,0.52,ºñµ¿ÀÇ,0.92,70,°Ý·Á ¸Þ½ÃÁö
-MEM-SSCH14-06,SSCH14,¸ÞÅ¸ ¹ë·±½º,È¸º¹Áß,0.63,0.79,ºñµ¿ÀÇ,0.64,104,Ã§¸°Áö Á¦¾È
-MEM-SSCH14-07,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.72,0.53,µ¿ÀÇ,0.62,97,ÈÞ½Ä ±ÇÀå
-MEM-SSCH14-08,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.64,0.84,ºñµ¿ÀÇ,0.58,84,°Ý·Á ¸Þ½ÃÁö
-MEM-SSCH14-09,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.58,0.63,µ¿ÀÇ,0.64,61,°Ý·Á ¸Þ½ÃÁö
-MEM-SSCH14-10,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.56,0.52,ºñµ¿ÀÇ,0.45,106,ÄÚÄª ¿¬°á
-MEM-SSCH14-11,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.62,0.67,ºñµ¿ÀÇ,0.87,66,ÄÚÄª ¿¬°á
-MEM-SSCH14-12,SSCH14,¸ÞÅ¸ ¹ë·±½º,È¸º¹Áß,0.96,0.6,µ¿ÀÇ,0.66,110,ÈÞ½Ä ±ÇÀå
-MEM-SSCH14-13,SSCH14,¸ÞÅ¸ ¹ë·±½º,¾×Æ¼ºê¿öÃ³,0.8,0.53,ºñµ¿ÀÇ,0.82,77,°Ý·Á ¸Þ½ÃÁö
-MEM-SSCH14-14,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.58,0.52,µ¿ÀÇ,0.76,82,Ã§¸°Áö Á¦¾È
-MEM-SSCH14-15,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.76,0.58,ºñµ¿ÀÇ,0.78,65,ÄÚÄª ¿¬°á
-MEM-SSCH14-16,SSCH14,¸ÞÅ¸ ¹ë·±½º,¾×Æ¼ºê¿öÃ³,0.65,0.75,µ¿ÀÇ,0.48,99,ÄÚÄª ¿¬°á
-MEM-SSCH14-17,SSCH14,¸ÞÅ¸ ¹ë·±½º,¾×Æ¼ºê¿öÃ³,0.91,0.62,µ¿ÀÇ,0.81,105,Ã§¸°Áö Á¦¾È
-MEM-SSCH14-18,SSCH14,¸ÞÅ¸ ¹ë·±½º,¾×Æ¼ºê¿öÃ³,0.92,0.91,µ¿ÀÇ,0.5,61,ÈÞ½Ä ±ÇÀå
-MEM-SSCH14-19,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.85,0.91,µ¿ÀÇ,0.76,78,°Ý·Á ¸Þ½ÃÁö
-MEM-SSCH14-20,SSCH14,¸ÞÅ¸ ¹ë·±½º,ÇÏÀÌ¸®½ºÅ©,0.66,0.75,ºñµ¿ÀÇ,0.83,102,°Ý·Á ¸Þ½ÃÁö
-MEM-SSCH14-21,SSCH14,¸ÞÅ¸ ¹ë·±½º,½Å±ÔÈ¸¿ø,0.9,0.88,ºñµ¿ÀÇ,0.73,90,ÄÚÄª ¿¬°á
-MEM-SSCH14-22,SSCH14,¸ÞÅ¸ ¹ë·±½º,È¸º¹Áß,0.81,0.82,µ¿ÀÇ,0.53,69,Ã§¸°Áö Á¦¾È
-MEM-SSCH14-23,SSCH14,¸ÞÅ¸ ¹ë·±½º,È¸º¹Áß,0.55,0.5,ºñµ¿ÀÇ,0.52,70,ÄÚÄª ¿¬°á
-MEM-SSCH14-24,SSCH14,¸ÞÅ¸ ¹ë·±½º,½Å±ÔÈ¸¿ø,0.58,0.68,ºñµ¿ÀÇ,0.73,98,ÄÚÄª ¿¬°á
-MEM-SSCH14-25,SSCH14,¸ÞÅ¸ ¹ë·±½º,½Å±ÔÈ¸¿ø,0.58,0.68,ºñµ¿ÀÇ,0.64,85,°Ý·Á ¸Þ½ÃÁö
-MEM-SULS15-01,SULS15,¸ð¼Ç ¸®ºÎÆ®,È¸º¹Áß,0.94,0.76,ºñµ¿ÀÇ,0.78,81,Ã§¸°Áö Á¦¾È
-MEM-SULS15-02,SULS15,¸ð¼Ç ¸®ºÎÆ®,ÇÏÀÌ¸®½ºÅ©,0.6,0.76,µ¿ÀÇ,0.89,88,Ã§¸°Áö Á¦¾È
-MEM-SULS15-03,SULS15,¸ð¼Ç ¸®ºÎÆ®,ÇÏÀÌ¸®½ºÅ©,0.67,0.54,ºñµ¿ÀÇ,0.7,105,ÄÚÄª ¿¬°á
-MEM-SULS15-04,SULS15,¸ð¼Ç ¸®ºÎÆ®,È¸º¹Áß,0.67,0.85,µ¿ÀÇ,0.63,66,ÈÞ½Ä ±ÇÀå
-MEM-SULS15-05,SULS15,¸ð¼Ç ¸®ºÎÆ®,¾×Æ¼ºê¿öÃ³,0.97,0.79,ºñµ¿ÀÇ,0.53,69,ÈÞ½Ä ±ÇÀå
-MEM-SULS15-06,SULS15,¸ð¼Ç ¸®ºÎÆ®,½Å±ÔÈ¸¿ø,0.9,0.64,ºñµ¿ÀÇ,0.83,110,ÄÚÄª ¿¬°á
-MEM-SULS15-07,SULS15,¸ð¼Ç ¸®ºÎÆ®,ÇÏÀÌ¸®½ºÅ©,0.7,0.83,ºñµ¿ÀÇ,0.66,70,ÄÚÄª ¿¬°á
-MEM-SULS15-08,SULS15,¸ð¼Ç ¸®ºÎÆ®,½Å±ÔÈ¸¿ø,0.72,0.95,µ¿ÀÇ,0.58,83,Ã§¸°Áö Á¦¾È
-MEM-SULS15-09,SULS15,¸ð¼Ç ¸®ºÎÆ®,¾×Æ¼ºê¿öÃ³,0.9,0.73,ºñµ¿ÀÇ,0.49,90,°Ý·Á ¸Þ½ÃÁö
-MEM-SULS15-10,SULS15,¸ð¼Ç ¸®ºÎÆ®,½Å±ÔÈ¸¿ø,0.57,0.8,µ¿ÀÇ,0.84,93,°Ý·Á ¸Þ½ÃÁö
-MEM-SULS15-11,SULS15,¸ð¼Ç ¸®ºÎÆ®,¾×Æ¼ºê¿öÃ³,0.68,0.85,ºñµ¿ÀÇ,0.6,77,°Ý·Á ¸Þ½ÃÁö
-MEM-SULS15-12,SULS15,¸ð¼Ç ¸®ºÎÆ®,½Å±ÔÈ¸¿ø,0.75,0.93,µ¿ÀÇ,0.46,67,ÈÞ½Ä ±ÇÀå
-MEM-SULS15-13,SULS15,¸ð¼Ç ¸®ºÎÆ®,È¸º¹Áß,0.58,0.61,ºñµ¿ÀÇ,0.64,109,°Ý·Á ¸Þ½ÃÁö
-MEM-SULS15-14,SULS15,¸ð¼Ç ¸®ºÎÆ®,ÇÏÀÌ¸®½ºÅ©,0.57,0.82,ºñµ¿ÀÇ,0.93,76,Ã§¸°Áö Á¦¾È
-MEM-SULS15-15,SULS15,¸ð¼Ç ¸®ºÎÆ®,¾×Æ¼ºê¿öÃ³,0.69,0.54,ºñµ¿ÀÇ,0.58,109,Ã§¸°Áö Á¦¾È
-MEM-SULS15-16,SULS15,¸ð¼Ç ¸®ºÎÆ®,½Å±ÔÈ¸¿ø,0.92,0.81,ºñµ¿ÀÇ,0.46,109,ÈÞ½Ä ±ÇÀå
-MEM-SULS15-17,SULS15,¸ð¼Ç ¸®ºÎÆ®,È¸º¹Áß,0.59,0.57,ºñµ¿ÀÇ,0.62,99,Ã§¸°Áö Á¦¾È
-MEM-SULS15-18,SULS15,¸ð¼Ç ¸®ºÎÆ®,¾×Æ¼ºê¿öÃ³,0.87,0.57,µ¿ÀÇ,0.61,69,ÄÚÄª ¿¬°á
-MEM-SULS15-19,SULS15,¸ð¼Ç ¸®ºÎÆ®,È¸º¹Áß,0.8,0.95,µ¿ÀÇ,0.86,72,°Ý·Á ¸Þ½ÃÁö
-MEM-SULS15-20,SULS15,¸ð¼Ç ¸®ºÎÆ®,È¸º¹Áß,0.88,0.53,ºñµ¿ÀÇ,0.76,78,°Ý·Á ¸Þ½ÃÁö
-MEM-SULS15-21,SULS15,¸ð¼Ç ¸®ºÎÆ®,¾×Æ¼ºê¿öÃ³,0.7,0.71,µ¿ÀÇ,0.88,68,°Ý·Á ¸Þ½ÃÁö
-MEM-SULS15-22,SULS15,¸ð¼Ç ¸®ºÎÆ®,¾×Æ¼ºê¿öÃ³,0.7,0.55,ºñµ¿ÀÇ,0.64,70,°Ý·Á ¸Þ½ÃÁö
-MEM-SULS15-23,SULS15,¸ð¼Ç ¸®ºÎÆ®,È¸º¹Áß,0.84,0.79,µ¿ÀÇ,0.71,61,Ã§¸°Áö Á¦¾È
-MEM-SULS15-24,SULS15,¸ð¼Ç ¸®ºÎÆ®,½Å±ÔÈ¸¿ø,0.74,0.61,ºñµ¿ÀÇ,0.55,106,ÈÞ½Ä ±ÇÀå
-MEM-SULS15-25,SULS15,¸ð¼Ç ¸®ºÎÆ®,È¸º¹Áß,0.97,0.73,ºñµ¿ÀÇ,0.72,98,ÄÚÄª ¿¬°á
-MEM-SCHE16-01,SCHE16,·¯´× ÆÄ¿ö¹Í½º,È¸º¹Áß,0.88,0.86,ºñµ¿ÀÇ,0.69,88,°Ý·Á ¸Þ½ÃÁö
-MEM-SCHE16-02,SCHE16,·¯´× ÆÄ¿ö¹Í½º,È¸º¹Áß,0.96,0.51,ºñµ¿ÀÇ,0.71,102,°Ý·Á ¸Þ½ÃÁö
-MEM-SCHE16-03,SCHE16,·¯´× ÆÄ¿ö¹Í½º,¾×Æ¼ºê¿öÃ³,0.94,0.62,ºñµ¿ÀÇ,0.95,61,Ã§¸°Áö Á¦¾È
-MEM-SCHE16-04,SCHE16,·¯´× ÆÄ¿ö¹Í½º,½Å±ÔÈ¸¿ø,0.68,0.84,µ¿ÀÇ,0.8,96,ÄÚÄª ¿¬°á
-MEM-SCHE16-05,SCHE16,·¯´× ÆÄ¿ö¹Í½º,ÇÏÀÌ¸®½ºÅ©,0.92,0.82,µ¿ÀÇ,0.49,80,ÈÞ½Ä ±ÇÀå
-MEM-SCHE16-06,SCHE16,·¯´× ÆÄ¿ö¹Í½º,¾×Æ¼ºê¿öÃ³,0.77,0.72,ºñµ¿ÀÇ,0.56,95,ÈÞ½Ä ±ÇÀå
-MEM-SCHE16-07,SCHE16,·¯´× ÆÄ¿ö¹Í½º,½Å±ÔÈ¸¿ø,0.65,0.68,µ¿ÀÇ,0.64,100,°Ý·Á ¸Þ½ÃÁö
-MEM-SCHE16-08,SCHE16,·¯´× ÆÄ¿ö¹Í½º,È¸º¹Áß,0.56,0.89,ºñµ¿ÀÇ,0.86,62,Ã§¸°Áö Á¦¾È
-MEM-SCHE16-09,SCHE16,·¯´× ÆÄ¿ö¹Í½º,È¸º¹Áß,0.65,0.76,ºñµ¿ÀÇ,0.92,73,°Ý·Á ¸Þ½ÃÁö
-MEM-SCHE16-10,SCHE16,·¯´× ÆÄ¿ö¹Í½º,È¸º¹Áß,0.73,0.64,µ¿ÀÇ,0.57,66,°Ý·Á ¸Þ½ÃÁö
-MEM-SCHE16-11,SCHE16,·¯´× ÆÄ¿ö¹Í½º,½Å±ÔÈ¸¿ø,0.95,0.82,µ¿ÀÇ,0.54,85,ÄÚÄª ¿¬°á
-MEM-SCHE16-12,SCHE16,·¯´× ÆÄ¿ö¹Í½º,È¸º¹Áß,0.84,0.89,ºñµ¿ÀÇ,0.51,91,ÈÞ½Ä ±ÇÀå
-MEM-SCHE16-13,SCHE16,·¯´× ÆÄ¿ö¹Í½º,½Å±ÔÈ¸¿ø,0.58,0.5,µ¿ÀÇ,0.8,76,ÄÚÄª ¿¬°á
-MEM-SCHE16-14,SCHE16,·¯´× ÆÄ¿ö¹Í½º,ÇÏÀÌ¸®½ºÅ©,0.95,0.65,µ¿ÀÇ,0.76,109,°Ý·Á ¸Þ½ÃÁö
-MEM-SCHE16-15,SCHE16,·¯´× ÆÄ¿ö¹Í½º,ÇÏÀÌ¸®½ºÅ©,0.94,0.69,µ¿ÀÇ,0.86,101,ÈÞ½Ä ±ÇÀå
-MEM-SCHE16-16,SCHE16,·¯´× ÆÄ¿ö¹Í½º,¾×Æ¼ºê¿öÃ³,0.73,0.83,µ¿ÀÇ,0.53,92,ÈÞ½Ä ±ÇÀå
-MEM-SCHE16-17,SCHE16,·¯´× ÆÄ¿ö¹Í½º,ÇÏÀÌ¸®½ºÅ©,0.65,0.89,ºñµ¿ÀÇ,0.53,87,°Ý·Á ¸Þ½ÃÁö
-MEM-SCHE16-18,SCHE16,·¯´× ÆÄ¿ö¹Í½º,¾×Æ¼ºê¿öÃ³,0.81,0.75,ºñµ¿ÀÇ,0.88,98,ÄÚÄª ¿¬°á
-MEM-SCHE16-19,SCHE16,·¯´× ÆÄ¿ö¹Í½º,¾×Æ¼ºê¿öÃ³,0.56,0.68,µ¿ÀÇ,0.7,73,Ã§¸°Áö Á¦¾È
-MEM-SCHE16-20,SCHE16,·¯´× ÆÄ¿ö¹Í½º,½Å±ÔÈ¸¿ø,0.65,0.7,ºñµ¿ÀÇ,0.55,65,Ã§¸°Áö Á¦¾È
-MEM-SCHE16-21,SCHE16,·¯´× ÆÄ¿ö¹Í½º,È¸º¹Áß,0.72,0.59,µ¿ÀÇ,0.76,93,°Ý·Á ¸Þ½ÃÁö
-MEM-SCHE16-22,SCHE16,·¯´× ÆÄ¿ö¹Í½º,È¸º¹Áß,0.55,0.65,ºñµ¿ÀÇ,0.94,72,°Ý·Á ¸Þ½ÃÁö
-MEM-SCHE16-23,SCHE16,·¯´× ÆÄ¿ö¹Í½º,¾×Æ¼ºê¿öÃ³,0.76,0.61,µ¿ÀÇ,0.9,105,Ã§¸°Áö Á¦¾È
-MEM-SCHE16-24,SCHE16,·¯´× ÆÄ¿ö¹Í½º,½Å±ÔÈ¸¿ø,0.6,0.78,ºñµ¿ÀÇ,0.89,109,ÈÞ½Ä ±ÇÀå
-MEM-SCHE16-25,SCHE16,·¯´× ÆÄ¿ö¹Í½º,½Å±ÔÈ¸¿ø,0.82,0.63,ºñµ¿ÀÇ,0.59,88,°Ý·Á ¸Þ½ÃÁö
-MEM-SGOY17-01,SGOY17,½ºÆ®·À½º ¿§Áö,ÇÏÀÌ¸®½ºÅ©,0.81,0.93,ºñµ¿ÀÇ,0.9,85,ÄÚÄª ¿¬°á
-MEM-SGOY17-02,SGOY17,½ºÆ®·À½º ¿§Áö,ÇÏÀÌ¸®½ºÅ©,0.57,0.69,ºñµ¿ÀÇ,0.57,84,°Ý·Á ¸Þ½ÃÁö
-MEM-SGOY17-03,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.68,0.71,ºñµ¿ÀÇ,0.69,92,ÈÞ½Ä ±ÇÀå
-MEM-SGOY17-04,SGOY17,½ºÆ®·À½º ¿§Áö,ÇÏÀÌ¸®½ºÅ©,0.67,0.67,ºñµ¿ÀÇ,0.84,99,ÄÚÄª ¿¬°á
-MEM-SGOY17-05,SGOY17,½ºÆ®·À½º ¿§Áö,¾×Æ¼ºê¿öÃ³,0.7,0.77,µ¿ÀÇ,0.54,69,°Ý·Á ¸Þ½ÃÁö
-MEM-SGOY17-06,SGOY17,½ºÆ®·À½º ¿§Áö,¾×Æ¼ºê¿öÃ³,0.9,0.76,ºñµ¿ÀÇ,0.87,90,ÈÞ½Ä ±ÇÀå
-MEM-SGOY17-07,SGOY17,½ºÆ®·À½º ¿§Áö,È¸º¹Áß,0.89,0.67,ºñµ¿ÀÇ,0.53,78,ÄÚÄª ¿¬°á
-MEM-SGOY17-08,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.56,0.91,ºñµ¿ÀÇ,0.85,89,Ã§¸°Áö Á¦¾È
-MEM-SGOY17-09,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.76,0.73,ºñµ¿ÀÇ,0.78,84,ÄÚÄª ¿¬°á
-MEM-SGOY17-10,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.61,0.6,ºñµ¿ÀÇ,0.8,109,Ã§¸°Áö Á¦¾È
-MEM-SGOY17-11,SGOY17,½ºÆ®·À½º ¿§Áö,ÇÏÀÌ¸®½ºÅ©,0.8,0.59,µ¿ÀÇ,0.94,93,ÄÚÄª ¿¬°á
-MEM-SGOY17-12,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.78,0.85,ºñµ¿ÀÇ,0.6,88,ÈÞ½Ä ±ÇÀå
-MEM-SGOY17-13,SGOY17,½ºÆ®·À½º ¿§Áö,È¸º¹Áß,0.66,0.74,µ¿ÀÇ,0.94,84,°Ý·Á ¸Þ½ÃÁö
-MEM-SGOY17-14,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.87,0.64,ºñµ¿ÀÇ,0.94,82,°Ý·Á ¸Þ½ÃÁö
-MEM-SGOY17-15,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.9,0.58,ºñµ¿ÀÇ,0.84,110,ÄÚÄª ¿¬°á
-MEM-SGOY17-16,SGOY17,½ºÆ®·À½º ¿§Áö,¾×Æ¼ºê¿öÃ³,0.64,0.53,µ¿ÀÇ,0.92,67,Ã§¸°Áö Á¦¾È
-MEM-SGOY17-17,SGOY17,½ºÆ®·À½º ¿§Áö,¾×Æ¼ºê¿öÃ³,0.85,0.67,ºñµ¿ÀÇ,0.79,93,ÄÚÄª ¿¬°á
-MEM-SGOY17-18,SGOY17,½ºÆ®·À½º ¿§Áö,È¸º¹Áß,0.56,0.79,ºñµ¿ÀÇ,0.67,75,ÄÚÄª ¿¬°á
-MEM-SGOY17-19,SGOY17,½ºÆ®·À½º ¿§Áö,ÇÏÀÌ¸®½ºÅ©,0.92,0.55,ºñµ¿ÀÇ,0.58,97,Ã§¸°Áö Á¦¾È
-MEM-SGOY17-20,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.6,0.63,ºñµ¿ÀÇ,0.95,67,Ã§¸°Áö Á¦¾È
-MEM-SGOY17-21,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.92,0.65,ºñµ¿ÀÇ,0.64,79,ÄÚÄª ¿¬°á
-MEM-SGOY17-22,SGOY17,½ºÆ®·À½º ¿§Áö,¾×Æ¼ºê¿öÃ³,0.68,0.72,ºñµ¿ÀÇ,0.59,101,ÈÞ½Ä ±ÇÀå
-MEM-SGOY17-23,SGOY17,½ºÆ®·À½º ¿§Áö,ÇÏÀÌ¸®½ºÅ©,0.6,0.73,µ¿ÀÇ,0.85,92,ÈÞ½Ä ±ÇÀå
-MEM-SGOY17-24,SGOY17,½ºÆ®·À½º ¿§Áö,½Å±ÔÈ¸¿ø,0.6,0.86,ºñµ¿ÀÇ,0.88,81,°Ý·Á ¸Þ½ÃÁö
-MEM-SGOY17-25,SGOY17,½ºÆ®·À½º ¿§Áö,ÇÏÀÌ¸®½ºÅ©,0.88,0.69,µ¿ÀÇ,0.87,103,Ã§¸°Áö Á¦¾È
-MEM-SJEJ18-01,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,È¸º¹Áß,0.57,0.8,µ¿ÀÇ,0.85,61,°Ý·Á ¸Þ½ÃÁö
-MEM-SJEJ18-02,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,¾×Æ¼ºê¿öÃ³,0.84,0.55,µ¿ÀÇ,0.63,97,ÈÞ½Ä ±ÇÀå
-MEM-SJEJ18-03,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,È¸º¹Áß,0.55,0.73,ºñµ¿ÀÇ,0.58,79,°Ý·Á ¸Þ½ÃÁö
-MEM-SJEJ18-04,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,½Å±ÔÈ¸¿ø,0.65,0.87,ºñµ¿ÀÇ,0.73,84,ÄÚÄª ¿¬°á
-MEM-SJEJ18-05,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,¾×Æ¼ºê¿öÃ³,0.69,0.63,ºñµ¿ÀÇ,0.68,98,°Ý·Á ¸Þ½ÃÁö
-MEM-SJEJ18-06,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,È¸º¹Áß,0.79,0.7,µ¿ÀÇ,0.61,66,ÈÞ½Ä ±ÇÀå
-MEM-SJEJ18-07,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,¾×Æ¼ºê¿öÃ³,0.8,0.8,ºñµ¿ÀÇ,0.72,96,Ã§¸°Áö Á¦¾È
-MEM-SJEJ18-08,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,È¸º¹Áß,0.64,0.66,µ¿ÀÇ,0.73,67,ÄÚÄª ¿¬°á
-MEM-SJEJ18-09,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,È¸º¹Áß,0.69,0.79,µ¿ÀÇ,0.69,73,ÄÚÄª ¿¬°á
-MEM-SJEJ18-10,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,½Å±ÔÈ¸¿ø,0.72,0.75,µ¿ÀÇ,0.74,63,°Ý·Á ¸Þ½ÃÁö
-MEM-SJEJ18-11,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,¾×Æ¼ºê¿öÃ³,0.6,0.85,ºñµ¿ÀÇ,0.46,98,ÈÞ½Ä ±ÇÀå
-MEM-SJEJ18-12,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,¾×Æ¼ºê¿öÃ³,0.97,0.57,ºñµ¿ÀÇ,0.73,98,°Ý·Á ¸Þ½ÃÁö
-MEM-SJEJ18-13,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,½Å±ÔÈ¸¿ø,0.68,0.71,µ¿ÀÇ,0.54,91,°Ý·Á ¸Þ½ÃÁö
-MEM-SJEJ18-14,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,È¸º¹Áß,0.75,0.63,µ¿ÀÇ,0.87,90,ÈÞ½Ä ±ÇÀå
-MEM-SJEJ18-15,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,ÇÏÀÌ¸®½ºÅ©,0.83,0.92,µ¿ÀÇ,0.5,79,Ã§¸°Áö Á¦¾È
-MEM-SJEJ18-16,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,È¸º¹Áß,0.6,0.64,µ¿ÀÇ,0.48,100,Ã§¸°Áö Á¦¾È
-MEM-SJEJ18-17,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,È¸º¹Áß,0.7,0.87,µ¿ÀÇ,0.91,93,Ã§¸°Áö Á¦¾È
-MEM-SJEJ18-18,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,½Å±ÔÈ¸¿ø,0.6,0.66,ºñµ¿ÀÇ,0.75,76,ÄÚÄª ¿¬°á
-MEM-SJEJ18-19,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,¾×Æ¼ºê¿öÃ³,0.88,0.57,ºñµ¿ÀÇ,0.5,76,Ã§¸°Áö Á¦¾È
-MEM-SJEJ18-20,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,È¸º¹Áß,0.9,0.69,ºñµ¿ÀÇ,0.71,90,ÈÞ½Ä ±ÇÀå
-MEM-SJEJ18-21,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,¾×Æ¼ºê¿öÃ³,0.92,0.59,ºñµ¿ÀÇ,0.9,105,Ã§¸°Áö Á¦¾È
-MEM-SJEJ18-22,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,½Å±ÔÈ¸¿ø,0.89,0.81,µ¿ÀÇ,0.6,100,°Ý·Á ¸Þ½ÃÁö
-MEM-SJEJ18-23,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,ÇÏÀÌ¸®½ºÅ©,0.6,0.76,µ¿ÀÇ,0.95,92,ÈÞ½Ä ±ÇÀå
-MEM-SJEJ18-24,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,¾×Æ¼ºê¿öÃ³,0.95,0.67,ºñµ¿ÀÇ,0.73,72,ÈÞ½Ä ±ÇÀå
-MEM-SJEJ18-25,SJEJ18,´í½º ¸®Æû ÇÃ·Î¿ì,½Å±ÔÈ¸¿ø,0.72,0.9,µ¿ÀÇ,0.9,85,ÄÚÄª ¿¬°á
-MEM-SGNA19-01,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,¾×Æ¼ºê¿öÃ³,0.8,0.86,ºñµ¿ÀÇ,0.63,74,ÄÚÄª ¿¬°á
-MEM-SGNA19-02,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,È¸º¹Áß,0.8,0.8,ºñµ¿ÀÇ,0.71,109,ÈÞ½Ä ±ÇÀå
-MEM-SGNA19-03,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,¾×Æ¼ºê¿öÃ³,0.71,0.82,ºñµ¿ÀÇ,0.93,96,Ã§¸°Áö Á¦¾È
-MEM-SGNA19-04,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,ÇÏÀÌ¸®½ºÅ©,0.69,0.85,µ¿ÀÇ,0.91,89,°Ý·Á ¸Þ½ÃÁö
-MEM-SGNA19-05,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,È¸º¹Áß,0.66,0.64,µ¿ÀÇ,0.52,71,Ã§¸°Áö Á¦¾È
-MEM-SGNA19-06,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,È¸º¹Áß,0.69,0.93,µ¿ÀÇ,0.62,87,ÄÚÄª ¿¬°á
-MEM-SGNA19-07,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,½Å±ÔÈ¸¿ø,0.88,0.75,µ¿ÀÇ,0.85,109,°Ý·Á ¸Þ½ÃÁö
-MEM-SGNA19-08,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,½Å±ÔÈ¸¿ø,0.75,0.67,µ¿ÀÇ,0.45,99,ÈÞ½Ä ±ÇÀå
-MEM-SGNA19-09,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,½Å±ÔÈ¸¿ø,0.74,0.79,ºñµ¿ÀÇ,0.84,102,ÈÞ½Ä ±ÇÀå
-MEM-SGNA19-10,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,¾×Æ¼ºê¿öÃ³,0.78,0.63,µ¿ÀÇ,0.49,75,ÈÞ½Ä ±ÇÀå
-MEM-SGNA19-11,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,¾×Æ¼ºê¿öÃ³,0.72,0.59,µ¿ÀÇ,0.87,77,Ã§¸°Áö Á¦¾È
-MEM-SGNA19-12,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,È¸º¹Áß,0.6,0.74,µ¿ÀÇ,0.5,85,Ã§¸°Áö Á¦¾È
-MEM-SGNA19-13,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,½Å±ÔÈ¸¿ø,0.89,0.73,ºñµ¿ÀÇ,0.63,91,ÄÚÄª ¿¬°á
-MEM-SGNA19-14,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,ÇÏÀÌ¸®½ºÅ©,0.58,0.89,µ¿ÀÇ,0.64,67,ÈÞ½Ä ±ÇÀå
-MEM-SGNA19-15,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,½Å±ÔÈ¸¿ø,0.79,0.79,ºñµ¿ÀÇ,0.89,102,°Ý·Á ¸Þ½ÃÁö
-MEM-SGNA19-16,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,È¸º¹Áß,0.64,0.87,µ¿ÀÇ,0.81,65,ÈÞ½Ä ±ÇÀå
-MEM-SGNA19-17,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,¾×Æ¼ºê¿öÃ³,0.63,0.87,µ¿ÀÇ,0.67,95,ÈÞ½Ä ±ÇÀå
-MEM-SGNA19-18,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,¾×Æ¼ºê¿öÃ³,0.66,0.6,ºñµ¿ÀÇ,0.62,73,°Ý·Á ¸Þ½ÃÁö
-MEM-SGNA19-19,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,È¸º¹Áß,0.67,0.77,µ¿ÀÇ,0.64,85,Ã§¸°Áö Á¦¾È
-MEM-SGNA19-20,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,½Å±ÔÈ¸¿ø,0.57,0.8,ºñµ¿ÀÇ,0.48,103,ÄÚÄª ¿¬°á
-MEM-SGNA19-21,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,ÇÏÀÌ¸®½ºÅ©,0.97,0.77,ºñµ¿ÀÇ,0.68,86,Ã§¸°Áö Á¦¾È
-MEM-SGNA19-22,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,½Å±ÔÈ¸¿ø,0.85,0.75,µ¿ÀÇ,0.72,92,ÄÚÄª ¿¬°á
-MEM-SGNA19-23,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,½Å±ÔÈ¸¿ø,0.95,0.77,ºñµ¿ÀÇ,0.76,107,Ã§¸°Áö Á¦¾È
-MEM-SGNA19-24,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,½Å±ÔÈ¸¿ø,0.86,0.9,µ¿ÀÇ,0.63,72,ÄÚÄª ¿¬°á
-MEM-SGNA19-25,SGNA19,Æ®·¹ÀÏ ÇÇÆ®,È¸º¹Áß,0.57,0.72,ºñµ¿ÀÇ,0.46,108,Ã§¸°Áö Á¦¾È
-MEM-SANS20-01,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,½Å±ÔÈ¸¿ø,0.77,0.53,µ¿ÀÇ,0.55,90,ÈÞ½Ä ±ÇÀå
-MEM-SANS20-02,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,¾×Æ¼ºê¿öÃ³,0.57,0.9,µ¿ÀÇ,0.5,77,ÄÚÄª ¿¬°á
-MEM-SANS20-03,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,È¸º¹Áß,0.96,0.82,ºñµ¿ÀÇ,0.48,80,Ã§¸°Áö Á¦¾È
-MEM-SANS20-04,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,¾×Æ¼ºê¿öÃ³,0.81,0.67,µ¿ÀÇ,0.55,62,ÈÞ½Ä ±ÇÀå
-MEM-SANS20-05,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,¾×Æ¼ºê¿öÃ³,0.83,0.51,ºñµ¿ÀÇ,0.9,61,ÄÚÄª ¿¬°á
-MEM-SANS20-06,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,¾×Æ¼ºê¿öÃ³,0.87,0.69,µ¿ÀÇ,0.56,72,ÄÚÄª ¿¬°á
-MEM-SANS20-07,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,½Å±ÔÈ¸¿ø,0.9,0.92,ºñµ¿ÀÇ,0.94,69,ÈÞ½Ä ±ÇÀå
-MEM-SANS20-08,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,¾×Æ¼ºê¿öÃ³,0.83,0.87,µ¿ÀÇ,0.49,92,Ã§¸°Áö Á¦¾È
-MEM-SANS20-09,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,È¸º¹Áß,0.66,0.93,ºñµ¿ÀÇ,0.51,75,ÈÞ½Ä ±ÇÀå
-MEM-SANS20-10,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,È¸º¹Áß,0.76,0.65,ºñµ¿ÀÇ,0.65,108,°Ý·Á ¸Þ½ÃÁö
-MEM-SANS20-11,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,½Å±ÔÈ¸¿ø,0.72,0.92,µ¿ÀÇ,0.69,101,°Ý·Á ¸Þ½ÃÁö
-MEM-SANS20-12,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,¾×Æ¼ºê¿öÃ³,0.91,0.5,µ¿ÀÇ,0.75,61,ÄÚÄª ¿¬°á
-MEM-SANS20-13,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,½Å±ÔÈ¸¿ø,0.62,0.93,µ¿ÀÇ,0.52,107,°Ý·Á ¸Þ½ÃÁö
-MEM-SANS20-14,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,¾×Æ¼ºê¿öÃ³,0.82,0.6,µ¿ÀÇ,0.54,76,°Ý·Á ¸Þ½ÃÁö
-MEM-SANS20-15,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,ÇÏÀÌ¸®½ºÅ©,0.83,0.61,ºñµ¿ÀÇ,0.55,75,Ã§¸°Áö Á¦¾È
-MEM-SANS20-16,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,½Å±ÔÈ¸¿ø,0.89,0.56,ºñµ¿ÀÇ,0.66,79,Ã§¸°Áö Á¦¾È
-MEM-SANS20-17,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,È¸º¹Áß,0.75,0.52,µ¿ÀÇ,0.7,65,°Ý·Á ¸Þ½ÃÁö
-MEM-SANS20-18,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,ÇÏÀÌ¸®½ºÅ©,0.61,0.79,µ¿ÀÇ,0.9,71,Ã§¸°Áö Á¦¾È
-MEM-SANS20-19,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,½Å±ÔÈ¸¿ø,0.82,0.56,ºñµ¿ÀÇ,0.83,71,°Ý·Á ¸Þ½ÃÁö
-MEM-SANS20-20,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,È¸º¹Áß,0.65,0.87,ºñµ¿ÀÇ,0.69,107,ÄÚÄª ¿¬°á
-MEM-SANS20-21,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,ÇÏÀÌ¸®½ºÅ©,0.63,0.63,µ¿ÀÇ,0.66,99,ÈÞ½Ä ±ÇÀå
-MEM-SANS20-22,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,È¸º¹Áß,0.6,0.74,ºñµ¿ÀÇ,0.72,67,ÈÞ½Ä ±ÇÀå
-MEM-SANS20-23,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,½Å±ÔÈ¸¿ø,0.71,0.5,ºñµ¿ÀÇ,0.46,79,ÄÚÄª ¿¬°á
-MEM-SANS20-24,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,¾×Æ¼ºê¿öÃ³,0.91,0.76,ºñµ¿ÀÇ,0.54,92,Ã§¸°Áö Á¦¾È
-MEM-SANS20-25,SANS20,ÆÛÆ÷¸Õ½º ½ºÅÃ,½Å±ÔÈ¸¿ø,0.68,0.71,ºñµ¿ÀÇ,0.7,94,ÈÞ½Ä ±ÇÀå
+íšŒì›ID,ìŠ¤íŠœë””ì˜¤ID,í”„ë¡œê·¸ëž¨,ì„¸ê·¸ë¨¼íŠ¸,ì°¸ì—¬ì ìˆ˜,ì¶œì„ë¥ ,í—¬ìŠ¤í‚·ë™ì˜,ëª©í‘œë‹¬ì„±ë„,í‰ê· ì‹¬ë°•,ì¶”ì²œì•¡ì…˜
+MEM-SGANG01-01,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.65,0.71,ë™ì˜,0.91,74,ì½”ì¹­ ì—°ê²°
+MEM-SGANG01-02,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.69,0.76,ë™ì˜,0.45,104,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGANG01-03,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.85,0.88,ë™ì˜,0.69,96,íœ´ì‹ ê¶Œìž¥
+MEM-SGANG01-04,SGANG01,Strength & Mobility,í•˜ì´ë¦¬ìŠ¤í¬,0.82,0.9,ë¹„ë™ì˜,0.91,102,íœ´ì‹ ê¶Œìž¥
+MEM-SGANG01-05,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.69,0.8,ë¹„ë™ì˜,0.59,76,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGANG01-06,SGANG01,Strength & Mobility,íšŒë³µì¤‘,0.92,0.9,ë¹„ë™ì˜,0.64,72,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGANG01-07,SGANG01,Strength & Mobility,íšŒë³µì¤‘,0.88,0.77,ë™ì˜,0.78,101,ì½”ì¹­ ì—°ê²°
+MEM-SGANG01-08,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.58,0.51,ë¹„ë™ì˜,0.86,70,íœ´ì‹ ê¶Œìž¥
+MEM-SGANG01-09,SGANG01,Strength & Mobility,íšŒë³µì¤‘,0.73,0.59,ë™ì˜,0.75,68,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGANG01-10,SGANG01,Strength & Mobility,í•˜ì´ë¦¬ìŠ¤í¬,0.87,0.92,ë¹„ë™ì˜,0.82,83,íœ´ì‹ ê¶Œìž¥
+MEM-SGANG01-11,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.85,0.72,ë™ì˜,0.69,104,íœ´ì‹ ê¶Œìž¥
+MEM-SGANG01-12,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.75,0.54,ë™ì˜,0.64,85,ì½”ì¹­ ì—°ê²°
+MEM-SGANG01-13,SGANG01,Strength & Mobility,ì•¡í‹°ë¸Œì›Œì²˜,0.81,0.79,ë™ì˜,0.78,75,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGANG01-14,SGANG01,Strength & Mobility,íšŒë³µì¤‘,0.89,0.82,ë¹„ë™ì˜,0.55,90,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGANG01-15,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.95,0.93,ë¹„ë™ì˜,0.91,72,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGANG01-16,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.6,0.68,ë™ì˜,0.82,100,ì½”ì¹­ ì—°ê²°
+MEM-SGANG01-17,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.67,0.58,ë™ì˜,0.51,78,íœ´ì‹ ê¶Œìž¥
+MEM-SGANG01-18,SGANG01,Strength & Mobility,ì•¡í‹°ë¸Œì›Œì²˜,0.9,0.89,ë¹„ë™ì˜,0.89,99,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGANG01-19,SGANG01,Strength & Mobility,ì‹ ê·œíšŒì›,0.84,0.52,ë™ì˜,0.77,68,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGANG01-20,SGANG01,Strength & Mobility,íšŒë³µì¤‘,0.94,0.75,ë¹„ë™ì˜,0.56,107,ì½”ì¹­ ì—°ê²°
+MEM-SGANG01-21,SGANG01,Strength & Mobility,í•˜ì´ë¦¬ìŠ¤í¬,0.94,0.85,ë¹„ë™ì˜,0.94,96,ì½”ì¹­ ì—°ê²°
+MEM-SGANG01-22,SGANG01,Strength & Mobility,ì•¡í‹°ë¸Œì›Œì²˜,0.58,0.93,ë™ì˜,0.77,96,íœ´ì‹ ê¶Œìž¥
+MEM-SGANG01-23,SGANG01,Strength & Mobility,í•˜ì´ë¦¬ìŠ¤í¬,0.71,0.65,ë¹„ë™ì˜,0.91,72,ì½”ì¹­ ì—°ê²°
+MEM-SGANG01-24,SGANG01,Strength & Mobility,ì•¡í‹°ë¸Œì›Œì²˜,0.81,0.71,ë¹„ë™ì˜,0.68,84,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGANG01-25,SGANG01,Strength & Mobility,í•˜ì´ë¦¬ìŠ¤í¬,0.87,0.71,ë¹„ë™ì˜,0.71,65,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBRCH02-01,SBRCH02,Spine Recovery Intensive,ì•¡í‹°ë¸Œì›Œì²˜,0.95,0.75,ë¹„ë™ì˜,0.55,72,ì½”ì¹­ ì—°ê²°
+MEM-SBRCH02-02,SBRCH02,Spine Recovery Intensive,ì‹ ê·œíšŒì›,0.83,0.88,ë™ì˜,0.76,110,íœ´ì‹ ê¶Œìž¥
+MEM-SBRCH02-03,SBRCH02,Spine Recovery Intensive,ì•¡í‹°ë¸Œì›Œì²˜,0.95,0.79,ë™ì˜,0.6,100,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBRCH02-04,SBRCH02,Spine Recovery Intensive,í•˜ì´ë¦¬ìŠ¤í¬,0.78,0.81,ë™ì˜,0.76,89,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBRCH02-05,SBRCH02,Spine Recovery Intensive,ì•¡í‹°ë¸Œì›Œì²˜,0.56,0.76,ë™ì˜,0.71,78,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBRCH02-06,SBRCH02,Spine Recovery Intensive,íšŒë³µì¤‘,0.62,0.52,ë¹„ë™ì˜,0.63,82,íœ´ì‹ ê¶Œìž¥
+MEM-SBRCH02-07,SBRCH02,Spine Recovery Intensive,í•˜ì´ë¦¬ìŠ¤í¬,0.66,0.66,ë¹„ë™ì˜,0.82,63,íœ´ì‹ ê¶Œìž¥
+MEM-SBRCH02-08,SBRCH02,Spine Recovery Intensive,íšŒë³µì¤‘,0.76,0.82,ë¹„ë™ì˜,0.94,80,íœ´ì‹ ê¶Œìž¥
+MEM-SBRCH02-09,SBRCH02,Spine Recovery Intensive,í•˜ì´ë¦¬ìŠ¤í¬,0.96,0.91,ë¹„ë™ì˜,0.52,87,ì½”ì¹­ ì—°ê²°
+MEM-SBRCH02-10,SBRCH02,Spine Recovery Intensive,ì‹ ê·œíšŒì›,0.62,0.55,ë™ì˜,0.82,70,íœ´ì‹ ê¶Œìž¥
+MEM-SBRCH02-11,SBRCH02,Spine Recovery Intensive,ì‹ ê·œíšŒì›,0.94,0.73,ë™ì˜,0.76,89,íœ´ì‹ ê¶Œìž¥
+MEM-SBRCH02-12,SBRCH02,Spine Recovery Intensive,íšŒë³µì¤‘,0.95,0.82,ë™ì˜,0.54,64,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBRCH02-13,SBRCH02,Spine Recovery Intensive,í•˜ì´ë¦¬ìŠ¤í¬,0.88,0.72,ë™ì˜,0.8,101,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBRCH02-14,SBRCH02,Spine Recovery Intensive,ì‹ ê·œíšŒì›,0.79,0.91,ë¹„ë™ì˜,0.55,66,íœ´ì‹ ê¶Œìž¥
+MEM-SBRCH02-15,SBRCH02,Spine Recovery Intensive,í•˜ì´ë¦¬ìŠ¤í¬,0.61,0.5,ë¹„ë™ì˜,0.57,65,íœ´ì‹ ê¶Œìž¥
+MEM-SBRCH02-16,SBRCH02,Spine Recovery Intensive,ì‹ ê·œíšŒì›,0.64,0.76,ë™ì˜,0.83,76,ì½”ì¹­ ì—°ê²°
+MEM-SBRCH02-17,SBRCH02,Spine Recovery Intensive,ì•¡í‹°ë¸Œì›Œì²˜,0.64,0.74,ë¹„ë™ì˜,0.51,87,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBRCH02-18,SBRCH02,Spine Recovery Intensive,íšŒë³µì¤‘,0.66,0.87,ë™ì˜,0.73,89,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBRCH02-19,SBRCH02,Spine Recovery Intensive,ì‹ ê·œíšŒì›,0.79,0.65,ë™ì˜,0.9,77,ì½”ì¹­ ì—°ê²°
+MEM-SBRCH02-20,SBRCH02,Spine Recovery Intensive,ì‹ ê·œíšŒì›,0.87,0.61,ë¹„ë™ì˜,0.75,66,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBRCH02-21,SBRCH02,Spine Recovery Intensive,í•˜ì´ë¦¬ìŠ¤í¬,0.97,0.55,ë¹„ë™ì˜,0.59,88,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBRCH02-22,SBRCH02,Spine Recovery Intensive,í•˜ì´ë¦¬ìŠ¤í¬,0.64,0.51,ë™ì˜,0.58,88,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBRCH02-23,SBRCH02,Spine Recovery Intensive,í•˜ì´ë¦¬ìŠ¤í¬,0.91,0.61,ë™ì˜,0.7,79,ì½”ì¹­ ì—°ê²°
+MEM-SBRCH02-24,SBRCH02,Spine Recovery Intensive,ì•¡í‹°ë¸Œì›Œì²˜,0.66,0.93,ë™ì˜,0.82,79,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBRCH02-25,SBRCH02,Spine Recovery Intensive,í•˜ì´ë¦¬ìŠ¤í¬,0.59,0.6,ë™ì˜,0.91,65,ì½”ì¹­ ì—°ê²°
+MEM-SDAEG03-01,SDAEG03,Core Flow Signature,í•˜ì´ë¦¬ìŠ¤í¬,0.58,0.67,ë™ì˜,0.57,96,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAEG03-02,SDAEG03,Core Flow Signature,ì•¡í‹°ë¸Œì›Œì²˜,0.84,0.71,ë™ì˜,0.59,101,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAEG03-03,SDAEG03,Core Flow Signature,ì•¡í‹°ë¸Œì›Œì²˜,0.94,0.92,ë¹„ë™ì˜,0.67,90,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAEG03-04,SDAEG03,Core Flow Signature,í•˜ì´ë¦¬ìŠ¤í¬,0.55,0.86,ë™ì˜,0.63,71,íœ´ì‹ ê¶Œìž¥
+MEM-SDAEG03-05,SDAEG03,Core Flow Signature,íšŒë³µì¤‘,0.89,0.75,ë¹„ë™ì˜,0.68,80,íœ´ì‹ ê¶Œìž¥
+MEM-SDAEG03-06,SDAEG03,Core Flow Signature,ì‹ ê·œíšŒì›,0.69,0.69,ë¹„ë™ì˜,0.82,80,íœ´ì‹ ê¶Œìž¥
+MEM-SDAEG03-07,SDAEG03,Core Flow Signature,ì‹ ê·œíšŒì›,0.59,0.77,ë™ì˜,0.51,79,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAEG03-08,SDAEG03,Core Flow Signature,ì‹ ê·œíšŒì›,0.96,0.72,ë™ì˜,0.87,74,íœ´ì‹ ê¶Œìž¥
+MEM-SDAEG03-09,SDAEG03,Core Flow Signature,ì‹ ê·œíšŒì›,0.75,0.66,ë™ì˜,0.48,108,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAEG03-10,SDAEG03,Core Flow Signature,íšŒë³µì¤‘,0.75,0.74,ë™ì˜,0.7,78,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAEG03-11,SDAEG03,Core Flow Signature,í•˜ì´ë¦¬ìŠ¤í¬,0.55,0.86,ë¹„ë™ì˜,0.64,74,ì½”ì¹­ ì—°ê²°
+MEM-SDAEG03-12,SDAEG03,Core Flow Signature,ì•¡í‹°ë¸Œì›Œì²˜,0.67,0.72,ë™ì˜,0.77,100,íœ´ì‹ ê¶Œìž¥
+MEM-SDAEG03-13,SDAEG03,Core Flow Signature,í•˜ì´ë¦¬ìŠ¤í¬,0.58,0.66,ë™ì˜,0.71,62,ì½”ì¹­ ì—°ê²°
+MEM-SDAEG03-14,SDAEG03,Core Flow Signature,í•˜ì´ë¦¬ìŠ¤í¬,0.86,0.72,ë¹„ë™ì˜,0.49,92,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAEG03-15,SDAEG03,Core Flow Signature,íšŒë³µì¤‘,0.62,0.67,ë¹„ë™ì˜,0.8,108,íœ´ì‹ ê¶Œìž¥
+MEM-SDAEG03-16,SDAEG03,Core Flow Signature,íšŒë³µì¤‘,0.75,0.56,ë™ì˜,0.69,61,ì½”ì¹­ ì—°ê²°
+MEM-SDAEG03-17,SDAEG03,Core Flow Signature,íšŒë³µì¤‘,0.72,0.94,ë™ì˜,0.52,99,íœ´ì‹ ê¶Œìž¥
+MEM-SDAEG03-18,SDAEG03,Core Flow Signature,íšŒë³µì¤‘,0.93,0.85,ë¹„ë™ì˜,0.64,110,ì½”ì¹­ ì—°ê²°
+MEM-SDAEG03-19,SDAEG03,Core Flow Signature,ì•¡í‹°ë¸Œì›Œì²˜,0.93,0.86,ë™ì˜,0.73,64,ì½”ì¹­ ì—°ê²°
+MEM-SDAEG03-20,SDAEG03,Core Flow Signature,í•˜ì´ë¦¬ìŠ¤í¬,0.64,0.57,ë™ì˜,0.74,109,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAEG03-21,SDAEG03,Core Flow Signature,íšŒë³µì¤‘,0.64,0.89,ë™ì˜,0.52,95,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAEG03-22,SDAEG03,Core Flow Signature,ì•¡í‹°ë¸Œì›Œì²˜,0.55,0.62,ë™ì˜,0.54,72,ì½”ì¹­ ì—°ê²°
+MEM-SDAEG03-23,SDAEG03,Core Flow Signature,íšŒë³µì¤‘,0.97,0.85,ë™ì˜,0.87,77,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAEG03-24,SDAEG03,Core Flow Signature,ì•¡í‹°ë¸Œì›Œì²˜,0.56,0.51,ë™ì˜,0.78,72,ì½”ì¹­ ì—°ê²°
+MEM-SDAEG03-25,SDAEG03,Core Flow Signature,ì•¡í‹°ë¸Œì›Œì²˜,0.55,0.77,ë¹„ë™ì˜,0.49,103,íœ´ì‹ ê¶Œìž¥
+MEM-SINC04-01,SINC04,Hybrid Conditioning Camp,ì‹ ê·œíšŒì›,0.63,0.51,ë¹„ë™ì˜,0.73,85,íœ´ì‹ ê¶Œìž¥
+MEM-SINC04-02,SINC04,Hybrid Conditioning Camp,íšŒë³µì¤‘,0.73,0.61,ë¹„ë™ì˜,0.9,103,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC04-03,SINC04,Hybrid Conditioning Camp,íšŒë³µì¤‘,0.61,0.51,ë™ì˜,0.87,73,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC04-04,SINC04,Hybrid Conditioning Camp,ì•¡í‹°ë¸Œì›Œì²˜,0.94,0.87,ë™ì˜,0.71,63,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SINC04-05,SINC04,Hybrid Conditioning Camp,íšŒë³µì¤‘,0.65,0.75,ë¹„ë™ì˜,0.93,64,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC04-06,SINC04,Hybrid Conditioning Camp,ì‹ ê·œíšŒì›,0.55,0.8,ë™ì˜,0.6,100,ì½”ì¹­ ì—°ê²°
+MEM-SINC04-07,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.57,0.56,ë™ì˜,0.49,67,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC04-08,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.89,0.79,ë™ì˜,0.49,67,íœ´ì‹ ê¶Œìž¥
+MEM-SINC04-09,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.96,0.71,ë¹„ë™ì˜,0.82,87,íœ´ì‹ ê¶Œìž¥
+MEM-SINC04-10,SINC04,Hybrid Conditioning Camp,ì‹ ê·œíšŒì›,0.78,0.68,ë™ì˜,0.59,107,íœ´ì‹ ê¶Œìž¥
+MEM-SINC04-11,SINC04,Hybrid Conditioning Camp,ì‹ ê·œíšŒì›,0.67,0.68,ë¹„ë™ì˜,0.84,67,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC04-12,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.63,0.6,ë¹„ë™ì˜,0.55,65,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SINC04-13,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.87,0.8,ë¹„ë™ì˜,0.47,104,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SINC04-14,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.66,0.82,ë™ì˜,0.8,72,ì½”ì¹­ ì—°ê²°
+MEM-SINC04-15,SINC04,Hybrid Conditioning Camp,ì‹ ê·œíšŒì›,0.72,0.94,ë™ì˜,0.64,89,ì½”ì¹­ ì—°ê²°
+MEM-SINC04-16,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.79,0.6,ë¹„ë™ì˜,0.52,109,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SINC04-17,SINC04,Hybrid Conditioning Camp,íšŒë³µì¤‘,0.85,0.6,ë¹„ë™ì˜,0.49,72,íœ´ì‹ ê¶Œìž¥
+MEM-SINC04-18,SINC04,Hybrid Conditioning Camp,ì•¡í‹°ë¸Œì›Œì²˜,0.88,0.6,ë™ì˜,0.52,109,ì½”ì¹­ ì—°ê²°
+MEM-SINC04-19,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.69,0.91,ë™ì˜,0.52,98,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC04-20,SINC04,Hybrid Conditioning Camp,ì•¡í‹°ë¸Œì›Œì²˜,0.92,0.76,ë™ì˜,0.88,108,ì½”ì¹­ ì—°ê²°
+MEM-SINC04-21,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.83,0.86,ë¹„ë™ì˜,0.64,75,íœ´ì‹ ê¶Œìž¥
+MEM-SINC04-22,SINC04,Hybrid Conditioning Camp,í•˜ì´ë¦¬ìŠ¤í¬,0.85,0.67,ë™ì˜,0.6,100,íœ´ì‹ ê¶Œìž¥
+MEM-SINC04-23,SINC04,Hybrid Conditioning Camp,íšŒë³µì¤‘,0.72,0.53,ë™ì˜,0.75,106,íœ´ì‹ ê¶Œìž¥
+MEM-SINC04-24,SINC04,Hybrid Conditioning Camp,íšŒë³µì¤‘,0.71,0.63,ë¹„ë™ì˜,0.56,69,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC04-25,SINC04,Hybrid Conditioning Camp,íšŒë³µì¤‘,0.71,0.51,ë¹„ë™ì˜,0.49,91,íœ´ì‹ ê¶Œìž¥
+MEM-SGWANG05-01,SGWANG05,Joint Mobility Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.81,0.95,ë™ì˜,0.64,89,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGWANG05-02,SGWANG05,Joint Mobility Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.87,0.57,ë™ì˜,0.62,75,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGWANG05-03,SGWANG05,Joint Mobility Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.92,0.85,ë™ì˜,0.5,70,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGWANG05-04,SGWANG05,Joint Mobility Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.73,0.54,ë™ì˜,0.6,109,ì½”ì¹­ ì—°ê²°
+MEM-SGWANG05-05,SGWANG05,Joint Mobility Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.88,0.67,ë™ì˜,0.85,80,ì½”ì¹­ ì—°ê²°
+MEM-SGWANG05-06,SGWANG05,Joint Mobility Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.63,0.63,ë¹„ë™ì˜,0.69,107,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGWANG05-07,SGWANG05,Joint Mobility Sprint,íšŒë³µì¤‘,0.66,0.6,ë™ì˜,0.47,71,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGWANG05-08,SGWANG05,Joint Mobility Sprint,ì‹ ê·œíšŒì›,0.6,0.66,ë™ì˜,0.9,64,ì½”ì¹­ ì—°ê²°
+MEM-SGWANG05-09,SGWANG05,Joint Mobility Sprint,íšŒë³µì¤‘,0.89,0.78,ë™ì˜,0.62,99,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGWANG05-10,SGWANG05,Joint Mobility Sprint,íšŒë³µì¤‘,0.65,0.75,ë™ì˜,0.53,86,íœ´ì‹ ê¶Œìž¥
+MEM-SGWANG05-11,SGWANG05,Joint Mobility Sprint,íšŒë³µì¤‘,0.7,0.84,ë¹„ë™ì˜,0.93,89,ì½”ì¹­ ì—°ê²°
+MEM-SGWANG05-12,SGWANG05,Joint Mobility Sprint,ì‹ ê·œíšŒì›,0.86,0.76,ë¹„ë™ì˜,0.87,84,íœ´ì‹ ê¶Œìž¥
+MEM-SGWANG05-13,SGWANG05,Joint Mobility Sprint,íšŒë³µì¤‘,0.84,0.93,ë¹„ë™ì˜,0.61,101,íœ´ì‹ ê¶Œìž¥
+MEM-SGWANG05-14,SGWANG05,Joint Mobility Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.66,0.58,ë¹„ë™ì˜,0.5,95,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGWANG05-15,SGWANG05,Joint Mobility Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.85,0.65,ë¹„ë™ì˜,0.86,74,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGWANG05-16,SGWANG05,Joint Mobility Sprint,íšŒë³µì¤‘,0.77,0.81,ë¹„ë™ì˜,0.6,98,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGWANG05-17,SGWANG05,Joint Mobility Sprint,ì‹ ê·œíšŒì›,0.87,0.83,ë™ì˜,0.94,109,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGWANG05-18,SGWANG05,Joint Mobility Sprint,ì‹ ê·œíšŒì›,0.97,0.54,ë™ì˜,0.47,102,ì½”ì¹­ ì—°ê²°
+MEM-SGWANG05-19,SGWANG05,Joint Mobility Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.77,0.55,ë¹„ë™ì˜,0.67,104,ì½”ì¹­ ì—°ê²°
+MEM-SGWANG05-20,SGWANG05,Joint Mobility Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.59,0.72,ë™ì˜,0.65,86,ì½”ì¹­ ì—°ê²°
+MEM-SGWANG05-21,SGWANG05,Joint Mobility Sprint,ì‹ ê·œíšŒì›,0.89,0.6,ë¹„ë™ì˜,0.69,106,íœ´ì‹ ê¶Œìž¥
+MEM-SGWANG05-22,SGWANG05,Joint Mobility Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.6,0.77,ë™ì˜,0.84,72,íœ´ì‹ ê¶Œìž¥
+MEM-SGWANG05-23,SGWANG05,Joint Mobility Sprint,íšŒë³µì¤‘,0.74,0.7,ë¹„ë™ì˜,0.56,77,íœ´ì‹ ê¶Œìž¥
+MEM-SGWANG05-24,SGWANG05,Joint Mobility Sprint,ì‹ ê·œíšŒì›,0.95,0.76,ë™ì˜,0.68,69,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGWANG05-25,SGWANG05,Joint Mobility Sprint,ì‹ ê·œíšŒì›,0.9,0.68,ë¹„ë™ì˜,0.63,92,íœ´ì‹ ê¶Œìž¥
+MEM-SBUND06-01,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.81,0.94,ë¹„ë™ì˜,0.56,104,ì½”ì¹­ ì—°ê²°
+MEM-SBUND06-02,SBUND06,í•œê°• HIIT Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.71,0.55,ë¹„ë™ì˜,0.67,60,íœ´ì‹ ê¶Œìž¥
+MEM-SBUND06-03,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.72,0.84,ë™ì˜,0.7,96,íœ´ì‹ ê¶Œìž¥
+MEM-SBUND06-04,SBUND06,í•œê°• HIIT Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.84,0.57,ë™ì˜,0.51,95,íœ´ì‹ ê¶Œìž¥
+MEM-SBUND06-05,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.94,0.58,ë¹„ë™ì˜,0.47,61,íœ´ì‹ ê¶Œìž¥
+MEM-SBUND06-06,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.63,0.6,ë™ì˜,0.78,99,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUND06-07,SBUND06,í•œê°• HIIT Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.67,0.79,ë™ì˜,0.93,91,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUND06-08,SBUND06,í•œê°• HIIT Sprint,ì‹ ê·œíšŒì›,0.89,0.76,ë™ì˜,0.69,87,ì½”ì¹­ ì—°ê²°
+MEM-SBUND06-09,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.85,0.88,ë™ì˜,0.76,101,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBUND06-10,SBUND06,í•œê°• HIIT Sprint,ì‹ ê·œíšŒì›,0.93,0.61,ë¹„ë™ì˜,0.52,71,ì½”ì¹­ ì—°ê²°
+MEM-SBUND06-11,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.69,0.56,ë™ì˜,0.63,102,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBUND06-12,SBUND06,í•œê°• HIIT Sprint,íšŒë³µì¤‘,0.94,0.69,ë¹„ë™ì˜,0.6,70,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBUND06-13,SBUND06,í•œê°• HIIT Sprint,íšŒë³µì¤‘,0.78,0.69,ë¹„ë™ì˜,0.61,67,íœ´ì‹ ê¶Œìž¥
+MEM-SBUND06-14,SBUND06,í•œê°• HIIT Sprint,ì‹ ê·œíšŒì›,0.63,0.78,ë™ì˜,0.89,66,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBUND06-15,SBUND06,í•œê°• HIIT Sprint,íšŒë³µì¤‘,0.81,0.86,ë¹„ë™ì˜,0.88,105,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBUND06-16,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.77,0.58,ë™ì˜,0.72,84,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUND06-17,SBUND06,í•œê°• HIIT Sprint,ì‹ ê·œíšŒì›,0.62,0.9,ë™ì˜,0.68,92,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUND06-18,SBUND06,í•œê°• HIIT Sprint,íšŒë³µì¤‘,0.87,0.6,ë¹„ë™ì˜,0.77,101,íœ´ì‹ ê¶Œìž¥
+MEM-SBUND06-19,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.7,0.69,ë¹„ë™ì˜,0.81,108,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUND06-20,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.72,0.54,ë¹„ë™ì˜,0.56,106,ì½”ì¹­ ì—°ê²°
+MEM-SBUND06-21,SBUND06,í•œê°• HIIT Sprint,íšŒë³µì¤‘,0.65,0.88,ë™ì˜,0.83,95,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUND06-22,SBUND06,í•œê°• HIIT Sprint,ì•¡í‹°ë¸Œì›Œì²˜,0.81,0.81,ë™ì˜,0.79,82,ì½”ì¹­ ì—°ê²°
+MEM-SBUND06-23,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.72,0.84,ë¹„ë™ì˜,0.92,105,ì½”ì¹­ ì—°ê²°
+MEM-SBUND06-24,SBUND06,í•œê°• HIIT Sprint,íšŒë³µì¤‘,0.84,0.89,ë™ì˜,0.89,63,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUND06-25,SBUND06,í•œê°• HIIT Sprint,í•˜ì´ë¦¬ìŠ¤í¬,0.63,0.76,ë¹„ë™ì˜,0.63,105,ì½”ì¹­ ì—°ê²°
+MEM-SNOW07-01,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,í•˜ì´ë¦¬ìŠ¤í¬,0.81,0.85,ë™ì˜,0.72,99,ì½”ì¹­ ì—°ê²°
+MEM-SNOW07-02,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,í•˜ì´ë¦¬ìŠ¤í¬,0.7,0.89,ë™ì˜,0.85,97,íœ´ì‹ ê¶Œìž¥
+MEM-SNOW07-03,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì‹ ê·œíšŒì›,0.7,0.65,ë™ì˜,0.93,92,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SNOW07-04,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì•¡í‹°ë¸Œì›Œì²˜,0.72,0.7,ë™ì˜,0.9,60,íœ´ì‹ ê¶Œìž¥
+MEM-SNOW07-05,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì‹ ê·œíšŒì›,0.78,0.62,ë™ì˜,0.73,99,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SNOW07-06,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,íšŒë³µì¤‘,0.69,0.72,ë™ì˜,0.94,88,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SNOW07-07,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,í•˜ì´ë¦¬ìŠ¤í¬,0.85,0.94,ë¹„ë™ì˜,0.8,94,ì½”ì¹­ ì—°ê²°
+MEM-SNOW07-08,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,í•˜ì´ë¦¬ìŠ¤í¬,0.59,0.82,ë™ì˜,0.95,97,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SNOW07-09,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì‹ ê·œíšŒì›,0.77,0.87,ë™ì˜,0.64,65,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SNOW07-10,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,íšŒë³µì¤‘,0.84,0.75,ë¹„ë™ì˜,0.75,79,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SNOW07-11,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì•¡í‹°ë¸Œì›Œì²˜,0.68,0.85,ë™ì˜,0.67,77,ì½”ì¹­ ì—°ê²°
+MEM-SNOW07-12,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì•¡í‹°ë¸Œì›Œì²˜,0.72,0.59,ë™ì˜,0.56,84,íœ´ì‹ ê¶Œìž¥
+MEM-SNOW07-13,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,íšŒë³µì¤‘,0.91,0.71,ë™ì˜,0.48,97,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SNOW07-14,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,í•˜ì´ë¦¬ìŠ¤í¬,0.64,0.94,ë™ì˜,0.82,97,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SNOW07-15,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì•¡í‹°ë¸Œì›Œì²˜,0.75,0.58,ë¹„ë™ì˜,0.66,90,ì½”ì¹­ ì—°ê²°
+MEM-SNOW07-16,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,íšŒë³µì¤‘,0.71,0.52,ë¹„ë™ì˜,0.93,65,ì½”ì¹­ ì—°ê²°
+MEM-SNOW07-17,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì•¡í‹°ë¸Œì›Œì²˜,0.58,0.61,ë¹„ë™ì˜,0.58,88,íœ´ì‹ ê¶Œìž¥
+MEM-SNOW07-18,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,íšŒë³µì¤‘,0.93,0.79,ë™ì˜,0.77,60,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SNOW07-19,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì‹ ê·œíšŒì›,0.84,0.51,ë™ì˜,0.51,66,ì½”ì¹­ ì—°ê²°
+MEM-SNOW07-20,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì•¡í‹°ë¸Œì›Œì²˜,0.89,0.71,ë¹„ë™ì˜,0.53,84,íœ´ì‹ ê¶Œìž¥
+MEM-SNOW07-21,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì‹ ê·œíšŒì›,0.85,0.68,ë¹„ë™ì˜,0.62,86,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SNOW07-22,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,ì•¡í‹°ë¸Œì›Œì²˜,0.96,0.93,ë¹„ë™ì˜,0.89,91,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SNOW07-23,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,í•˜ì´ë¦¬ìŠ¤í¬,0.71,0.68,ë™ì˜,0.94,72,íœ´ì‹ ê¶Œìž¥
+MEM-SNOW07-24,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,í•˜ì´ë¦¬ìŠ¤í¬,0.58,0.91,ë¹„ë™ì˜,0.53,76,ì½”ì¹­ ì—°ê²°
+MEM-SNOW07-25,SNOW07,ë“±ì‚° íšŒë³µ í”Œëžœ,íšŒë³µì¤‘,0.67,0.91,ë™ì˜,0.92,79,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-01,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,íšŒë³µì¤‘,0.82,0.85,ë™ì˜,0.49,62,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-02,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì‹ ê·œíšŒì›,0.66,0.8,ë¹„ë™ì˜,0.68,83,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-03,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì•¡í‹°ë¸Œì›Œì²˜,0.61,0.62,ë™ì˜,0.85,89,ì½”ì¹­ ì—°ê²°
+MEM-SBUS08-04,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì‹ ê·œíšŒì›,0.76,0.59,ë™ì˜,0.53,73,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-05,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì•¡í‹°ë¸Œì›Œì²˜,0.74,0.8,ë™ì˜,0.91,86,ì½”ì¹­ ì—°ê²°
+MEM-SBUS08-06,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,í•˜ì´ë¦¬ìŠ¤í¬,0.59,0.94,ë™ì˜,0.62,67,ì½”ì¹­ ì—°ê²°
+MEM-SBUS08-07,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,í•˜ì´ë¦¬ìŠ¤í¬,0.82,0.67,ë™ì˜,0.91,103,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-08,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,í•˜ì´ë¦¬ìŠ¤í¬,0.76,0.65,ë™ì˜,0.5,65,ì½”ì¹­ ì—°ê²°
+MEM-SBUS08-09,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,íšŒë³µì¤‘,0.58,0.69,ë¹„ë™ì˜,0.84,102,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUS08-10,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,íšŒë³µì¤‘,0.68,0.76,ë¹„ë™ì˜,0.53,64,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-11,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,íšŒë³µì¤‘,0.82,0.5,ë¹„ë™ì˜,0.7,99,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUS08-12,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,íšŒë³µì¤‘,0.97,0.91,ë¹„ë™ì˜,0.72,102,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-13,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì‹ ê·œíšŒì›,0.55,0.89,ë¹„ë™ì˜,0.58,101,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUS08-14,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì•¡í‹°ë¸Œì›Œì²˜,0.63,0.68,ë™ì˜,0.54,103,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-15,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,íšŒë³µì¤‘,0.8,0.95,ë¹„ë™ì˜,0.7,101,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SBUS08-16,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì‹ ê·œíšŒì›,0.67,0.52,ë¹„ë™ì˜,0.47,66,ì½”ì¹­ ì—°ê²°
+MEM-SBUS08-17,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì•¡í‹°ë¸Œì›Œì²˜,0.67,0.56,ë¹„ë™ì˜,0.73,63,ì½”ì¹­ ì—°ê²°
+MEM-SBUS08-18,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,í•˜ì´ë¦¬ìŠ¤í¬,0.69,0.62,ë™ì˜,0.49,68,ì½”ì¹­ ì—°ê²°
+MEM-SBUS08-19,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì‹ ê·œíšŒì›,0.62,0.55,ë™ì˜,0.67,83,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBUS08-20,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,íšŒë³µì¤‘,0.59,0.63,ë¹„ë™ì˜,0.74,65,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SBUS08-21,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì•¡í‹°ë¸Œì›Œì²˜,0.87,0.69,ë™ì˜,0.55,86,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-22,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì•¡í‹°ë¸Œì›Œì²˜,0.61,0.83,ë¹„ë™ì˜,0.52,65,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-23,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì‹ ê·œíšŒì›,0.72,0.64,ë¹„ë™ì˜,0.6,98,íœ´ì‹ ê¶Œìž¥
+MEM-SBUS08-24,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,í•˜ì´ë¦¬ìŠ¤í¬,0.9,0.7,ë™ì˜,0.83,98,ì½”ì¹­ ì—°ê²°
+MEM-SBUS08-25,SBUS08,ë§ˆë¦¬ë‚˜ íŒŒì›Œë¼ì´ë“œ,ì‹ ê·œíšŒì›,0.67,0.75,ë™ì˜,0.56,105,ì½”ì¹­ ì—°ê²°
+MEM-SDJE09-01,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì‹ ê·œíšŒì›,0.79,0.69,ë™ì˜,0.78,61,íœ´ì‹ ê¶Œìž¥
+MEM-SDJE09-02,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,í•˜ì´ë¦¬ìŠ¤í¬,0.82,0.81,ë™ì˜,0.79,109,íœ´ì‹ ê¶Œìž¥
+MEM-SDJE09-03,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,í•˜ì´ë¦¬ìŠ¤í¬,0.58,0.64,ë¹„ë™ì˜,0.55,74,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-04,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,í•˜ì´ë¦¬ìŠ¤í¬,0.81,0.78,ë™ì˜,0.57,89,íœ´ì‹ ê¶Œìž¥
+MEM-SDJE09-05,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì•¡í‹°ë¸Œì›Œì²˜,0.66,0.69,ë¹„ë™ì˜,0.65,68,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-06,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,í•˜ì´ë¦¬ìŠ¤í¬,0.96,0.51,ë™ì˜,0.62,76,íœ´ì‹ ê¶Œìž¥
+MEM-SDJE09-07,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì•¡í‹°ë¸Œì›Œì²˜,0.87,0.63,ë¹„ë™ì˜,0.93,69,ì½”ì¹­ ì—°ê²°
+MEM-SDJE09-08,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,íšŒë³µì¤‘,0.57,0.63,ë¹„ë™ì˜,0.55,84,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-09,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì‹ ê·œíšŒì›,0.9,0.74,ë™ì˜,0.71,100,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-10,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì‹ ê·œíšŒì›,0.95,0.72,ë™ì˜,0.72,106,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-11,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,í•˜ì´ë¦¬ìŠ¤í¬,0.9,0.86,ë™ì˜,0.79,87,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDJE09-12,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,íšŒë³µì¤‘,0.96,0.59,ë™ì˜,0.83,103,ì½”ì¹­ ì—°ê²°
+MEM-SDJE09-13,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì•¡í‹°ë¸Œì›Œì²˜,0.95,0.6,ë™ì˜,0.51,83,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-14,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì•¡í‹°ë¸Œì›Œì²˜,0.74,0.89,ë¹„ë™ì˜,0.53,71,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-15,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì•¡í‹°ë¸Œì›Œì²˜,0.7,0.83,ë¹„ë™ì˜,0.89,109,íœ´ì‹ ê¶Œìž¥
+MEM-SDJE09-16,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì•¡í‹°ë¸Œì›Œì²˜,0.67,0.66,ë¹„ë™ì˜,0.83,68,íœ´ì‹ ê¶Œìž¥
+MEM-SDJE09-17,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì‹ ê·œíšŒì›,0.66,0.66,ë¹„ë™ì˜,0.51,80,íœ´ì‹ ê¶Œìž¥
+MEM-SDJE09-18,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì‹ ê·œíšŒì›,0.87,0.72,ë¹„ë™ì˜,0.59,92,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDJE09-19,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì‹ ê·œíšŒì›,0.75,0.58,ë™ì˜,0.9,70,íœ´ì‹ ê¶Œìž¥
+MEM-SDJE09-20,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,í•˜ì´ë¦¬ìŠ¤í¬,0.72,0.86,ë¹„ë™ì˜,0.53,65,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDJE09-21,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì•¡í‹°ë¸Œì›Œì²˜,0.56,0.55,ë¹„ë™ì˜,0.85,100,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-22,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì‹ ê·œíšŒì›,0.62,0.57,ë™ì˜,0.59,64,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDJE09-23,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,í•˜ì´ë¦¬ìŠ¤í¬,0.73,0.58,ë™ì˜,0.88,66,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-24,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,ì‹ ê·œíšŒì›,0.79,0.82,ë¹„ë™ì˜,0.9,71,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDJE09-25,SDJE09,ížë§ ë¹„ì¹˜ ìš”ê°€,í•˜ì´ë¦¬ìŠ¤í¬,0.89,0.88,ë¹„ë™ì˜,0.74,72,íœ´ì‹ ê¶Œìž¥
+MEM-SINC10-01,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,íšŒë³µì¤‘,0.76,0.91,ë™ì˜,0.69,106,ì½”ì¹­ ì—°ê²°
+MEM-SINC10-02,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,ì•¡í‹°ë¸Œì›Œì²˜,0.8,0.87,ë™ì˜,0.93,87,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-03,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.94,0.71,ë¹„ë™ì˜,0.73,102,ì½”ì¹­ ì—°ê²°
+MEM-SINC10-04,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.61,0.88,ë¹„ë™ì˜,0.61,92,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-05,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,ì‹ ê·œíšŒì›,0.94,0.79,ë¹„ë™ì˜,0.55,103,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-06,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,ì•¡í‹°ë¸Œì›Œì²˜,0.91,0.93,ë¹„ë™ì˜,0.68,76,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-07,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,íšŒë³µì¤‘,0.6,0.76,ë¹„ë™ì˜,0.9,81,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-08,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.8,0.72,ë¹„ë™ì˜,0.72,76,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SINC10-09,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.83,0.7,ë™ì˜,0.56,102,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-10,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,íšŒë³µì¤‘,0.64,0.81,ë™ì˜,0.57,89,íœ´ì‹ ê¶Œìž¥
+MEM-SINC10-11,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.86,0.65,ë™ì˜,0.89,98,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-12,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.86,0.56,ë™ì˜,0.65,91,ì½”ì¹­ ì—°ê²°
+MEM-SINC10-13,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,ì‹ ê·œíšŒì›,0.92,0.77,ë™ì˜,0.56,101,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-14,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.65,0.55,ë¹„ë™ì˜,0.64,95,ì½”ì¹­ ì—°ê²°
+MEM-SINC10-15,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,ì•¡í‹°ë¸Œì›Œì²˜,0.81,0.78,ë¹„ë™ì˜,0.55,84,íœ´ì‹ ê¶Œìž¥
+MEM-SINC10-16,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.93,0.81,ë™ì˜,0.89,77,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-17,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,ì‹ ê·œíšŒì›,0.63,0.61,ë™ì˜,0.87,82,ì½”ì¹­ ì—°ê²°
+MEM-SINC10-18,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,ì•¡í‹°ë¸Œì›Œì²˜,0.62,0.51,ë¹„ë™ì˜,0.53,103,íœ´ì‹ ê¶Œìž¥
+MEM-SINC10-19,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,íšŒë³µì¤‘,0.59,0.91,ë¹„ë™ì˜,0.56,86,íœ´ì‹ ê¶Œìž¥
+MEM-SINC10-20,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.9,0.54,ë¹„ë™ì˜,0.69,64,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SINC10-21,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,ì‹ ê·œíšŒì›,0.66,0.89,ë¹„ë™ì˜,0.59,79,íœ´ì‹ ê¶Œìž¥
+MEM-SINC10-22,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,íšŒë³µì¤‘,0.7,0.66,ë¹„ë™ì˜,0.94,107,ì½”ì¹­ ì—°ê²°
+MEM-SINC10-23,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.79,0.78,ë™ì˜,0.54,108,ì½”ì¹­ ì—°ê²°
+MEM-SINC10-24,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,í•˜ì´ë¦¬ìŠ¤í¬,0.85,0.86,ë¹„ë™ì˜,0.71,72,ì½”ì¹­ ì—°ê²°
+MEM-SINC10-25,SINC10,ë„ì‹¬ ë¦´ë¦¬ì¦ˆ,ì‹ ê·œíšŒì›,0.75,0.83,ë™ì˜,0.69,68,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-01,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,í•˜ì´ë¦¬ìŠ¤í¬,0.56,0.67,ë¹„ë™ì˜,0.48,75,ì½”ì¹­ ì—°ê²°
+MEM-SSUW11-02,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì‹ ê·œíšŒì›,0.87,0.61,ë™ì˜,0.55,73,íœ´ì‹ ê¶Œìž¥
+MEM-SSUW11-03,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì‹ ê·œíšŒì›,0.78,0.53,ë¹„ë™ì˜,0.92,75,íœ´ì‹ ê¶Œìž¥
+MEM-SSUW11-04,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì‹ ê·œíšŒì›,0.76,0.55,ë¹„ë™ì˜,0.7,92,íœ´ì‹ ê¶Œìž¥
+MEM-SSUW11-05,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,íšŒë³µì¤‘,0.64,0.88,ë™ì˜,0.78,72,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SSUW11-06,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,í•˜ì´ë¦¬ìŠ¤í¬,0.91,0.86,ë¹„ë™ì˜,0.6,84,íœ´ì‹ ê¶Œìž¥
+MEM-SSUW11-07,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì‹ ê·œíšŒì›,0.64,0.74,ë¹„ë™ì˜,0.91,108,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SSUW11-08,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì‹ ê·œíšŒì›,0.64,0.64,ë¹„ë™ì˜,0.61,65,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-09,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì•¡í‹°ë¸Œì›Œì²˜,0.69,0.93,ë¹„ë™ì˜,0.67,74,ì½”ì¹­ ì—°ê²°
+MEM-SSUW11-10,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,íšŒë³µì¤‘,0.89,0.87,ë¹„ë™ì˜,0.89,94,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-11,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,íšŒë³µì¤‘,0.69,0.61,ë™ì˜,0.8,109,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-12,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,íšŒë³µì¤‘,0.62,0.53,ë¹„ë™ì˜,0.86,65,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-13,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì•¡í‹°ë¸Œì›Œì²˜,0.95,0.56,ë¹„ë™ì˜,0.89,108,íœ´ì‹ ê¶Œìž¥
+MEM-SSUW11-14,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,í•˜ì´ë¦¬ìŠ¤í¬,0.82,0.67,ë™ì˜,0.48,102,ì½”ì¹­ ì—°ê²°
+MEM-SSUW11-15,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,í•˜ì´ë¦¬ìŠ¤í¬,0.77,0.75,ë¹„ë™ì˜,0.55,66,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-16,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,íšŒë³µì¤‘,0.64,0.7,ë¹„ë™ì˜,0.79,92,íœ´ì‹ ê¶Œìž¥
+MEM-SSUW11-17,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,í•˜ì´ë¦¬ìŠ¤í¬,0.84,0.92,ë™ì˜,0.62,70,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SSUW11-18,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì•¡í‹°ë¸Œì›Œì²˜,0.63,0.79,ë™ì˜,0.83,73,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-19,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì‹ ê·œíšŒì›,0.82,0.64,ë™ì˜,0.48,101,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-20,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì‹ ê·œíšŒì›,0.7,0.8,ë™ì˜,0.64,109,ì½”ì¹­ ì—°ê²°
+MEM-SSUW11-21,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì•¡í‹°ë¸Œì›Œì²˜,0.59,0.53,ë™ì˜,0.69,63,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SSUW11-22,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì•¡í‹°ë¸Œì›Œì²˜,0.67,0.77,ë¹„ë™ì˜,0.64,67,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-23,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,íšŒë³µì¤‘,0.76,0.63,ë¹„ë™ì˜,0.84,90,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSUW11-24,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì•¡í‹°ë¸Œì›Œì²˜,0.81,0.57,ë¹„ë™ì˜,0.91,102,ì½”ì¹­ ì—°ê²°
+MEM-SSUW11-25,SSUW11,íŠ¸ëž™ ì»¨ë””ì…”ë‹,ì‹ ê·œíšŒì›,0.67,0.88,ë™ì˜,0.52,74,íœ´ì‹ ê¶Œìž¥
+MEM-SDAE12-01,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,íšŒë³µì¤‘,0.57,0.53,ë¹„ë™ì˜,0.74,60,ì½”ì¹­ ì—°ê²°
+MEM-SDAE12-02,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì•¡í‹°ë¸Œì›Œì²˜,0.9,0.87,ë¹„ë™ì˜,0.84,76,ì½”ì¹­ ì—°ê²°
+MEM-SDAE12-03,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,í•˜ì´ë¦¬ìŠ¤í¬,0.76,0.74,ë™ì˜,0.72,80,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAE12-04,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì‹ ê·œíšŒì›,0.72,0.74,ë™ì˜,0.87,60,íœ´ì‹ ê¶Œìž¥
+MEM-SDAE12-05,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì‹ ê·œíšŒì›,0.58,0.59,ë™ì˜,0.48,93,íœ´ì‹ ê¶Œìž¥
+MEM-SDAE12-06,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,íšŒë³µì¤‘,0.86,0.62,ë™ì˜,0.61,105,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAE12-07,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì‹ ê·œíšŒì›,0.71,0.81,ë™ì˜,0.78,78,íœ´ì‹ ê¶Œìž¥
+MEM-SDAE12-08,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì‹ ê·œíšŒì›,0.8,0.66,ë™ì˜,0.49,90,ì½”ì¹­ ì—°ê²°
+MEM-SDAE12-09,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì•¡í‹°ë¸Œì›Œì²˜,0.91,0.8,ë™ì˜,0.71,75,ì½”ì¹­ ì—°ê²°
+MEM-SDAE12-10,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì•¡í‹°ë¸Œì›Œì²˜,0.67,0.53,ë™ì˜,0.57,86,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAE12-11,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì•¡í‹°ë¸Œì›Œì²˜,0.91,0.64,ë™ì˜,0.45,62,ì½”ì¹­ ì—°ê²°
+MEM-SDAE12-12,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,í•˜ì´ë¦¬ìŠ¤í¬,0.79,0.77,ë¹„ë™ì˜,0.47,100,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAE12-13,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì‹ ê·œíšŒì›,0.66,0.75,ë™ì˜,0.91,70,ì½”ì¹­ ì—°ê²°
+MEM-SDAE12-14,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì•¡í‹°ë¸Œì›Œì²˜,0.64,0.63,ë¹„ë™ì˜,0.68,70,íœ´ì‹ ê¶Œìž¥
+MEM-SDAE12-15,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì•¡í‹°ë¸Œì›Œì²˜,0.6,0.62,ë¹„ë™ì˜,0.56,105,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAE12-16,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,í•˜ì´ë¦¬ìŠ¤í¬,0.74,0.88,ë™ì˜,0.64,82,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAE12-17,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì‹ ê·œíšŒì›,0.61,0.69,ë™ì˜,0.95,78,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAE12-18,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,íšŒë³µì¤‘,0.59,0.9,ë™ì˜,0.83,95,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAE12-19,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì‹ ê·œíšŒì›,0.57,0.71,ë™ì˜,0.87,87,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SDAE12-20,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì•¡í‹°ë¸Œì›Œì²˜,0.85,0.88,ë™ì˜,0.49,67,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAE12-21,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì•¡í‹°ë¸Œì›Œì²˜,0.84,0.67,ë™ì˜,0.77,103,íœ´ì‹ ê¶Œìž¥
+MEM-SDAE12-22,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì‹ ê·œíšŒì›,0.6,0.58,ë™ì˜,0.9,63,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAE12-23,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,íšŒë³µì¤‘,0.86,0.6,ë™ì˜,0.54,96,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAE12-24,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,íšŒë³µì¤‘,0.6,0.79,ë¹„ë™ì˜,0.9,65,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SDAE12-25,SDAE12,ìŠ¬ë¡œìš° ì»¨íŠ¸ë¡¤,ì•¡í‹°ë¸Œì›Œì²˜,0.94,0.9,ë™ì˜,0.53,72,ì½”ì¹­ ì—°ê²°
+MEM-SGIM13-01,SGIM13,ì—ì–´ë¡œ ë³µì‹±,í•˜ì´ë¦¬ìŠ¤í¬,0.61,0.85,ë¹„ë™ì˜,0.66,109,íœ´ì‹ ê¶Œìž¥
+MEM-SGIM13-02,SGIM13,ì—ì–´ë¡œ ë³µì‹±,í•˜ì´ë¦¬ìŠ¤í¬,0.9,0.54,ë™ì˜,0.81,82,ì½”ì¹­ ì—°ê²°
+MEM-SGIM13-03,SGIM13,ì—ì–´ë¡œ ë³µì‹±,ì•¡í‹°ë¸Œì›Œì²˜,0.59,0.79,ë™ì˜,0.77,100,íœ´ì‹ ê¶Œìž¥
+MEM-SGIM13-04,SGIM13,ì—ì–´ë¡œ ë³µì‹±,ì‹ ê·œíšŒì›,0.58,0.52,ë¹„ë™ì˜,0.68,61,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGIM13-05,SGIM13,ì—ì–´ë¡œ ë³µì‹±,ì‹ ê·œíšŒì›,0.78,0.52,ë™ì˜,0.75,60,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGIM13-06,SGIM13,ì—ì–´ë¡œ ë³µì‹±,í•˜ì´ë¦¬ìŠ¤í¬,0.68,0.53,ë¹„ë™ì˜,0.63,104,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGIM13-07,SGIM13,ì—ì–´ë¡œ ë³µì‹±,í•˜ì´ë¦¬ìŠ¤í¬,0.78,0.73,ë™ì˜,0.8,94,íœ´ì‹ ê¶Œìž¥
+MEM-SGIM13-08,SGIM13,ì—ì–´ë¡œ ë³µì‹±,í•˜ì´ë¦¬ìŠ¤í¬,0.94,0.72,ë™ì˜,0.6,82,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGIM13-09,SGIM13,ì—ì–´ë¡œ ë³µì‹±,ì‹ ê·œíšŒì›,0.96,0.53,ë™ì˜,0.83,84,íœ´ì‹ ê¶Œìž¥
+MEM-SGIM13-10,SGIM13,ì—ì–´ë¡œ ë³µì‹±,í•˜ì´ë¦¬ìŠ¤í¬,0.74,0.84,ë¹„ë™ì˜,0.78,75,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGIM13-11,SGIM13,ì—ì–´ë¡œ ë³µì‹±,ì‹ ê·œíšŒì›,0.58,0.71,ë¹„ë™ì˜,0.53,69,íœ´ì‹ ê¶Œìž¥
+MEM-SGIM13-12,SGIM13,ì—ì–´ë¡œ ë³µì‹±,ì•¡í‹°ë¸Œì›Œì²˜,0.56,0.75,ë¹„ë™ì˜,0.78,71,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGIM13-13,SGIM13,ì—ì–´ë¡œ ë³µì‹±,í•˜ì´ë¦¬ìŠ¤í¬,0.65,0.72,ë™ì˜,0.74,107,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGIM13-14,SGIM13,ì—ì–´ë¡œ ë³µì‹±,íšŒë³µì¤‘,0.92,0.57,ë¹„ë™ì˜,0.49,60,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGIM13-15,SGIM13,ì—ì–´ë¡œ ë³µì‹±,ì‹ ê·œíšŒì›,0.85,0.94,ë¹„ë™ì˜,0.46,107,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGIM13-16,SGIM13,ì—ì–´ë¡œ ë³µì‹±,ì‹ ê·œíšŒì›,0.85,0.81,ë¹„ë™ì˜,0.64,94,ì½”ì¹­ ì—°ê²°
+MEM-SGIM13-17,SGIM13,ì—ì–´ë¡œ ë³µì‹±,íšŒë³µì¤‘,0.87,0.86,ë™ì˜,0.63,81,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGIM13-18,SGIM13,ì—ì–´ë¡œ ë³µì‹±,í•˜ì´ë¦¬ìŠ¤í¬,0.78,0.66,ë™ì˜,0.66,99,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGIM13-19,SGIM13,ì—ì–´ë¡œ ë³µì‹±,íšŒë³µì¤‘,0.96,0.67,ë¹„ë™ì˜,0.85,74,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGIM13-20,SGIM13,ì—ì–´ë¡œ ë³µì‹±,íšŒë³µì¤‘,0.92,0.86,ë™ì˜,0.5,106,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGIM13-21,SGIM13,ì—ì–´ë¡œ ë³µì‹±,íšŒë³µì¤‘,0.65,0.82,ë™ì˜,0.47,108,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGIM13-22,SGIM13,ì—ì–´ë¡œ ë³µì‹±,íšŒë³µì¤‘,0.89,0.72,ë™ì˜,0.93,60,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGIM13-23,SGIM13,ì—ì–´ë¡œ ë³µì‹±,íšŒë³µì¤‘,0.71,0.53,ë¹„ë™ì˜,0.45,62,íœ´ì‹ ê¶Œìž¥
+MEM-SGIM13-24,SGIM13,ì—ì–´ë¡œ ë³µì‹±,ì•¡í‹°ë¸Œì›Œì²˜,0.76,0.65,ë¹„ë™ì˜,0.75,70,íœ´ì‹ ê¶Œìž¥
+MEM-SGIM13-25,SGIM13,ì—ì–´ë¡œ ë³µì‹±,í•˜ì´ë¦¬ìŠ¤í¬,0.73,0.8,ë¹„ë™ì˜,0.62,85,íœ´ì‹ ê¶Œìž¥
+MEM-SSCH14-01,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,ì‹ ê·œíšŒì›,0.91,0.95,ë™ì˜,0.55,82,ì½”ì¹­ ì—°ê²°
+MEM-SSCH14-02,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,íšŒë³µì¤‘,0.65,0.54,ë™ì˜,0.53,95,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SSCH14-03,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.56,0.57,ë¹„ë™ì˜,0.63,71,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSCH14-04,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.87,0.74,ë™ì˜,0.75,92,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSCH14-05,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.59,0.52,ë¹„ë™ì˜,0.92,70,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSCH14-06,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,íšŒë³µì¤‘,0.63,0.79,ë¹„ë™ì˜,0.64,104,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SSCH14-07,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.72,0.53,ë™ì˜,0.62,97,íœ´ì‹ ê¶Œìž¥
+MEM-SSCH14-08,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.64,0.84,ë¹„ë™ì˜,0.58,84,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSCH14-09,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.58,0.63,ë™ì˜,0.64,61,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSCH14-10,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.56,0.52,ë¹„ë™ì˜,0.45,106,ì½”ì¹­ ì—°ê²°
+MEM-SSCH14-11,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.62,0.67,ë¹„ë™ì˜,0.87,66,ì½”ì¹­ ì—°ê²°
+MEM-SSCH14-12,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,íšŒë³µì¤‘,0.96,0.6,ë™ì˜,0.66,110,íœ´ì‹ ê¶Œìž¥
+MEM-SSCH14-13,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.8,0.53,ë¹„ë™ì˜,0.82,77,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSCH14-14,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.58,0.52,ë™ì˜,0.76,82,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SSCH14-15,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.76,0.58,ë¹„ë™ì˜,0.78,65,ì½”ì¹­ ì—°ê²°
+MEM-SSCH14-16,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.65,0.75,ë™ì˜,0.48,99,ì½”ì¹­ ì—°ê²°
+MEM-SSCH14-17,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.91,0.62,ë™ì˜,0.81,105,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SSCH14-18,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.92,0.91,ë™ì˜,0.5,61,íœ´ì‹ ê¶Œìž¥
+MEM-SSCH14-19,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.85,0.91,ë™ì˜,0.76,78,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSCH14-20,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.66,0.75,ë¹„ë™ì˜,0.83,102,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SSCH14-21,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,ì‹ ê·œíšŒì›,0.9,0.88,ë¹„ë™ì˜,0.73,90,ì½”ì¹­ ì—°ê²°
+MEM-SSCH14-22,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,íšŒë³µì¤‘,0.81,0.82,ë™ì˜,0.53,69,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SSCH14-23,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,íšŒë³µì¤‘,0.55,0.5,ë¹„ë™ì˜,0.52,70,ì½”ì¹­ ì—°ê²°
+MEM-SSCH14-24,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,ì‹ ê·œíšŒì›,0.58,0.68,ë¹„ë™ì˜,0.73,98,ì½”ì¹­ ì—°ê²°
+MEM-SSCH14-25,SSCH14,ë©”íƒ€ ë°¸ëŸ°ìŠ¤,ì‹ ê·œíšŒì›,0.58,0.68,ë¹„ë™ì˜,0.64,85,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SULS15-01,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,íšŒë³µì¤‘,0.94,0.76,ë¹„ë™ì˜,0.78,81,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SULS15-02,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,í•˜ì´ë¦¬ìŠ¤í¬,0.6,0.76,ë™ì˜,0.89,88,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SULS15-03,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,í•˜ì´ë¦¬ìŠ¤í¬,0.67,0.54,ë¹„ë™ì˜,0.7,105,ì½”ì¹­ ì—°ê²°
+MEM-SULS15-04,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,íšŒë³µì¤‘,0.67,0.85,ë™ì˜,0.63,66,íœ´ì‹ ê¶Œìž¥
+MEM-SULS15-05,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.97,0.79,ë¹„ë™ì˜,0.53,69,íœ´ì‹ ê¶Œìž¥
+MEM-SULS15-06,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì‹ ê·œíšŒì›,0.9,0.64,ë¹„ë™ì˜,0.83,110,ì½”ì¹­ ì—°ê²°
+MEM-SULS15-07,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,í•˜ì´ë¦¬ìŠ¤í¬,0.7,0.83,ë¹„ë™ì˜,0.66,70,ì½”ì¹­ ì—°ê²°
+MEM-SULS15-08,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì‹ ê·œíšŒì›,0.72,0.95,ë™ì˜,0.58,83,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SULS15-09,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.9,0.73,ë¹„ë™ì˜,0.49,90,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SULS15-10,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì‹ ê·œíšŒì›,0.57,0.8,ë™ì˜,0.84,93,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SULS15-11,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.68,0.85,ë¹„ë™ì˜,0.6,77,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SULS15-12,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì‹ ê·œíšŒì›,0.75,0.93,ë™ì˜,0.46,67,íœ´ì‹ ê¶Œìž¥
+MEM-SULS15-13,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,íšŒë³µì¤‘,0.58,0.61,ë¹„ë™ì˜,0.64,109,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SULS15-14,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,í•˜ì´ë¦¬ìŠ¤í¬,0.57,0.82,ë¹„ë™ì˜,0.93,76,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SULS15-15,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.69,0.54,ë¹„ë™ì˜,0.58,109,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SULS15-16,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì‹ ê·œíšŒì›,0.92,0.81,ë¹„ë™ì˜,0.46,109,íœ´ì‹ ê¶Œìž¥
+MEM-SULS15-17,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,íšŒë³µì¤‘,0.59,0.57,ë¹„ë™ì˜,0.62,99,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SULS15-18,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.87,0.57,ë™ì˜,0.61,69,ì½”ì¹­ ì—°ê²°
+MEM-SULS15-19,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,íšŒë³µì¤‘,0.8,0.95,ë™ì˜,0.86,72,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SULS15-20,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,íšŒë³µì¤‘,0.88,0.53,ë¹„ë™ì˜,0.76,78,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SULS15-21,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.7,0.71,ë™ì˜,0.88,68,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SULS15-22,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.7,0.55,ë¹„ë™ì˜,0.64,70,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SULS15-23,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,íšŒë³µì¤‘,0.84,0.79,ë™ì˜,0.71,61,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SULS15-24,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,ì‹ ê·œíšŒì›,0.74,0.61,ë¹„ë™ì˜,0.55,106,íœ´ì‹ ê¶Œìž¥
+MEM-SULS15-25,SULS15,ëª¨ì…˜ ë¦¬ë¶€íŠ¸,íšŒë³µì¤‘,0.97,0.73,ë¹„ë™ì˜,0.72,98,ì½”ì¹­ ì—°ê²°
+MEM-SCHE16-01,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,íšŒë³µì¤‘,0.88,0.86,ë¹„ë™ì˜,0.69,88,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SCHE16-02,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,íšŒë³µì¤‘,0.96,0.51,ë¹„ë™ì˜,0.71,102,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SCHE16-03,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.94,0.62,ë¹„ë™ì˜,0.95,61,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SCHE16-04,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì‹ ê·œíšŒì›,0.68,0.84,ë™ì˜,0.8,96,ì½”ì¹­ ì—°ê²°
+MEM-SCHE16-05,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.92,0.82,ë™ì˜,0.49,80,íœ´ì‹ ê¶Œìž¥
+MEM-SCHE16-06,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.77,0.72,ë¹„ë™ì˜,0.56,95,íœ´ì‹ ê¶Œìž¥
+MEM-SCHE16-07,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì‹ ê·œíšŒì›,0.65,0.68,ë™ì˜,0.64,100,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SCHE16-08,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,íšŒë³µì¤‘,0.56,0.89,ë¹„ë™ì˜,0.86,62,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SCHE16-09,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,íšŒë³µì¤‘,0.65,0.76,ë¹„ë™ì˜,0.92,73,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SCHE16-10,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,íšŒë³µì¤‘,0.73,0.64,ë™ì˜,0.57,66,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SCHE16-11,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì‹ ê·œíšŒì›,0.95,0.82,ë™ì˜,0.54,85,ì½”ì¹­ ì—°ê²°
+MEM-SCHE16-12,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,íšŒë³µì¤‘,0.84,0.89,ë¹„ë™ì˜,0.51,91,íœ´ì‹ ê¶Œìž¥
+MEM-SCHE16-13,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì‹ ê·œíšŒì›,0.58,0.5,ë™ì˜,0.8,76,ì½”ì¹­ ì—°ê²°
+MEM-SCHE16-14,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.95,0.65,ë™ì˜,0.76,109,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SCHE16-15,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.94,0.69,ë™ì˜,0.86,101,íœ´ì‹ ê¶Œìž¥
+MEM-SCHE16-16,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.73,0.83,ë™ì˜,0.53,92,íœ´ì‹ ê¶Œìž¥
+MEM-SCHE16-17,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,í•˜ì´ë¦¬ìŠ¤í¬,0.65,0.89,ë¹„ë™ì˜,0.53,87,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SCHE16-18,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.81,0.75,ë¹„ë™ì˜,0.88,98,ì½”ì¹­ ì—°ê²°
+MEM-SCHE16-19,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.56,0.68,ë™ì˜,0.7,73,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SCHE16-20,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì‹ ê·œíšŒì›,0.65,0.7,ë¹„ë™ì˜,0.55,65,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SCHE16-21,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,íšŒë³µì¤‘,0.72,0.59,ë™ì˜,0.76,93,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SCHE16-22,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,íšŒë³µì¤‘,0.55,0.65,ë¹„ë™ì˜,0.94,72,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SCHE16-23,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì•¡í‹°ë¸Œì›Œì²˜,0.76,0.61,ë™ì˜,0.9,105,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SCHE16-24,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì‹ ê·œíšŒì›,0.6,0.78,ë¹„ë™ì˜,0.89,109,íœ´ì‹ ê¶Œìž¥
+MEM-SCHE16-25,SCHE16,ëŸ¬ë‹ íŒŒì›Œë¯¹ìŠ¤,ì‹ ê·œíšŒì›,0.82,0.63,ë¹„ë™ì˜,0.59,88,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGOY17-01,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,í•˜ì´ë¦¬ìŠ¤í¬,0.81,0.93,ë¹„ë™ì˜,0.9,85,ì½”ì¹­ ì—°ê²°
+MEM-SGOY17-02,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,í•˜ì´ë¦¬ìŠ¤í¬,0.57,0.69,ë¹„ë™ì˜,0.57,84,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGOY17-03,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.68,0.71,ë¹„ë™ì˜,0.69,92,íœ´ì‹ ê¶Œìž¥
+MEM-SGOY17-04,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,í•˜ì´ë¦¬ìŠ¤í¬,0.67,0.67,ë¹„ë™ì˜,0.84,99,ì½”ì¹­ ì—°ê²°
+MEM-SGOY17-05,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì•¡í‹°ë¸Œì›Œì²˜,0.7,0.77,ë™ì˜,0.54,69,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGOY17-06,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì•¡í‹°ë¸Œì›Œì²˜,0.9,0.76,ë¹„ë™ì˜,0.87,90,íœ´ì‹ ê¶Œìž¥
+MEM-SGOY17-07,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,íšŒë³µì¤‘,0.89,0.67,ë¹„ë™ì˜,0.53,78,ì½”ì¹­ ì—°ê²°
+MEM-SGOY17-08,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.56,0.91,ë¹„ë™ì˜,0.85,89,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGOY17-09,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.76,0.73,ë¹„ë™ì˜,0.78,84,ì½”ì¹­ ì—°ê²°
+MEM-SGOY17-10,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.61,0.6,ë¹„ë™ì˜,0.8,109,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGOY17-11,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,í•˜ì´ë¦¬ìŠ¤í¬,0.8,0.59,ë™ì˜,0.94,93,ì½”ì¹­ ì—°ê²°
+MEM-SGOY17-12,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.78,0.85,ë¹„ë™ì˜,0.6,88,íœ´ì‹ ê¶Œìž¥
+MEM-SGOY17-13,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,íšŒë³µì¤‘,0.66,0.74,ë™ì˜,0.94,84,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGOY17-14,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.87,0.64,ë¹„ë™ì˜,0.94,82,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGOY17-15,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.9,0.58,ë¹„ë™ì˜,0.84,110,ì½”ì¹­ ì—°ê²°
+MEM-SGOY17-16,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì•¡í‹°ë¸Œì›Œì²˜,0.64,0.53,ë™ì˜,0.92,67,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGOY17-17,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì•¡í‹°ë¸Œì›Œì²˜,0.85,0.67,ë¹„ë™ì˜,0.79,93,ì½”ì¹­ ì—°ê²°
+MEM-SGOY17-18,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,íšŒë³µì¤‘,0.56,0.79,ë¹„ë™ì˜,0.67,75,ì½”ì¹­ ì—°ê²°
+MEM-SGOY17-19,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,í•˜ì´ë¦¬ìŠ¤í¬,0.92,0.55,ë¹„ë™ì˜,0.58,97,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGOY17-20,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.6,0.63,ë¹„ë™ì˜,0.95,67,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGOY17-21,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.92,0.65,ë¹„ë™ì˜,0.64,79,ì½”ì¹­ ì—°ê²°
+MEM-SGOY17-22,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì•¡í‹°ë¸Œì›Œì²˜,0.68,0.72,ë¹„ë™ì˜,0.59,101,íœ´ì‹ ê¶Œìž¥
+MEM-SGOY17-23,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,í•˜ì´ë¦¬ìŠ¤í¬,0.6,0.73,ë™ì˜,0.85,92,íœ´ì‹ ê¶Œìž¥
+MEM-SGOY17-24,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,ì‹ ê·œíšŒì›,0.6,0.86,ë¹„ë™ì˜,0.88,81,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGOY17-25,SGOY17,ìŠ¤íŠ¸ë ìŠ¤ ì—£ì§€,í•˜ì´ë¦¬ìŠ¤í¬,0.88,0.69,ë™ì˜,0.87,103,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SJEJ18-01,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,íšŒë³µì¤‘,0.57,0.8,ë™ì˜,0.85,61,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SJEJ18-02,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì•¡í‹°ë¸Œì›Œì²˜,0.84,0.55,ë™ì˜,0.63,97,íœ´ì‹ ê¶Œìž¥
+MEM-SJEJ18-03,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,íšŒë³µì¤‘,0.55,0.73,ë¹„ë™ì˜,0.58,79,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SJEJ18-04,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì‹ ê·œíšŒì›,0.65,0.87,ë¹„ë™ì˜,0.73,84,ì½”ì¹­ ì—°ê²°
+MEM-SJEJ18-05,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì•¡í‹°ë¸Œì›Œì²˜,0.69,0.63,ë¹„ë™ì˜,0.68,98,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SJEJ18-06,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,íšŒë³µì¤‘,0.79,0.7,ë™ì˜,0.61,66,íœ´ì‹ ê¶Œìž¥
+MEM-SJEJ18-07,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì•¡í‹°ë¸Œì›Œì²˜,0.8,0.8,ë¹„ë™ì˜,0.72,96,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SJEJ18-08,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,íšŒë³µì¤‘,0.64,0.66,ë™ì˜,0.73,67,ì½”ì¹­ ì—°ê²°
+MEM-SJEJ18-09,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,íšŒë³µì¤‘,0.69,0.79,ë™ì˜,0.69,73,ì½”ì¹­ ì—°ê²°
+MEM-SJEJ18-10,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì‹ ê·œíšŒì›,0.72,0.75,ë™ì˜,0.74,63,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SJEJ18-11,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì•¡í‹°ë¸Œì›Œì²˜,0.6,0.85,ë¹„ë™ì˜,0.46,98,íœ´ì‹ ê¶Œìž¥
+MEM-SJEJ18-12,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì•¡í‹°ë¸Œì›Œì²˜,0.97,0.57,ë¹„ë™ì˜,0.73,98,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SJEJ18-13,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì‹ ê·œíšŒì›,0.68,0.71,ë™ì˜,0.54,91,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SJEJ18-14,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,íšŒë³µì¤‘,0.75,0.63,ë™ì˜,0.87,90,íœ´ì‹ ê¶Œìž¥
+MEM-SJEJ18-15,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,í•˜ì´ë¦¬ìŠ¤í¬,0.83,0.92,ë™ì˜,0.5,79,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SJEJ18-16,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,íšŒë³µì¤‘,0.6,0.64,ë™ì˜,0.48,100,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SJEJ18-17,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,íšŒë³µì¤‘,0.7,0.87,ë™ì˜,0.91,93,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SJEJ18-18,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì‹ ê·œíšŒì›,0.6,0.66,ë¹„ë™ì˜,0.75,76,ì½”ì¹­ ì—°ê²°
+MEM-SJEJ18-19,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì•¡í‹°ë¸Œì›Œì²˜,0.88,0.57,ë¹„ë™ì˜,0.5,76,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SJEJ18-20,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,íšŒë³µì¤‘,0.9,0.69,ë¹„ë™ì˜,0.71,90,íœ´ì‹ ê¶Œìž¥
+MEM-SJEJ18-21,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì•¡í‹°ë¸Œì›Œì²˜,0.92,0.59,ë¹„ë™ì˜,0.9,105,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SJEJ18-22,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì‹ ê·œíšŒì›,0.89,0.81,ë™ì˜,0.6,100,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SJEJ18-23,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,í•˜ì´ë¦¬ìŠ¤í¬,0.6,0.76,ë™ì˜,0.95,92,íœ´ì‹ ê¶Œìž¥
+MEM-SJEJ18-24,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì•¡í‹°ë¸Œì›Œì²˜,0.95,0.67,ë¹„ë™ì˜,0.73,72,íœ´ì‹ ê¶Œìž¥
+MEM-SJEJ18-25,SJEJ18,ëŒ„ìŠ¤ ë¦¬í¼ í”Œë¡œìš°,ì‹ ê·œíšŒì›,0.72,0.9,ë™ì˜,0.9,85,ì½”ì¹­ ì—°ê²°
+MEM-SGNA19-01,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.8,0.86,ë¹„ë™ì˜,0.63,74,ì½”ì¹­ ì—°ê²°
+MEM-SGNA19-02,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,íšŒë³µì¤‘,0.8,0.8,ë¹„ë™ì˜,0.71,109,íœ´ì‹ ê¶Œìž¥
+MEM-SGNA19-03,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.71,0.82,ë¹„ë™ì˜,0.93,96,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGNA19-04,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,í•˜ì´ë¦¬ìŠ¤í¬,0.69,0.85,ë™ì˜,0.91,89,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGNA19-05,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,íšŒë³µì¤‘,0.66,0.64,ë™ì˜,0.52,71,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGNA19-06,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,íšŒë³µì¤‘,0.69,0.93,ë™ì˜,0.62,87,ì½”ì¹­ ì—°ê²°
+MEM-SGNA19-07,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì‹ ê·œíšŒì›,0.88,0.75,ë™ì˜,0.85,109,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGNA19-08,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì‹ ê·œíšŒì›,0.75,0.67,ë™ì˜,0.45,99,íœ´ì‹ ê¶Œìž¥
+MEM-SGNA19-09,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì‹ ê·œíšŒì›,0.74,0.79,ë¹„ë™ì˜,0.84,102,íœ´ì‹ ê¶Œìž¥
+MEM-SGNA19-10,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.78,0.63,ë™ì˜,0.49,75,íœ´ì‹ ê¶Œìž¥
+MEM-SGNA19-11,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.72,0.59,ë™ì˜,0.87,77,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGNA19-12,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,íšŒë³µì¤‘,0.6,0.74,ë™ì˜,0.5,85,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGNA19-13,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì‹ ê·œíšŒì›,0.89,0.73,ë¹„ë™ì˜,0.63,91,ì½”ì¹­ ì—°ê²°
+MEM-SGNA19-14,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,í•˜ì´ë¦¬ìŠ¤í¬,0.58,0.89,ë™ì˜,0.64,67,íœ´ì‹ ê¶Œìž¥
+MEM-SGNA19-15,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì‹ ê·œíšŒì›,0.79,0.79,ë¹„ë™ì˜,0.89,102,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGNA19-16,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,íšŒë³µì¤‘,0.64,0.87,ë™ì˜,0.81,65,íœ´ì‹ ê¶Œìž¥
+MEM-SGNA19-17,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.63,0.87,ë™ì˜,0.67,95,íœ´ì‹ ê¶Œìž¥
+MEM-SGNA19-18,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì•¡í‹°ë¸Œì›Œì²˜,0.66,0.6,ë¹„ë™ì˜,0.62,73,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SGNA19-19,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,íšŒë³µì¤‘,0.67,0.77,ë™ì˜,0.64,85,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGNA19-20,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì‹ ê·œíšŒì›,0.57,0.8,ë¹„ë™ì˜,0.48,103,ì½”ì¹­ ì—°ê²°
+MEM-SGNA19-21,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,í•˜ì´ë¦¬ìŠ¤í¬,0.97,0.77,ë¹„ë™ì˜,0.68,86,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGNA19-22,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì‹ ê·œíšŒì›,0.85,0.75,ë™ì˜,0.72,92,ì½”ì¹­ ì—°ê²°
+MEM-SGNA19-23,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì‹ ê·œíšŒì›,0.95,0.77,ë¹„ë™ì˜,0.76,107,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SGNA19-24,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,ì‹ ê·œíšŒì›,0.86,0.9,ë™ì˜,0.63,72,ì½”ì¹­ ì—°ê²°
+MEM-SGNA19-25,SGNA19,íŠ¸ë ˆì¼ í”¼íŠ¸,íšŒë³µì¤‘,0.57,0.72,ë¹„ë™ì˜,0.46,108,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SANS20-01,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì‹ ê·œíšŒì›,0.77,0.53,ë™ì˜,0.55,90,íœ´ì‹ ê¶Œìž¥
+MEM-SANS20-02,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì•¡í‹°ë¸Œì›Œì²˜,0.57,0.9,ë™ì˜,0.5,77,ì½”ì¹­ ì—°ê²°
+MEM-SANS20-03,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,íšŒë³µì¤‘,0.96,0.82,ë¹„ë™ì˜,0.48,80,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SANS20-04,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì•¡í‹°ë¸Œì›Œì²˜,0.81,0.67,ë™ì˜,0.55,62,íœ´ì‹ ê¶Œìž¥
+MEM-SANS20-05,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì•¡í‹°ë¸Œì›Œì²˜,0.83,0.51,ë¹„ë™ì˜,0.9,61,ì½”ì¹­ ì—°ê²°
+MEM-SANS20-06,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì•¡í‹°ë¸Œì›Œì²˜,0.87,0.69,ë™ì˜,0.56,72,ì½”ì¹­ ì—°ê²°
+MEM-SANS20-07,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì‹ ê·œíšŒì›,0.9,0.92,ë¹„ë™ì˜,0.94,69,íœ´ì‹ ê¶Œìž¥
+MEM-SANS20-08,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì•¡í‹°ë¸Œì›Œì²˜,0.83,0.87,ë™ì˜,0.49,92,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SANS20-09,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,íšŒë³µì¤‘,0.66,0.93,ë¹„ë™ì˜,0.51,75,íœ´ì‹ ê¶Œìž¥
+MEM-SANS20-10,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,íšŒë³µì¤‘,0.76,0.65,ë¹„ë™ì˜,0.65,108,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SANS20-11,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì‹ ê·œíšŒì›,0.72,0.92,ë™ì˜,0.69,101,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SANS20-12,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì•¡í‹°ë¸Œì›Œì²˜,0.91,0.5,ë™ì˜,0.75,61,ì½”ì¹­ ì—°ê²°
+MEM-SANS20-13,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì‹ ê·œíšŒì›,0.62,0.93,ë™ì˜,0.52,107,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SANS20-14,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì•¡í‹°ë¸Œì›Œì²˜,0.82,0.6,ë™ì˜,0.54,76,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SANS20-15,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,í•˜ì´ë¦¬ìŠ¤í¬,0.83,0.61,ë¹„ë™ì˜,0.55,75,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SANS20-16,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì‹ ê·œíšŒì›,0.89,0.56,ë¹„ë™ì˜,0.66,79,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SANS20-17,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,íšŒë³µì¤‘,0.75,0.52,ë™ì˜,0.7,65,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SANS20-18,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,í•˜ì´ë¦¬ìŠ¤í¬,0.61,0.79,ë™ì˜,0.9,71,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SANS20-19,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì‹ ê·œíšŒì›,0.82,0.56,ë¹„ë™ì˜,0.83,71,ê²©ë ¤ ë©”ì‹œì§€
+MEM-SANS20-20,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,íšŒë³µì¤‘,0.65,0.87,ë¹„ë™ì˜,0.69,107,ì½”ì¹­ ì—°ê²°
+MEM-SANS20-21,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,í•˜ì´ë¦¬ìŠ¤í¬,0.63,0.63,ë™ì˜,0.66,99,íœ´ì‹ ê¶Œìž¥
+MEM-SANS20-22,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,íšŒë³µì¤‘,0.6,0.74,ë¹„ë™ì˜,0.72,67,íœ´ì‹ ê¶Œìž¥
+MEM-SANS20-23,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì‹ ê·œíšŒì›,0.71,0.5,ë¹„ë™ì˜,0.46,79,ì½”ì¹­ ì—°ê²°
+MEM-SANS20-24,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì•¡í‹°ë¸Œì›Œì²˜,0.91,0.76,ë¹„ë™ì˜,0.54,92,ì±Œë¦°ì§€ ì œì•ˆ
+MEM-SANS20-25,SANS20,í¼í¬ë¨¼ìŠ¤ ìŠ¤íƒ,ì‹ ê·œíšŒì›,0.68,0.71,ë¹„ë™ì˜,0.7,94,íœ´ì‹ ê¶Œìž¥

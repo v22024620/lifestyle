@@ -1,0 +1,207 @@
+Growth, Marketing & Sales Practice
+Agents for growth: 
+Turning AI promise into 
+impact
+As CEOs and CMOs ask where AI is moving from hype to real results, 
+frontrunners demonstrate that tighter human–AI collaboration and sharper 
+governance is required.
+by Greg Kelly , Lisa Harkness , and  Steve Reis
+November 2025
+Key takeaways
+— Value comes from end-to-end change. Broad productivity wins are table stakes. Impact 
+comes from prioritizing the biggest growth problems and then solving them end to end in a 
+domain.
+— Reimagine workflows, not tools. Growth comes from mapping decisions and handoffs, and 
+embedding agents where they change outcomes, not bolting them onto legacy steps.
+— Scale with a new operating model. End-to-end transformation requires cross-functional 
+human–AI teams, shared data products, and governance that treats agents like managed  
+talent.
+A global retailer sees demand for a top product surge in one region while inventory piles up in 
+another. Within seconds, a team of AI agents reallocates ad spend, adjusts pricing, reroutes  
+stock, and refreshes creative assets to offers that match shopper intent. In this scenario, what 
+comes next is coordinated action triggered by customer signals, orchestrating business growth  
+in real time.
+This is not a fantasy scenario; it’s the new frontier of AI in growth functions. Agentic AI embeds 
+automated reasoning directly into marketing, sales, and customer service workflows. We 
+estimate that agentic AI will power more than 60 percent of the increased value that AI is  
+expected to generate from deployments in marketing and sales.1 It’s no exaggeration to say that 
+marketing and sales represent the tip of the spear when it comes to translating agentic AI’s 
+potential into meaningful value.2
+Early leaders are already seeing measurable impact. For example, according to McKinsey 
+analysis, some Fortune 250 companies have estimated that they are seeing campaign creation 
+and execution speed up 15-fold, driven by faster innovation cycles and process optimization.
+The value from agentic AI comes from the tasks it is able to do. Unlike gen AI and chatbots that 
+largely assist in the completion of marketing and sales tasks, AI agents can act, decide, and  
+collaborate. They are able, for example, to optimize prices, advance leads, tailor offers and  
+manage customer interactions end-to-end. As organizations deepen their adoption of agentic 
+AI, gains can scale. Our analysis shows that effective and scaled agent deployments could 
+deliver productivity improvements of  three to five percent annually and potentially lift growth by  
+10 percent or more.
+Most organizations, however, have yet to realize meaningful value from AI generally.  Nearly eight  
+in ten report no significant bottom-line gains from AI generally, mostly due to constraints  
+stemming from fragmented pilot programs, weak data, and insufficient governance foundations.  
+The leaders breaking through and realizing value from AI are redesigning how growth happens  
+by integrating AI agents into their workflows. From our experience across industries, 
+organizations that are finding breakthroughs and turning agentic AI from promise into 
+performance in marketing and sales are following four lessons:
+1 Early applications show gen AI could unlock  $2.6 to $4.4 trillion in annual value, with as much as 20 percent of the expected 
+productivity lift concentrated in marketing and sales.
+2 Agentic AI is a system based on gen AI foundation models that can act in the real world and execute multistep processes. AI 
+agents can automate and perform complex tasks, often using natural language processing, which would normally require human 
+effort.
+Agents for growth: Turning AI promise into impact 2
+1. Go where the value is
+Impact begins with identifying where agents can move the needle—whether in conversion, 
+pricing precision, or customer engagement—and deploying them to accelerate those outcomes.
+Consider personalization, where the opportunity is both proven and profound. McKinsey 
+research shows that 71 percent of consumers expect personalized interactions, and 76 percent 
+become frustrated when they don’t happen. AI-driven personalization can enhance customer 
+satisfaction by 15 to 20 percent, increase revenue by 5 to 8 percent, and reduce the cost to 
+serve by up to 30 percent.
+Agentic AI makes this possible at scale, using contextual reasoning and real-time decisioning to 
+refine offers, content, and experiences with each interaction. According to McKinsey analysis, a 
+European insurer, for instance, reimagined its sales operation with AI agents that personalized 
+campaigns across hundreds of microsegments, adapted scripts to buyer cues, and coached 
+sales teams with real-time feedback. The result: conversion rates two to three times higher, 25 
+percent shorter customer service call times, and continuous learning loops that manual reviews 
+could never match.
+Other organizations are using similar practices with AI to elevate customer experience by 
+anticipating what each customer needs next and delivering it in the right moment. A US airline 
+used predictive insights to tailor compensation for flight disruptions, differentiating between 
+frequent fliers and occasional travelers. The resulting impact was a 210 percent improvement in 
+targeting at-risk customers, an 800 percent rise in customer satisfaction, and a 59 percent 
+reduction in churn among high-value travelers.
+That same type of intelligence is also proving useful to enhancing pricing. Agentic AI can sense 
+market shifts, model outcomes, and act instantly by adjusting prices or reallocating inventory in 
+real time based on competitor moves, customer behavior, or demand forecasts. Airlines, for 
+instance, are already using agentic AI to create personalized bundles that combine fares, 
+seating, and add-on offers, updating prices dynamically based on live signals such as search 
+trends, weather, and booking patterns.
+2. Think in terms of workflows, not agents
+Organizations realizing meaningful impact from agentic AI are going beyond simply deploying 
+new agents to improve existing tasks; they are redesigning workflows . Agents enhance value 
+creation when used to improve end-to-end processes and journeys through automation and 
+coordination—their power is limited, however, when used to improve isolated steps. Enhancing 
+product discovery, for example, delivers limited impact if purchasing and fulfillment remain slow 
+or disjointed.
+In traditional processes, work moves sequentially, often across departments: Marketing hands  
+off to sales, service escalates to support, and pricing follows. Each of these functions has made  
+Agents for growth: Turning AI promise into impact 3
+tremendous progress in recent years by incorporating digital and analytics capabilities, and 
+agentic AI builds on those improvements by automating and orchestrating tasks across teams 
+and functions. Overcoming the persistent challenges of coordination across complex operational 
+silos and workflows can allow organizations to achieve faster cycle times, as well as greater 
+consistency and responsiveness at a scale no level of human coordination could match.
+Crucially, success calls for designing processes around agents—not bolting agents onto legacy 
+processes. For example, rather than using agents to help customer service teams respond to 
+complaints faster, leading organizations use agents to predict potential issues, trigger outreach 
+before a customer calls, and resolve cases pre-emptively with personalized offers.
+The European insurer offers a clear view of what this looks like in practice. According to 
+McKinsey analysis, in just 16 weeks, the company re-architected its commercial model around a 
+connected network of agents working across the full customer journey. The improvements 
+generated included the following:
+— Knowledge agents centralized over 1,000 policy and product documents, enabling frontline 
+staff to retrieve accurate answers instantly.
+—Coaching agents introduced AI-driven call transcription and grading, automatically reviewing 
+95 percent of sales calls versus 3 percent previously.
+—Integration agents connected these capabilities into the existing CRM and agent 
+portal—adhering to single-sign-on security policies and providing real-time performance 
+dashboards.
+Together, these agentic systems shortened average call times by 25 percent, reduced manual 
+cross-functional handoffs, and created a continuous feedback loop. As agents learned from 
+each engagement, they continually refined next-best actions, message sequencing, and product 
+pairing to stay aligned with evolving customer needs.
+Value creation with AI agents for end-to-end change depends, however, on matching the right 
+agent to the right task: domain-specific agents that handle complex, contextual actions; 
+generalist agents for tasks such as data synthesis or content generation; agents that check for 
+errors; and orchestration agents that direct and synchronize the system as a whole.
+Humans have a crucial role in this effort. They can work closely with agents to supervise and 
+verify, as well as manage issues that AI agents escalate to them. The most advanced 
+organizations combine these human–agent collaborations into adaptive workflows that evolve 
+with each iteration and customer signal.
+Agents for growth: Turning AI promise into impact 4
+3.Build collaborative agents, not just add-on tools
+To scale agentic AI, organizations need to stop thinking of agents as add-on tools and start 
+treating them as collaborative, digital partners. That means defining the agents’ roles, 
+onboarding them properly, and managing them with clear performance expectations—not unlike 
+human team members.
+The right metrics for measuring AI agents’ performance differ from traditional productivity KPIs, 
+however. Rather than focusing on call counts or campaign volume, for example, leading 
+organizations track a mix of indicators such as conversation quality, task-completion accuracy,  
+escalation precision, and learning velocity, reflecting how effectively agents incorporate 
+feedback and adapt to changing buyer cues. Because every agent action is logged and 
+traceable, these metrics can be monitored continuously. Real-time dashboards surface 
+performance drift, benchmark outcomes against human baselines, and flag when retraining or 
+recalibration is needed.
+A leading US homebuilder demonstrates how this discipline translates into impact. Seeking to 
+improve digital engagement and appointment conversion, the company trained AI sales agents 
+to emulate its top-performing human sellers. McKinsey analysis of more than 500,000 sales 
+transcripts revealed dozens of conversation states—greeting, objection handling, follow-up, 
+close—and the patterns most associated with success. Using these insights, the team 
+developed agent personas with unique styles, tempos, and conversational approaches.
+Every AI-led conversation was then benchmarked against human baselines using a scoring 
+agent that evaluated accuracy, personalization, and flow. Dashboards highlighted drop-off 
+points and tone mismatches, enabling rapid tuning. Conversion-to-appointment rates tripled, 
+weekly appointments doubled, and the best-performing agents reached human-level parity in 
+empathy and flow.
+4.Build the agentic growth organization
+As agents take on workflows that cut across marketing, sales, and customer service, companies 
+need to rethink how growth is organized. The traditional model where each function operates in 
+its own silo is giving way to an integrated system where agents coordinate activities, share data, 
+and connect the entire customer journey from awareness to loyalty. Campaign design, lead 
+conversion, and customer engagement are no longer sequential steps but parts of a single, 
+learning loop.
+This shift requires a new, hybrid human–AI operating model. In this system, agents handle 
+orchestration and execution, while humans provide strategy, creativity, and oversight. Growth 
+teams become cross-functional by design, with marketers, sellers, customer service reps, and 
+data scientists collaborating around shared workflows and common KPIs. Agents are reused 
+across functions rather than duplicated: One agent that fetches customer data can support 
+campaign planning, sales calls, or post-purchase service interactions.
+Agents for growth: Turning AI promise into impact 5
+Without effective governance and an agentic architecture, however, this scale can lead to 
+“agent chaos” through redundant builds, inconsistent quality, and unmanaged risk. To scale 
+effectively, leading companies are standing up agent factories: dedicated hubs that industrialize 
+how agents are built, deployed, and governed. These hubs standardize reusable blueprints, 
+shared data products, and guardrails for security and compliance. And the standardized agents 
+they build are assigned clear, role-based responsibilities, so that lead agents orchestrate work, 
+practitioner agents execute tasks, and QA and compliance agents monitor performance.
+Several global banks exemplify this approach, standing up agent factories to transform their 
+due-diligence processes. Each factory deploys agent squads to handle discrete steps, from data 
+extraction to validation and quality assurance, reducing manual work while improving accuracy 
+and control.
+A leading North American manufacturer of outdoor lifestyle products applied similar principles 
+to customer service. According to McKinsey analysis, after analyzing more than 30,000 service 
+tickets and call transcripts, the company redesigned the function so agents handle diagnosis, 
+data retrieval, and summarization, while humans focus on empathy and resolution. Adoption 
+succeeded through a tailored change-management program that included leaders being trained 
+on KPI dashboards, frontline staff receiving job aids for AI-assisted workflows, and technical 
+teams learning model maintenance and tuning. Continuous feedback loops and shared 
+dashboards keep both human and digital agents aligned to drive faster resolution times, higher 
+satisfaction, and measurable revenue uplift.
+As these systems mature, the differentiator becomes human capability. The role of people shifts 
+from completing tasks to supervising, refining, and improving how the work gets done. 
+Managers and specialists must learn to delegate to agents, review outputs, identify exceptions, 
+and guide learning loops. Emerging skills—such as prompt design, outcome tracking, and 
+escalation management—are fast becoming core to modern growth roles. Many organizations 
+already target 25 to 50 percent of employees to work regularly with agentic AI—a clear signal 
+that fluency in collaborating with AI is becoming a defining business capability.
+One year into the agentic AI era, the lesson is clear: growth won’t come from tools alone but 
+from how leaders choose to build and deploy them. Competitive advantage will depend not on 
+how many agents a company launches but on how effectively they are designed, managed, and 
+scaled. The companies pulling ahead are already putting new mindsets into practice.
+This is only the beginning of the change that agentic AI will bring—larger questions will soon 
+loom, including:
+—When your sales agent negotiates with your customer’s buying agent, how will your 
+Agents for growth: Turning AI promise into impact 6company differentiate itself?
+— If execution becomes commoditized, what will your brand stand for?
+— As workflows span silos, how will you ensure accountability and control?
+These are the leadership tests of the agentic era. Very soon the central question for leaders will 
+move on from “what can this agent do for us” to “what outcomes am I prepared to deliver with it, 
+and how can I best use the space it creates to allow humans to do what only they can do even 
+better?” The sooner that organizations can embed agentic AI into their marketing, sales, and 
+customer support operations, the sooner they will be able to answer those larger questions.
+Greg Kelly and Steve Reis are senior partners in McKinsey’s Atlanta office, and Lisa Harkness is a partner in the 
+Connecticut office.
+The authors wish to thank Barr Seitz and Cindy Van Horne for their contributions to this article.
+Copyright © 2025 McKinsey & Company. All rights reserved.
+Agents for growth: Turning AI promise into impact 7

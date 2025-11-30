@@ -310,6 +310,7 @@ NUMERIC_MEMBER_COLUMNS = [
 MEMBER_INTENT_OPTIONS = ["학원 정보", "이번 주 운동", "안전 & 재정"]
 STUDIO_SECTION_OPTIONS = ["Command Pulse", "Member Signals", "Revenue Guard"]
 OPERATOR_SECTION_OPTIONS = ["Network Ops Pulse", "Graph Intelligence", "Partner Safety Desk"]
+DEFAULT_WORKFLOW_OPTION = "Default Flow"
 INTENT_ICONS = {
     "학원 정보": "??",
     "이번 주 운동": "??",
@@ -381,34 +382,59 @@ def get_member_snapshot(studio_id: str, member_identifier: str) -> Optional[Dict
     return row.dropna().to_dict()
 
 @st.cache_data(show_spinner=False)
-def fetch_pipeline_data(studio_id: str, normalized_query: str) -> Dict[str, Any]:
+def fetch_pipeline_data(studio_id: str, normalized_query: str, workflow: Optional[str] = None) -> Dict[str, Any]:
     orchestrator = load_orchestrator()
     result = orchestrator.run_full_pipeline(
         user_query=normalized_query or None,
         studio_id=studio_id,
+        workflow=workflow,
     )
     return result.to_dict()
 
 
-def run_pipeline_with_fallback(studio_id: str, query: str | None) -> Optional[Dict[str, Any]]:
+def run_pipeline_with_fallback(
+    studio_id: str,
+    query: str | None,
+    workflow: Optional[str] = None,
+) -> Optional[Dict[str, Any]]:
     normalized = (query or "").strip()
     try:
-        return fetch_pipeline_data(studio_id, normalized)
+        return fetch_pipeline_data(studio_id, normalized, workflow=workflow)
     except Exception as exc:
-        st.error(f"에이전트 실행 중 오류가 발생했습니다: {exc}")
+        st.error(f"Command Center 실행 중 오류가 발생했습니다: {exc}")
         return None
 
 
-def ensure_pipeline_result(state_key: str, studio_id: str, query: str, label: str) -> Optional[Dict[str, Any]]:
+@st.cache_data(show_spinner=False)
+def fetch_graph_context(studio_id: str, query: str) -> Dict[str, Any]:
+    """Collect GraphRAG context so the UI can surface graph + Neo4j signals."""
+    orchestrator = load_orchestrator()
+    normalized = (query or "").strip() or "studio insight"
+    return orchestrator.graphrag.build_reasoned_evidence(normalized, studio_id)
+
+
+@st.cache_data(show_spinner=False)
+def run_sparql_console(query: str) -> List[Dict[str, Any]]:
+    """Execute raw SPARQL against GraphDB via the ontology service."""
+    orchestrator = load_orchestrator()
+    clean = (query or "").strip()
+    if not clean:
+        return []
+    return orchestrator.ontology.sparql_query(clean)
+def ensure_pipeline_result(
+    state_key: str, studio_id: str, query: str, label: str, workflow: Optional[str] = None
+) -> Optional[Dict[str, Any]]:
     if state_key not in st.session_state:
-        st.session_state[state_key] = run_pipeline_with_fallback(studio_id, query)
-        st.session_state[f"{state_key}_meta"] = {"label": label, "query": query}
+        st.session_state[state_key] = run_pipeline_with_fallback(studio_id, query, workflow=workflow)
+        st.session_state[f"{state_key}_meta"] = {"label": label, "query": query, "workflow": workflow or DEFAULT_WORKFLOW_OPTION}
     return st.session_state.get(state_key)
 
 
-def refresh_pipeline_result(state_key: str, studio_id: str, query: str, label: str) -> Optional[Dict[str, Any]]:
-    data = run_pipeline_with_fallback(studio_id, query)
-    st.session_state[f"{state_key}_meta"] = {"label": label, "query": query}
+def refresh_pipeline_result(
+    state_key: str, studio_id: str, query: str, label: str, workflow: Optional[str] = None
+) -> Optional[Dict[str, Any]]:
+    data = run_pipeline_with_fallback(studio_id, query, workflow=workflow)
+    st.session_state[f"{state_key}_meta"] = {"label": label, "query": query, "workflow": workflow or DEFAULT_WORKFLOW_OPTION}
     if data is not None:
         st.session_state[state_key] = data
     return st.session_state.get(state_key)
@@ -417,7 +443,7 @@ def refresh_pipeline_result(state_key: str, studio_id: str, query: str, label: s
 def get_query_meta(state_key: str, fallback_label: str, fallback_query: str) -> Dict[str, str]:
     return st.session_state.get(
         f"{state_key}_meta",
-        {"label": fallback_label, "query": fallback_query},
+        {"label": fallback_label, "query": fallback_query, "workflow": DEFAULT_WORKFLOW_OPTION},
     )
 
 
@@ -1019,12 +1045,204 @@ def render_operator_graph_story(health: Dict[str, Dict[str, Any]]) -> None:
     )
     st.markdown(html_block, unsafe_allow_html=True)
 
-def render_operator_graph_section(model: Dict[str, Any]) -> None:
+
+
+
+
+
+
+def _escape_sparql_literal(value: str) -> str:
+    """Escape user text for inline SPARQL FILTER usage."""
+    return value.replace("\\", "\\\\").replace("\"", "\\\"")
+
+
+def build_graphdb_keyword_query(term: str, studio_id: Optional[str] = None, limit: int = 50) -> str:
+    """Build a simple CONTAINS SPARQL query for keyword search."""
+    search = term.strip()
+    if not search:
+        search = studio_id or "studio"
+    literal = _escape_sparql_literal(search)
+    filters = [
+        f'CONTAINS(LCASE(STR(?s)), LCASE("{literal}"))',
+        f'CONTAINS(LCASE(STR(?o)), LCASE("{literal}"))',
+    ]
+    if studio_id:
+        studio_literal = _escape_sparql_literal(studio_id)
+        filters.insert(0, f'CONTAINS(STR(?s), "{studio_literal}")')
+    filter_block = ' || '.join(filters)
+    return (
+        "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n"
+        "SELECT ?s ?p ?o WHERE {\n"
+        "  ?s ?p ?o .\n"
+        f"  FILTER({filter_block})\n"
+        f"}} LIMIT {limit}"
+    )
+
+
+def render_graph_intel_metrics(graph_ctx: Dict[str, Any]) -> None:
+    graph_hits = len(graph_ctx.get("graph") or [])
+    vector_hits = len(graph_ctx.get("vector") or [])
+    neo_hits = len(graph_ctx.get("neo4j") or [])
+    meta = graph_ctx.get("meta", {})
+    combined = meta.get("combined_score")
+    col1, col2, col3 = st.columns(3, gap="small")
+    render_metric_card(col1, "Graph Triples", f"{graph_hits}", "GraphDB context window")
+    render_metric_card(col2, "Vector Docs", f"{vector_hits}", "Chroma studio filter")
+    render_metric_card(
+        col3,
+        "Neo4j Links",
+        f"{neo_hits}",
+        f"Combined {combined}" if combined is not None else "Neo4j relationship sample",
+    )
+
+
+def render_graphdb_console(studio_id: str, graph_ctx: Dict[str, Any]) -> None:
+    key_prefix = f"{studio_id}_graphdb"
+    keyword_key = f"{key_prefix}_keyword"
+    st.session_state.setdefault(keyword_key, studio_id)
+    search_term = st.text_input(
+        "Graph keyword",
+        key=keyword_key,
+        placeholder="studio / program / modality",
+        help="GraphDB triple subject/object FILTER 검색",
+    )
+    keyword_results_key = f"{key_prefix}_keyword_results"
+    if st.button("Keyword Search", key=f"{key_prefix}_keyword_btn", use_container_width=True):
+        query_text = build_graphdb_keyword_query(search_term or studio_id, studio_id)
+        with st.spinner("GraphDB 검색 중..."):
+            rows = run_sparql_console(query_text)
+        st.session_state[keyword_results_key] = {"query": query_text, "rows": rows}
+    keyword_result = st.session_state.get(keyword_results_key)
+    if keyword_result:
+        rows = keyword_result.get("rows") or []
+        st.caption(f"GraphDB 결과 {len(rows)}건 · LIMIT 50")
+        if rows:
+            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+        else:
+            st.info("결과가 없습니다. 다른 키워드를 시도해 주세요.")
+    sparql_text_key = f"{key_prefix}_sparql_text"
+    st.session_state.setdefault(sparql_text_key, build_graphdb_keyword_query(studio_id, studio_id))
+    sparql_results_key = f"{key_prefix}_sparql_results"
+    with st.expander("SPARQL 콘솔", expanded=False):
+        sparql_query = st.text_area("SPARQL", key=sparql_text_key, height=160)
+        if st.button("SPARQL 실행", key=f"{key_prefix}_sparql_btn", use_container_width=True):
+            with st.spinner("GraphDB SPARQL 실행 중..."):
+                rows = run_sparql_console(sparql_query)
+            st.session_state[sparql_results_key] = {"query": sparql_query, "rows": rows}
+        sparql_result = st.session_state.get(sparql_results_key)
+        if sparql_result:
+            rows = sparql_result.get("rows") or []
+            st.caption(f"SPARQL 결과 {len(rows)}건")
+            if rows:
+                st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+            else:
+                st.info("SPARQL 결과가 없습니다.")
+    sample_graph = graph_ctx.get("graph") or []
+    if sample_graph:
+        st.caption("현재 컨텍스트 Triple 샘플 (최대 10)")
+        df = pd.DataFrame(sample_graph)
+        st.dataframe(df.head(10), use_container_width=True, hide_index=True)
+
+
+def _normalize_neo4j_node(raw: Any, fallback: str) -> tuple[str, str]:
+    if isinstance(raw, dict):
+        identifier = str(raw.get("id") or raw.get("name") or raw.get("label") or fallback)
+        label = str(raw.get("label") or raw.get("name") or raw.get("id") or fallback)
+    elif isinstance(raw, str):
+        parts = raw.rstrip("/").split("/")
+        identifier = raw
+        label = parts[-1] if parts else raw
+    else:
+        identifier = fallback
+        label = fallback
+    return identifier, label
+
+
+def _build_neo4j_graphviz(rows: List[Dict[str, Any]], studio_id: str) -> str:
+    alias: Dict[str, str] = {}
+    nodes: Dict[str, Dict[str, str]] = {}
+    edges: List[tuple[str, str, str]] = []
+
+    def ensure_node(raw: Any, fallback: str, color: str) -> str:
+        identifier, label = _normalize_neo4j_node(raw, fallback)
+        alias.setdefault(identifier, f"n{len(alias)}")
+        node_id = alias[identifier]
+        nodes[node_id] = {"label": label.replace('"', ''), "color": color}
+        return node_id
+
+    for rel in rows:
+        start_alias = ensure_node(rel.get("studio") or studio_id, studio_id, "#2563eb")
+        neighbor_alias = ensure_node(rel.get("neighbor") or "Neighbor", "Neighbor", "#f97316")
+        rel_label = str(rel.get("rel_type") or rel.get("type") or rel.get("mode") or "RELATED")
+        edges.append((start_alias, neighbor_alias, rel_label.replace('"', '')))
+
+    lines = [
+        "digraph Neo4j {",
+        "rankdir=LR;",
+        "graph [splines=true, overlap=false];",
+        "node [shape=oval, style=filled, fontname=\"Pretendard\"];",
+    ]
+    for node_id, meta in nodes.items():
+        lines.append(f'"{node_id}" [label="{meta["label"]}", fillcolor="{meta["color"]}"];')
+    for start, end, label in edges:
+        lines.append(f'"{start}" -> "{end}" [label="{label}", color="#475569"];')
+    lines.append("}")
+    return "\n".join(lines)
+
+
+def render_neo4j_graph_panel(graph_ctx: Dict[str, Any], studio_id: str) -> None:
+    rows = graph_ctx.get("neo4j") or []
+    st.markdown("<div class='lop-label-muted'>Neo4j Graph</div>", unsafe_allow_html=True)
+    if not rows:
+        st.info("Neo4j 결과가 없습니다.")
+        return
+    if all(isinstance(row, dict) and row.get("mode") == "stub" for row in rows):
+        st.info("Neo4j 드라이버 연결이 없어 관계를 시각화할 수 없습니다.")
+        st.code(json.dumps(rows[:1], ensure_ascii=False, indent=2))
+        return
+    dot = _build_neo4j_graphviz(rows[:24], studio_id)
+    st.graphviz_chart(dot, use_container_width=True)
+
+
+def render_graph_evidence_panel(graph_ctx: Dict[str, Any]) -> None:
+    evidence = ((graph_ctx.get("evidence") or {}).get("items") or [])[:6]
+    if not evidence:
+        return
+    lines = []
+    for item in evidence:
+        source = str(item.get("source") or "graph").upper()
+        subject = str(item.get("label") or item.get("subject") or "subject")
+        predicate = str(item.get("predicate") or item.get("rel_type") or "related")
+        obj = item.get("object")
+        obj_text = obj if isinstance(obj, str) else str(obj)
+        lines.append(f"{source} · {subject} --{predicate}--> {obj_text}")
+    render_list_card("Graph Evidence", lines)
+
+
+
+def render_operator_graph_section(
+    model: Dict[str, Any],
+    bundle: Optional[Dict[str, Any]],
+    *,
+    studio_id: str,
+    query_meta: Dict[str, str],
+) -> None:
     render_text_card("Graph Intelligence", model.get("summary"))
+    try:
+        graph_ctx = fetch_graph_context(studio_id, query_meta.get("query", ""))
+    except Exception as exc:  # pragma: no cover - network/runtime
+        st.error(f"Graph 컨텍스트를 불러오지 못했습니다: {exc}")
+        return
+    render_graph_intel_metrics(graph_ctx)
+    left, right = st.columns((3, 2), gap="large")
+    with left:
+        render_graphdb_console(studio_id, graph_ctx)
+    with right:
+        render_neo4j_graph_panel(graph_ctx, studio_id)
+    render_graph_evidence_panel(graph_ctx)
     render_list_card("추천 플레이북", model.get("playbook") or [])
     render_text_card("Consumer Voice", model.get("consumer_voice"))
-    render_list_card("전략 키 액션", model.get("strategy_actions") or [])
-
+    render_list_card("전략 액션", model.get("strategy_actions") or [])
 
 def render_operator_safety_section(model: Dict[str, Any], bundle: Optional[Dict[str, Any]]) -> None:
     metrics = build_member_safety_metrics(bundle or {})
@@ -1059,6 +1277,37 @@ def build_operator_view_model(bundle: Dict[str, Any]) -> Dict[str, Any]:
         "strategy": strategy,
         "consumer_voice": explanation.get("message"),
     }
+
+
+def render_knowledge_digest(knowledge: Optional[List[Dict[str, Any]]]) -> None:
+    if not knowledge:
+        return
+    insights: List[str] = []
+    for ref in knowledge:
+        title = ref.get('title') or 'Agentic Insight'
+        snippet = (ref.get('snippet') or '').strip().replace('\n', ' ')
+        source = ref.get('source')
+        line = f"{title} · {snippet[:120]}..."
+        if source:
+            line += f" ({source})"
+        insights.append(line)
+    render_list_card('McKinsey Knowledge', insights)
+
+
+def render_trace_timeline(trace_log: Optional[List[Dict[str, Any]]]) -> None:
+    if not trace_log:
+        return
+    rows = []
+    for event in trace_log:
+        rows.append({
+            'Skill': event.get('skill'),
+            'Status': event.get('status'),
+            'Latency(ms)': int((event.get('latency_s') or 0) * 1000),
+            'Started': event.get('started_at'),
+        })
+    st.markdown("<div class='lop-section-title'>Workflow Timeline</div>", unsafe_allow_html=True)
+    frame = pd.DataFrame(rows)
+    st.dataframe(frame, use_container_width=True, hide_index=True)
 
 
 def render_studio_section_selector(default_section: Optional[str] = None) -> str:
@@ -1217,9 +1466,12 @@ def render_operator_view(bundle: Optional[Dict[str, Any]], *, studio_id: str, qu
     if section == "Network Ops Pulse":
         render_operator_network_section(model)
     elif section == "Graph Intelligence":
-        render_operator_graph_section(model)
+        render_operator_graph_section(model, bundle, studio_id=studio_id, query_meta=query_meta)
     else:
         render_operator_safety_section(model, bundle)
+
+    render_knowledge_digest(bundle.get("knowledge"))
+    render_trace_timeline(bundle.get("trace_log"))
 
     st.markdown("<div class='lop-section-title'>Raw Multi-Agent Payload</div>", unsafe_allow_html=True)
     pretty = json.dumps(bundle, ensure_ascii=False, indent=2)
@@ -1287,41 +1539,57 @@ def render_member_view(
 
 
 def render_operator_page(studio_id: str) -> None:
-    default_nl = "GraphDB와 Neo4j 시그널을 합쳐 오늘의 리스크 힌트를 요약해줘."
+    default_nl = "Summarize GraphDB and Neo4j insights for this studio."
     default_sparql = "SELECT ?studio ?program WHERE { ?studio a lop:Studio . ?studio lop:offers ?program } LIMIT 10"
 
-    result = ensure_pipeline_result("operator_data", studio_id, default_nl, "자연어")
+    workflow_templates = getattr(load_orchestrator(), 'workflow_templates', {})
+    workflow_options = [DEFAULT_WORKFLOW_OPTION] + list(workflow_templates.keys())
+    if 'operator_workflow_value' not in st.session_state:
+        st.session_state['operator_workflow_value'] = DEFAULT_WORKFLOW_OPTION
+    workflow_choice = st.selectbox(
+        'Workflow Template',
+        workflow_options,
+        index=workflow_options.index(st.session_state['operator_workflow_value']),
+    )
+    if workflow_choice != st.session_state['operator_workflow_value']:
+        st.session_state['operator_workflow_value'] = workflow_choice
+        st.session_state.pop('operator_data', None)
+        st.session_state.pop('operator_data_meta', None)
+    selected_workflow = None if workflow_choice == DEFAULT_WORKFLOW_OPTION else workflow_choice
+    template_desc = workflow_templates.get(workflow_choice, {}).get('description') if selected_workflow else None
+    if template_desc:
+        st.caption(template_desc)
 
-    st.markdown("<div class='lop-section-title'>HQ 질의</div>", unsafe_allow_html=True)
-    with st.form("operator-query-form", clear_on_submit=False):
-        query_mode = st.radio("쿼리 방식", ["자연어", "SPARQL"], horizontal=True, index=0, key="operator_query_mode")
-        if "operator_natural" not in st.session_state:
-            st.session_state["operator_natural"] = default_nl
-        if "operator_sparql_text" not in st.session_state:
-            st.session_state["operator_sparql_text"] = default_sparql
+    result = ensure_pipeline_result('operator_data', studio_id, default_nl, '자연어', workflow=selected_workflow)
+
+    st.markdown("<div class='lop-section-title'>HQ Analysis</div>", unsafe_allow_html=True)
+    with st.form('operator-query-form', clear_on_submit=False):
+        query_mode = st.radio('Question Type', ['자연어', 'SPARQL'], horizontal=True, index=0, key='operator_query_mode')
+        if 'operator_natural' not in st.session_state:
+            st.session_state['operator_natural'] = default_nl
+        if 'operator_sparql_text' not in st.session_state:
+            st.session_state['operator_sparql_text'] = default_sparql
         natural_query = st.text_input(
-            "자연어 질의",
-            key="operator_natural",
-            placeholder="예) 강남 스튜디오의 Neo4j 리스크를 정리해줘",
-            autocomplete="off",
+            'Natural language prompt',
+            key='operator_natural',
+            placeholder='예) 이번 스튜디오 Neo4j 그래프를 요약해줘',
+            autocomplete='off',
         )
         sparql_query = st.text_area(
-            "SPARQL 질의",
-            key="operator_sparql_text",
+            'SPARQL query',
+            key='operator_sparql_text',
             height=160,
-            placeholder="PREFIX lop: <http://lop.example/ontology/> ...",
+            placeholder='PREFIX lop: <http://lop.example/ontology/> ...',
         )
-        submitted = st.form_submit_button("Command Center 실행", use_container_width=True)
+        submitted = st.form_submit_button('Run Command Center', use_container_width=True)
     if submitted:
-        raw_query = natural_query if query_mode == "자연어" else sparql_query
-        fallback = default_nl if query_mode == "자연어" else default_sparql
+        raw_query = natural_query if query_mode == '자연어' else sparql_query
+        fallback = default_nl if query_mode == '자연어' else default_sparql
         target_query = raw_query.strip() or fallback
-        with st.spinner("그래프 시그널을 합성하는 중입니다…"):
-            result = refresh_pipeline_result("operator_data", studio_id, target_query, query_mode)
-    meta = get_query_meta("operator_data", "자연어", default_nl)
+        with st.spinner('Collecting multi-source context…'):
+            result = refresh_pipeline_result('operator_data', studio_id, target_query, query_mode, workflow=selected_workflow)
+    meta = get_query_meta('operator_data', '자연어', default_nl)
     render_operator_view(result, studio_id=studio_id, query_meta=meta)
-
-
 def render_studio_page(studio_id: str) -> None:
     default_query = "이번 주 스튜디오 KPI와 실행 인사이트를 정리해줘."
     result = ensure_pipeline_result("studio_data", studio_id, default_query, "자연어")
@@ -1420,5 +1688,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-

@@ -1,7 +1,8 @@
-"""Vector store service using Chroma with safe fallbacks."""
+﻿"""Vector store service using Chroma with safe fallbacks."""
 from __future__ import annotations
 
 import hashlib
+import json
 import logging
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -11,6 +12,9 @@ logger = logging.getLogger(__name__)
 try:
     import chromadb  # type: ignore
 except ImportError:  # pragma: no cover - optional dependency
+    chromadb = None  # type: ignore
+else:
+    chromadb = None  # disable to avoid heavy dependency
     chromadb = None  # type: ignore
 
 
@@ -39,27 +43,35 @@ class _HashEmbeddingFunction:
     def get_config(self) -> dict:
         return {"name": self.name(), "dimensions": self.dimensions, "default_space": self.default_space()}
 
-    def __call__(self, texts: List[str]) -> List[List[float]]:
-        vectors: List[List[float]] = []
-        for text in texts:
-            digest = hashlib.sha256(text.encode("utf-8")).digest()
-            step = max(1, len(digest) // self.dimensions)
-            vec = [int.from_bytes(digest[i:i + step], "big") % 1000 / 1000 for i in range(0, len(digest), step)]
-            vectors.append(vec[: self.dimensions])
-        return vectors
+    def _hash(self, text: str) -> List[float]:
+        digest = hashlib.sha256((text or "").encode("utf-8")).digest()
+        step = max(1, len(digest) // self.dimensions)
+        vec = [int.from_bytes(digest[i:i + step], "big") % 1000 / 1000 for i in range(0, len(digest), step)]
+        return vec[: self.dimensions]
+
+    def embed_documents(self, input: List[str]) -> List[List[float]]:
+        return [self._hash(text) for text in input or []]
+
+    def embed_query(self, input: str) -> List[float]:
+        return self._hash(input or "")
+
+    __call__ = embed_documents
 
 
 class VectorService:
     """Handles vector embedding storage and retrieval."""
 
     def __init__(self, persist_path: str, collection_name: str = "documents"):
-        self.persist_path = persist_path
+        self.persist_path = Path(persist_path)
         self.collection_name = collection_name
         self._client = None
         self._collection = None
         self._memory_docs: List[Dict[str, Any]] = []
+        self._memory_store_path = self.persist_path / "memory_store.json"
         self.embedding_fn = _HashEmbeddingFunction()
         self._init_client()
+        if not self._collection:
+            self._load_memory_docs()
 
     def is_connected(self) -> bool:
         return self._collection is not None or bool(self._memory_docs)
@@ -69,8 +81,8 @@ class VectorService:
             logger.warning("chromadb not installed; using in-memory vectors")
             return
         try:
-            Path(self.persist_path).mkdir(parents=True, exist_ok=True)
-            self._client = chromadb.PersistentClient(path=self.persist_path)
+            self.persist_path.mkdir(parents=True, exist_ok=True)
+            self._client = chromadb.PersistentClient(path=str(self.persist_path))
             self._collection = self._client.get_or_create_collection(
                 name=self.collection_name,
                 embedding_function=self.embedding_fn,
@@ -79,6 +91,22 @@ class VectorService:
             logger.warning("Chroma init failed, falling back to memory: %s", err)
             self._client = None
             self._collection = None
+
+    def _load_memory_docs(self) -> None:
+        if not self._memory_store_path.exists():
+            return
+        try:
+            self._memory_docs = json.loads(self._memory_store_path.read_text(encoding="utf-8"))
+        except Exception as err:  # pragma: no cover - corrupted file
+            logger.warning("Failed to load memory vector store: %s", err)
+            self._memory_docs = []
+
+    def _persist_memory_docs(self) -> None:
+        try:
+            self._memory_store_path.parent.mkdir(parents=True, exist_ok=True)
+            self._memory_store_path.write_text(json.dumps(self._memory_docs), encoding="utf-8")
+        except Exception as err:  # pragma: no cover - disk issues
+            logger.warning("Failed to persist memory vector store: %s", err)
 
     def add_documents(self, docs: List[Dict[str, Any]]) -> None:
         """Ingest documents with embeddings."""
@@ -93,9 +121,12 @@ class VectorService:
                 return
             except Exception as err:  # pragma: no cover - env dependent
                 logger.warning("Chroma upsert failed, using memory fallback: %s", err)
-        # simple memory store
+        # simple memory store with on-disk persistence
+        if not self._memory_docs:
+            self._load_memory_docs()
         for doc_id, content, metadata in zip(ids, contents, metadatas):
             self._memory_docs.append({"id": doc_id, "content": content, "metadata": metadata})
+        self._persist_memory_docs()
 
     def search(
         self,
@@ -105,9 +136,10 @@ class VectorService:
     ) -> List[Dict[str, Any]]:
         """Return vector search results from Chroma or memory fallback."""
         metadata_filter = metadata_filter or {}
+        where_clause = metadata_filter if metadata_filter else None
         if self._collection:
             try:
-                results = self._collection.query(query_texts=[query], n_results=k, where=metadata_filter)
+                results = self._collection.query(query_texts=[query], n_results=k, where=where_clause)
                 hits = []
                 raw_ids = results.get("ids", [[]])[0]
                 raw_docs = results.get("documents", [[]])[0]
@@ -126,12 +158,20 @@ class VectorService:
             except Exception as err:  # pragma: no cover - env dependent
                 logger.warning("Chroma query failed, using memory fallback: %s", err)
         # memory search via simple substring scoring
+        if not self._memory_docs:
+            self._load_memory_docs()
         hits: List[Dict[str, Any]] = []
+        q = query.lower()
         for doc in self._memory_docs:
             if metadata_filter and not all(doc.get("metadata", {}).get(k) == v for k, v in metadata_filter.items()):
                 continue
-            score = 1.0 if query.lower() in doc.get("content", "").lower() else 0.0
-            hits.append({"id": doc.get("id"), "content": doc.get("content"), "metadata": doc.get("metadata", {}), "score": score})
+            score = 1.0 if q in (doc.get("content", "").lower()) else 0.0
+            hits.append({
+                "id": doc.get("id"),
+                "content": doc.get("content"),
+                "metadata": doc.get("metadata", {}),
+                "score": score,
+            })
         hits.sort(key=lambda h: h["score"], reverse=True)
         return hits[:k]
 

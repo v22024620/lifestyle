@@ -1,0 +1,1498 @@
+September 2025Life Sciences Practice
+Reimagining life 
+science enterprises  
+with agentic AI
+Agentic AI is poised to boost the benefits from AI by changing its role 
+from tool to coworker and catalyzing an end-to-end reimagining of the 
+life sciences value chain.
+This article is a collaborative effort by Dan Tinkoff, Delphine Zurkiya, Eoin Leydon, and Jeffrey Lewis, 
+with Chaitanya Adabala Viswa, Lionel Jin, and Meredith Langstaff, representing views from McKinsey’s 
+Life Sciences Practice and QuantumBlack, AI by McKinsey.
+Life sciences companies  are facing margin 
+pressures, higher R&D costs, and the need 
+for continuous innovation amid increasing 
+technological and operational complexity. 
+They’re also struggling to attract and retain 
+talent. Externally, they are subject to heavy 
+regulatory oversight and legislative uncertainty. 
+For pharmaceutical companies, many blockbuster 
+drugs are nearing patent expiration. For medtech 
+companies, many devices in development, such 
+as robotics and connected devices, are becoming 
+complex platforms. For life science services 
+companies, AI and the shift to cell and gene 
+therapies are driving rapid technological changes. 
+Factors such as global economic shifts, trade tariffs, 
+most-favored-nation pricing policies, supply chain 
+vulnerabilities, and geopolitical tensions further 
+complicate the landscape. Meanwhile, the rapid 
+progress of AI creates both opportunities and 
+challenges. These combined pressures make it 
+essential for life sciences companies to find new 
+ways to boost growth, improve productivity, and 
+increase operational agility.
+Recent McKinsey research has found that nearly eight 
+in ten companies use gen AI, yet 80 percent of them 
+report no tangible bottom-line benefits.1 Function-
+specific AI use cases have the greatest potential 
+benefits, but companies face hurdles in expanding 
+them past the pilot stage.2 Think of it as the AI 
+paradox—the technology has potential, but enterprises 
+haven’t yet adopted it nor seen its benefits at scale.
+AI agents (for a definition, see sidebar “What is 
+agentic AI?”) have the potential to resolve this 
+paradox by changing AI’s role from tool to coworker. 
+They can be combined into configurable networks 
+that help employees by collaborating with them, 
+performing tasks on their behalf, and handling 
+activities that are currently low priority because of 
+limited capacity, such as those related to the large 
+volumes of lower-priority customers, contracts, and 
+invoices. In our experience, there are benefits to 
+viewing AI as a coworker: People tend to be more 
+patient with AI and invest their time to improve it 
+through feedback; they become creative in finding more parts of their workflow that can be “agentified” 
+once they see what is possible; and they proactively 
+seek better ways to reorganize workflows once they 
+understand how AI can help. 
+To understand how agents might change work 
+and responsibilities in life sciences, we conducted 
+a thorough, end-to-end, task-based analysis to 
+evaluate the potential benefits of AI agents in specific 
+workflows (see sidebar “How we determined the 
+potential benefits of agentic AI in life sciences”). 
+We analyzed 270 workflows and 1,200 tasks in 180 
+job families and found that agentic AI will transform 
+workflows, change how work is done, and increase 
+value by spurring growth and reducing costs in 
+both pharma and medtech (Exhibit 1, parts 1 and 2). 
+In pharma, 75 to 85 percent of workflows contain 
+tasks that could be enhanced or automated by 
+agents, potentially freeing up 25 to 40 percent of 
+an organization’s capacity. In medtech, the figure is 
+70 to 80 percent. These capacities are at the task 
+level, so they may be fractions of employees’ time. 
+Organizations will need to make choices about how to 
+redeploy this capacity, with implications for the shape 
+of the organization and how work is conducted. 
+Patients stand to benefit in various ways, including 
+through quicker access to a wider range of new 
+medicines, more personalized treatments developed 
+using patient data, and improved matching of existing 
+treatments to unmet needs.
+We estimate that the full potential of agents could 
+give companies incremental growth of five to 13 
+percentage points in pharma and three to seven 
+percentage points in medtech. EBITDA would 
+increase by 3.4 to 5.4 percentage points in pharma 
+and 2.2 to 4.7 percentage points in medtech over 
+the next three to five years, in addition to current 
+initiatives focused on growth and margin expansion.
+We found that the opportunities for agentic AI 
+in the pharmaceutical and medtech sectors are 
+similar in most domains, except in R&D, where their 
+approaches differ significantly. This article presents 
+the results for both sectors and highlights notable 
+differences where relevant. 
+1 “Seizing the agentic AI advantage,” QuantumBlack, AI by McKinsey, June 13, 2025.
+2 “Seizing the agentic AI advantage,” QuantumBlack, AI by McKinsey, June 13, 2025.
+2
+Reimagining life science enterprises with agentic AI
+Exhibit 1, part 1
+Web <2025>
+<MCK254200 Agentic AI>
+Exhibit <1A> of <9>
+There are several potential bene/f_its of AI agents in pharma.
+Growth impact
+Expanded and better 
+assets, more eligible 
+patients reached, and 
+revenue pulled forward 
+within 3-to-5 year time 
+frame, with potential for 
+incremental 1% to 3% 
+CAGR above baseline 
+growthRoles with AI sidekicks
+With agents as integrated 
+teammates, employees’ 
+impact for patients can be 
+ampli/f_iedWork will transform
+Note: Numbers do not include physical AI or growth from AI in products.
+1Percentage points
+McKinsey & Company75/endash.case85%Agenti/f_iable work/f_lows
+Processes in life sciences 
+where key activities can be 
+augmented or automated 
+by agents35%Lower-complexity agents
+Agents that require 
+minimal coding, with 
+mostly business-driven 
+build and oversight and 
+rewiring mechanism for 
+adoption40%‘Superpowered’ work
+Work/f_lows can be 
+extended by agents doing 
+work that is currently too 
+complex or costly for 
+humans
+Roles will change
+95% 25/endash.case40%Freed-up enterprise 
+capacity
+Assigning agents to tasks 
+where they excel (and 
+humans don’t) can free up 
+time for where humans’ 
+unique abilities are needed 
+most10+New role types needed
+Agentic workforce can 
+succeed with help from 
+humans in new roles such 
+as agent orchestrator and  
+AI governance or quality 
+manager
+Revenue will be aﬀected
+5/endash.case13% 6/endash.case8%Cost eﬃciency
+Potential savings from 
+increased productivity, 
+reduced vendor spend, 
+and optimized operations3.4–
+5.4 p.p.1Impact to EBITDA
+Full potential enterprise- 
+wide impact on EBITDA 
+within a time horizon of 
+3 to 5 years AI agents are goal-driven systems that operate 
+independently by breaking down complex 
+tasks, interacting with other systems, and 
+learning in real time. They use machine learning 
+and rules-based AI to enable reasoning, mem -
+ory, and the capacity to interact with humans. 
+Gen AI includes lower-complexity agents, 
+sometimes referred to as “low-code” or 
+“no-code,” that employees with mini -
+mal coding experience can create and 
+modify using natural language on various 
+platforms. It also includes higher-com-
+plexity agents, sometimes referred to as 
+“pro-code,” which must be developed and 
+fine-tuned by data scientists or engineers. Lower-complexity agents are well-suited 
+for predictable tasks that can be chunked 
+into subtasks, as well as for work with 
+clean data, integrated systems, limited 
+specialized knowledge, and lower-risk 
+tasks. Typical uses include automated 
+report generation and analyzing customer 
+feedback. Higher-complexity agents are 
+needed when those conditions aren’t met, 
+such as in predictive modeling for clinical 
+trials or firmware development for medical 
+devices. However, even no- and low-code 
+agents require people to create, test, and 
+tweak them and think through adoption 
+and performance tracking. All AI agents What is agentic AI?
+should be part of broader business and 
+talent changes that include training and 
+incentives to promote adoption. As man -
+agers transition to overseeing a flexible 
+network of agents that perform, adapt, 
+and learn, the operations of life sciences 
+organizations could transform fundamen -
+tally. Because the life sciences industry is 
+strictly regulated, agents must consult hu -
+mans before making important decisions 
+or performing major tasks. Guardrails are 
+set by the enterprise, a function or busi -
+ness unit, or the manager or supervisor 
+overseeing that AI. 
+3
+Reimagining life science enterprises with agentic AI
+1. We analyzed each domain in 
+biopharmaceutical and medical 
+technology firms and deconstructed 
+their workflows to generate a 
+comprehensive map of all 270 
+workflows. 
+2. For each workflow, we examined 
+more than 1,200 key tasks to assess 
+whether they could be agentified, with 
+simpler or more complex agents; the 
+share of the task that agents could 
+handle; and the time they could save. 3. We examined the roles responsible 
+for those tasks and the amount 
+of time each role spends on them. 
+We analyzed 180 job families and 
+identified ten new roles, such as 
+agent orchestrator and AI quality 
+manager, that will be needed to 
+support agents.
+4. This provided us with a bottom-up 
+view of growth and productivity 
+opportunities, which we analyzed 
+at the profit and loss (P&L) level for How we determined the potential benefits of agentic AI in life sciences
+each domain. A panel of technology 
+and domain experts reviewed 
+the benefits of each revenue and 
+expense item and considered the 
+costs to deploy and manage those 
+agents. 
+5. We compiled those numbers by 
+domain and functional area to assess 
+the overall benefits to the P&L and 
+the reduction in time-to-market for 
+new medicines.Exhibit 1, part 2
+Growth impact
+Expanded and better 
+assets, more eligible 
+patients reached, and 
+revenue pulled forward 
+within 3-to-5 year time 
+frame, with potential for 
+incremental 1% to 3% 
+CAGR above baseline 
+growthRoles with AI sidekicks
+With agents as integrated 
+teammates, employees’ 
+impact for patients can be 
+ampli/f_iedWeb <2025>
+<MCK254200 Agentic AI>
+Exhibit <1B> of <9>
+Work will transform
+Note: Numbers do not include physical AI or growth from AI in products.
+1Percentage pointsThere are several potential bene/f_its of AI agents in medtech.
+McKinsey & Company70/endash.case80%Agenti/f_iable work/f_lows
+Processes in life sciences 
+where key activities can be 
+augmented or automated 
+by agents35%Lower-complexity agents
+Agents that require 
+minimal coding, with 
+mostly business-driven 
+build and oversight and 
+rewiring mechanism 
+for adoption35%‘Superpowered’ work
+Work/f_lows can be 
+extended by agents doing 
+work that is currently too 
+complex or costly for 
+humans
+Roles will change
+95% 25/endash.case35%Freed-up enterprise 
+capacity
+Assigning agents to tasks 
+where they excel (and 
+humans don’t) can free up 
+time for where humans’ 
+unique abilities are 
+needed most10+New role types needed
+Agentic workforce can 
+succeed with help from 
+humans in new roles such 
+as agent orchestrator and  
+AI governance or quality 
+manager
+Revenue will be aﬀected
+3/endash.case7% 6/endash.case8%Cost eﬃciency
+Potential savings from 
+increased productivity, 
+reduced vendor spend, 
+and optimized operations2.2–
+4.7 p.p.1Impact to EBITDA
+Full potential enterprise- 
+wide impact on EBITDA 
+within a time horizon of 
+3 to 5 years 
+4
+Reimagining life science enterprises with agentic AI
+Agentic AI is catalyzing three 
+key shifts in life sciences
+ 1.  Agentic AI can transform eight out of ten 
+workflows . Of the more than 270 life sciences 
+workflows we analyzed, 75 to 85 percent 
+of workflows in pharma and medtech have 
+tasks that could be automated or augmented 
+by agents (Exhibit 2). Nearly 40 percent 
+of workflows are relatively standard and 
+predictable and could be addressed by 
+lower-complexity agents that business users 
+could customize and implement themselves, 
+possibly with minimal technical support. 
+Another 50 percent are more complex, 
+domain-specific workflows that companies 
+could support with custom-built agents to help 
+them differentiate from competitors. 
+ 2.  Up to 95 percent of life science roles may 
+have agentic teammates . Every functional 
+area, domain, and job family has tasks for 
+which agents could be deployed. Two-thirds  
+of those roles will be involved in some 
+combination of directly building, managing, 
+and supervising lower-complexity agents, 
+which they will orchestrate, tune, monitor, 
+and maintain. New team roles, such as agent 
+orchestrators, AI governance and agent 
+quality managers, and agent supervisors, 
+could also be needed to implement and 
+support agentic workers.
+        We expect this shift to free up 25 to 40 
+percent of enterprise capacity, allowing 
+employees to focus on more strategic, value-
+adding, and productive work (Exhibit 3). 
+At first, this additional capacity will free up 
+employees for part of their work week, but 
+we anticipate that over time, job descriptions, 
+job families, and even organizational 
+charts will evolve to replace certain roles 
+entirely. This creates an opportunity for the 
+leadership team—and especially human-
+resource officers—to rethink the shape of 
+the organization. Management will have to 
+decide what to do with freed-up capacity; 
+this will likely depend on the domain. Some companies will reinvest it, some will grow into 
+it—for example by freezing hiring—and some 
+might take the margin improvement. 
+ 
+The greatest productivity boost may come 
+from agents performing tasks that humans 
+are not currently doing; we found that 40 
+percent of workflows include tasks that are 
+too complex or uneconomical for humans 
+to perform, but that agents could handle at 
+scale. Agents could find patterns that humans 
+cannot, especially in complex, unstructured 
+datasets. This could help researchers gather 
+insights from diverse sets of scientific data 
+and identify value leakage in the long tail of 
+invoices, which are typically not a priority for 
+human review. Agents could also collect and 
+analyze data from a wide range of sources to 
+continually monitor and report on a company’s 
+brand health, enabling always-on brand 
+performance. These agent-specific strengths 
+can create possibilities for new workflows, 
+processes, and ways of working.3 
+  3.  AI agents could boost growth and EBITDA . 
+They could lift growth by 5.0 to 13.0 percentage 
+points in pharma and 3.0 to 7.0 percentage 
+points in medtech, while increasing the EBITDA 
+of pharmaceutical companies by 3.4 to 5.4 
+percentage points and medtech companies 
+by 2.2 to 4.7 percentage points over the next 
+three to five years (Exhibit 4, parts 1 and 2). 
+Half of this increase would come from a boost 
+in net revenue from acquiring more and better 
+assets, reaching more eligible patients, and 
+accelerating the time to market. The other half 
+would come from greater efficiency in R&D 
+and manufacturing and administration. As life 
+sciences companies face margin pressures 
+from portfolio crowding, policy changes, and 
+pricing dynamics,4 this potential margin boost 
+is especially important. Capturing the full 
+potential of agentic AI requires an enterprise-
+wide effort to which every domain contributes. 
+This may be challenging for some companies, 
+but even a subset of domains transformed by 
+agents would yield significant benefits.
+3 “The future of work is agentic,” McKinsey, June 3, 2025.
+4 “Simplification for success: Rewiring the biopharma operating model,” McKinsey, March 21, 2025.
+5
+Reimagining life science enterprises with agentic AI
+Exhibit 2
+Domain % of work/f_lows
+R&D, 
+regulatory, and quality
+Commercial
+Medical aﬀairs
+Operations
+IT
+HR
+Finance
+Medtech totalDomain % of work/f_lows
+Research and
+early development
+Development,
+regulatory, and quality
+Sales
+Market access
+Marketing
+Medical aﬀairs
+Operations
+IT
+HR
+Finance
+Pharma totalLower-complexity agents Higher-complexity agents Human-led or not for agents
+Note: Figures may not sum to 100%, because of rounding.Web <2025>
+<MCK254200 Agentic AI>
+Exhibit <2> of <9>
+Proportion of existing pharma work/f_lows where 
+agents could be deployedProportion of existing medtech work/f_lows where 
+agents could be deployedAgents can augment 75 to 85 percent of today’s work/f_lows.
+McKinsey & Company
+0
+20
+40
+60
+80
+100
+25
+58
+38
+28
+45
+41
+35
+37
+55
+25
+39
+51
+34
+29
+48
+43
+19
+18
+23
+20
+22
+31
+17
+20
+0
+20
+40
+60
+80
+100
+35
+27
+56
+60
+60
+38
+31
+45
+41
+35
+42
+56
+70
+33
+30
+30
+39
+48
+34
+29
+48
+43
+8
+3
+11
+10
+10
+23
+20
+22
+31
+17
+15
+6
+Reimagining life science enterprises with agentic AI
+Reimagining work with agents
+Agents can help tackle complex problems in life 
+sciences, freeing people to develop more treatments 
+and address other challenging problems. Here are 
+six life sciences battlegrounds where agent-based AI 
+can generate substantial benefits:
+1. Pharma research: Accelerating discovery 
+and deepening scientific insight
+Research and early drug discovery involve complex 
+processes, but agents can still enhance almost 
+every workflow (Exhibit 5). The specialized data 
+and expertise needed mean that nearly 60 percent 
+of workflows will require custom-built agents. 
+Once implemented, these agents can free up 21 to 
+30 percent of capacity in areas such as wet labs, 
+data analytics, and regulatory support, which can be redirected to expand the research pipeline or 
+accelerate the progression of candidate drugs to trials. 
+With agentic AI, work for early-stage drug discovery 
+and scientific exploration can be reimagined in the 
+following ways:
+Autonomous data analysis and insight generation : 
+An analytic agent can assist scientists by 
+automatically preparing detailed data analyses 
+of experimental data aggregated by a curator 
+agent. The analytic agent would perform statistical 
+analysis and visualizations, which are currently time-
+intensive tasks that require the expertise of highly 
+trained scientific staff. The analytic agent can then 
+work with a protocol-drafting agent, which suggests 
+updates to the experiment protocols based on the Exhibit 3
+16/endash.case22
+20/endash.case30
+R&D
+Customer
+service
+Commercial
+sales
+Medical
+aﬀairs
+Operations
+HR
+Finance
+Tech
+delivery
+23/endash.case30
+23/endash.case38
+17/endash.case27
+40/endash.case55
+20/endash.case35
+50/endash.case65Web <2025>
+<MCK254200 Agentic AI>
+Exhibit <3> of <9>
+Proportion of pharma employee workloads 
+that agents could free up
+R&D, 
+regulatory, 
+and qualityDomain % of workloads Domain % of workloads
+Commercial
+Medical aﬀairs
+Operations
+General and 
+administrative 
+(G&A)R&D and regulatory
+Commercial
+Medical aﬀairs
+Operations
+G&AProportion of medtech employee workloads 
+that agents could free upAgents could free up 25 to 40 percent of employees’ workloads.
+McKinsey & Company21/endash.case30
+30/endash.case36
+Research and early
+development
+Development
+Market access
+Marketing
+Sales
+Medical
+Manufacturing and
+supply chain
+HR
+Finance
+Tech delivery
+Series 1
+Series 2
+35/endash.case45
+30/endash.case35
+12/endash.case25
+23/endash.case38
+17/endash.case27
+40/endash.case55
+20/endash.case35
+50/endash.case65
+7
+Reimagining life science enterprises with agentic AI
+Exhibit 4, part 1
+Spend on agents (tech and full-time employees) x.x
+Series 1
+Series 2Web <2025>
+<MCK254200 Agentic AI>
+Exhibit <4> of <9>
+Incremental pro/f_it and loss (P&L) impact for top pharma companies, not including baseline 
+growth (indexed to 100)
+P&L 
+componentsCurrent state/one.numr Potential in 3 to 5 years
+Net revenue
+EBITDA (#, % of 
+net revenue)Cost of goods sold
+R&D
+SG&A
+1Based on aggregate level of 21 large-cap biopharma companies from FY2024 /f_inancial statements (Eli Lilly, Novo Nordisk, AbbVie, Amgen, AstraZeneca, Bristol 
+Myers Squibb, GSK, P/f_izer, Roche, Novartis, Merck & Co, Johnson & Johnson, Sano/f_i, Daiichi Sankyo, Gilead, Astellas, Takeda, Vertex Pharma, CSL, Biogen, and 
+Regeneron); Johnson & Johnson, Merck & Co, Sano/f_i, and Roche based on only pharma business.
+2Includes HR, legal, and tech delivery.
+Source: Company /f_inancial statements; expert interviews; McKinsey Value Intelligence Platform The full potential of enterprise-wide agentic transformation could boost 
+top biopharmas’ EBITDA by 3.4 to 5.4 percentage points.
+McKinsey & Company
+81.9
+61.5
+39.9
+100
+18.1
+20.4
+21.6
+39.9
+Series 1
+Series 239.9% 
+of net revenue
+0.8
+0.4
+1.4105.0/endash.case113.0
+18.1/endash.case18.6
+21.3/endash.case22.8
+20.2/endash.case20.4
+45.5/endash.case51.243.5/endash.case45.5% 
+of net revenue1.2 to 2.3
+percentage points 
+of EBITDA impact 
+over next 5 years  
+for an illustrative 
+pharma company 
+focusing on 
+transforming 
+commercial and 
+corporate functions/two.numr    Potential for   
+Agent-based AI can generate 
+substantial benefits in six life 
+sciences battlegrounds. 
+8
+Reimagining life science enterprises with agentic AI
+Exhibit 4, part 2
+Spend on agents (tech and full-time employees) x.x
+Series 2
+Series 1
+Series 2
+Series 3Web <2025>
+<MCK254200 Agentic AI>
+Exhibit <5> of <9>
+Incremental pro/f_it and loss (P&L) impact for top medtech companies, not including baseline 
+growth (indexed to 100)
+P&L 
+components
+Net revenue
+EBITDA (#, % of 
+net revenue)Cost of goods sold
+1Based on aggregate level of 10 large-cap medtech companies from FY2024 /f_inancial statements (Medtronic, Boston Scienti/f_ic, GE Healthcare, Edwards 
+Lifesciences, Stryker Corporation, Intuitive Surgical, Abbott, Phillips, Baxter, and Johnson & Johnson); Johnson & Johnson based on only medtech business.
+2Includes HR, legal, and tech delivery.
+Source: Company /f_inancial statements; expert interviews; McKinsey Value Intelligence Platform The full potential of enterprise-wide agentic transformation could boost 
+top medtechs’ EBITDA by 2.2 to 4.7 percentage points.
+McKinsey & CompanyCurrent state/one.numr
+57.5
+49.3
+19.7
+100
+42.5
+8.2
+29.6
+19.7
+Series 1
+Series 2
+19.7% 
+of net revenuePotential in 3 to 5 years
+0.8
+0.8
+1.8
+105.0/endash.case113.0
+43.0/endash.case43.9
+8.9/endash.case9.0
+28.3/endash.case28.7
+22.6/endash.case
+26.221.9/endash.case24.4% 
+of net revenue0.3 to 1.6 
+percentage points 
+of EBITDA impact 
+over next 5 years  
+for an illustrative 
+medtech company 
+focusing on 
+transforming 
+commercial and 
+corporate functions/two.numr    Potential for   
+SG&AR&D
+latest findings. The human scientist reviews and 
+adjusts these suggestions, enabling faster iteration 
+and improved experiment design.
+Data-driven drug-candidate selection : A key 
+function of the drug discovery team is to evaluate 
+drug candidates for a specific target. Traditionally, 
+these decisions relied heavily on early preclinical 
+efficacy experiments and expert opinions. With AI 
+agents, the team can benefit from a much richer 
+set of inputs. AI agents can synthesize insights 
+from the latest literature and trial data compiled 
+by a literature-explorer agent, perform in silico 
+modeling of success probabilities using real-world 
+data, multiomic analyses from the data-science 
+agent, and endpoint simulations from the feature-generation agent, creating a prioritized list of 
+potential drug candidates. With the help of these 
+agents, the team can efficiently review and approve 
+this list for the next stage of screening and testing, 
+significantly improving and hastening the decision 
+process.
+Accelerated regulatory submission preparation : 
+A regulatory-drafting agent could autonomously 
+compile the latest efficacy and toxicology testing 
+data into a submission-ready document. What 
+once took a week or two of manual effort now 
+only requires the scientist a few hours to review 
+and finalize. By automating the drafting process, 
+the regulatory-drafting agent not only reduces 
+timelines but also ensures compliance with 
+9
+Reimagining life science enterprises with agentic AI
+Exhibit 5
+Series 2
+Series 1
+Series 2
+Series 3Web <2025>
+<MCK254200 Agentic AI>
+Exhibit <6> of <9>
+Predominantly 
+lower-complexityMix of lower- and 
+higher-complexityPredominantly 
+higher-complexityMainly human-led or not for agentsRelative value at stake by work/f_low, with type of agent
+1Mechanisms of action.Most work/f_lows in research and early development can bene/f_it from agents.
+McKinsey & CompanyDisease understanding and target identi/f_ication Compound identi/f_ication and optimization
+Preclinical evidence generation Clinical trial preparation
+Disease area
+research:
+discovery
+Disease area
+research:
+evidence
+generation
+Data
+consolidation
+and synthesis
+Target
+prioritization
+Feature
+screening and
+target
+identi/f_ication
+Target
+validation
+Lab resource
+managment
+Preclinical
+experiment design
+Study blueprint
+and evidence
+synthesis
+In vivo eﬃcacy,
+toxicology, and
+pharmacology
+In vitro validation
+and MOA
+1
+characterization
+Biochemical
+pathway
+impact analysis
+Data set
+management
+Therapeutic
+candidate
+identi/f_ication
+Lead
+optimization
+Druglike
+property
+identi/f_ication
+Formulation
+development
+Protocol
+authoring
+Prognostic modeling
+Inclusion and exclusion criteria
+optimization
+Subpopulation discovery and
+evidence synthesis
+Endpoint simulation
+Head-to-head comparisons for
+internal decision-making
+10
+Reimagining life science enterprises with agentic AI
+regulatory standards, allowing the scientist to focus 
+on higher-value tasks, such as strategic innovation 
+and building relationships.
+Several large pharmaceutical companies are actively 
+leveraging AI, including agentic AI, to speed up 
+various stages of drug discovery and development. 
+One has a collaboration with a company that 
+integrates AI and robotics for drug discovery. It uses 
+AI-powered platforms for molecular modeling, crystal 
+structure prediction, and screening to identify and 
+improve small-molecule drugs. The AI autonomously 
+performs complex calculations and predictions to 
+reduce the list of potential drug candidates and 
+optimize workflows.
+2. Pharma development: Accelerating clinical 
+trials and enhancing patient journeys
+Agentic AI can help companies conduct clinical trials 
+faster, more efficiently, and with higher quality while 
+also improving the patient experience. Although 
+study teams have already been working toward these 
+goals using digital tools, AI, and gen AI, we expect a 
+major shift to come about once agents are more fully implemented. Agents are no longer just tools for study 
+teams; they are evolving into intelligent partners that 
+collaborate with teams throughout the clinical trial 
+process and can operate semiautonomously to handle 
+a wide range of workflows. Over the next five years, 
+we expect this to lead to a 35 to 45 percent boost in 
+productivity in clinical development that will benefit 
+every function (Exhibit 6).
+Agents can also shorten timelines, delivering medicines 
+to patients more quickly and accelerating revenues, 
+and enhance decision-making and execution, thereby 
+increasing the likelihood of demonstrating the efficacy 
+and safety of novel treatments. 
+We see agents performing seven key roles in 
+development: 
+1. optimizing trial designs informed by agentic 
+retrieval of benchmarks and data, with scenarios 
+designed using machine learning (ML)
+2. orchestrating sites, vendors, and sponsors for 
+site start-ups
+Exhibit 6
+Incremental time spent on agents Time savings from agentsWeb <2025>
+<MCK254200 Agentic AI>
+Exhibit <7> of <9>
+Work hours shifted by agentic workforce, % of function capacity
+FunctionAgents can bene/f_it roles in every clinical development function.
+McKinsey & Company35/endash.case45
+Clinical science
+Clinical operations and trial
+management
+Biostats and data
+management
+Medical writing and med
+aﬀairs
+Regulatory aﬀairs and
+compliance
+Analytical chemistry,
+manufacturing, and quality
+Safety and
+pharmacovigilance
+Cross-functional
+Total Total20/endash.case25
+35/endash.case40
+45/endash.case50
+45/endash.case50
+20/endash.case25
+20/endash.case25
+45/endash.case50
+30/endash.case35/endash.case5
+/endash.case8
+/endash.case10
+/endash.case10
+/endash.case5
+/endash.case5
+/endash.case10
+/endash.case7
+/endash.case7
+11
+Reimagining life science enterprises with agentic AI
+3. managing clinical data from one-click electronic 
+data capture design through anomaly detection 
+and query triage
+4. engaging sites and principal investigators with 
+hyperpersonalized, multimodal messages
+5. managing trials, including root cause 
+investigations and next-best-action 
+recommendations
+6. assembling submission materials informed by 
+regulatory intelligence
+7. automating document production throughout 
+the trial life cycle
+Here is how three of these would work in detail:
+Trial design : A clinical-trial benchmarking agent 
+identifies similar trials and establishes benchmarks 
+for key metrics such as enrollment rate. Meanwhile, 
+a literature-explorer agent evaluates the 
+competitive landscape and unmet needs. Both 
+agents send their outputs to a trial-optimizer agent 
+that uses ML and simulation tools to refine the trial 
+design, under the supervision of a human clinical 
+scientist. Once the design is finalized, a document-
+generation agent generates a draft of the protocol 
+in minutes, using a library of design elements 
+such as endpoints, and refines the draft through 
+feedback from a critic agent and a human clinical 
+scientist. This approach could enable companies 
+to design trials 50 percent faster with 25 percent 
+fewer amendments. 
+Study start-up: A site feasibility agent creates site 
+questionnaires based on the trial protocol and 
+compiles the responses. The start-up selection 
+agent then uses ML -based site selection to produce 
+a prioritized site list of predicted high-performing 
+sites for the study start-up team to review and 
+confirm. A site contracting agent then automatically 
+drafts “first time right” site contracts based on 
+fair market value benchmarks, site potential, and 
+site-specific precedents, speeding up contracting 
+processes. The process then moves to the 
+document drafting agent, which automatically drafts 
+site-specific documents such as the investigator 
+brochure and site initiation visit materials, enabling the start-up team to quickly activate the sites. This 
+agentic approach could double site activation rates 
+with 30 to 50 percent fewer staff. 
+Clinical data flow : At the beginning of trials, the 
+case report form (CRF) design agent extracts 
+structured protocol metadata to create annotated 
+CRFs, which are then provided to the electronic 
+data capture configuration agent to support quicker 
+database setup. During the trial, the data entry 
+agent flags delays in data entry and involves clinical 
+research associates to ensure CRFs are completed. 
+Meanwhile, the query generation agent detects 
+anomalies in the data and automatically raises 
+relevant queries. These queries are handled by a 
+data cleaning agent, which flags complex queries 
+for human review. Once the database is locked, the 
+programming agent produces analysis datasets 
+and results tables from the collated data, with a 
+human biostatistician providing input for nonroutine 
+datasets. This process could boost productivity in 
+data management and programming by 60 percent, 
+while reducing database build timelines from two to 
+three months to under two weeks. 
+One major pharmaceutical company has adopted a 
+multi-agent trial copilot to improve its oversight of 
+the development process. The clinical operations 
+team works with a supervisor agent that manages 
+a group of specialized agents focused on site 
+activation, subject enrollment, data management, 
+and analyzing longitudinal trends. These agents 
+use data from the company’s clinical control tower, 
+including portfolio, trial, and site information, to 
+provide real-time, actionable insights and initiate 
+proactive interventions to support on-time trial 
+completion. The company plans to give its agent 
+teams more independence in the future, including 
+engaging principal investigators and clinical 
+research associates for routine tasks.
+3. Medtech research and development: 
+Accelerating innovation and prototyping
+By automating complex tasks such as prototyping, 
+design controls, patent filing, and risk management, 
+agents could free up 15 to 20 percent of capacity 
+for R&D teams, allowing them to focus on higher-
+value activities, including strategic innovation, 
+partnerships, and designs centered around 
+patients and healthcare professionals (HCPs). This 
+12
+Reimagining life science enterprises with agentic AI
+acceleration would shorten the time to market for 
+life-saving medical devices. Also, improved decision-
+making and risk mitigation could lead to safer, more 
+effective devices that better meet patient needs, 
+boosting clinical and commercial success.
+Agents could support medtech R&D teams in a 
+variety of ways:
+Prototyping and design controls : Prototyping 
+is essential in medtech R&D, where engineers 
+improve device designs and manufacturing to 
+meet requirements. Agents could transform 
+this process and assist teams by autonomously 
+creating and testing virtual prototypes. A design-
+simulation agent could analyze specifications, 
+simulate performance, identify flaws, and suggest 
+improvements early. A compliance agent could 
+compare prototypes to standards and flag 
+noncompliance in real time.
+Innovation mapping and patent filing : In the 
+medtech sector, it is crucial to stay at the forefront 
+of innovation. Agents can transform how R&D 
+teams identify opportunities and safeguard 
+intellectual property. An innovation-mapping agent 
+could scan defined sources of patents, industry 
+literature such as journals, and trade publications 
+to discover emerging technologies and trends, then 
+compare these to existing products and solutions 
+to identify unmet needs and opportunities for research. This agent could generate a prioritized list 
+of opportunities along with competitive analyses, 
+which could be designed and prototyped with 
+agentic assistance. Once a concept is developed, 
+a patent-drafting agent could prepare the 
+initial submission, ensuring legal and technical 
+compliance. Automating these tasks would help 
+R&D teams find high-value opportunities more 
+quickly and better secure their IP.
+Design controls and regulatory readiness : Once 
+a design has been finalized, a documentation 
+agent could generate design-control files based 
+on specifications, reducing design time. Risk 
+management is vital in medtech R&D to ensure 
+device safety and efficacy. Agents could streamline 
+this by automatically identifying, assessing, and 
+suggesting mitigations for risks throughout the 
+product life cycle. A risk-assessment agent could 
+analyze design inputs, manufacturing, and post-
+market data to create a risk profile. A risk mitigation 
+agent could recommend design or process changes 
+using predictive modeling. And for regulatory 
+readiness, a submission agent could compile the 
+necessary documents, reducing risk-management 
+efforts by 15 percent. 
+As an example, a leading medtech company is 
+already leveraging agentic AI to transform its 
+product and software development processes. 
+The company has implemented a multi-agent 
+By automating certain complex 
+tasks such as prototyping, agents 
+could free up 15 to 20 percent 
+of capacity for R&D teams.
+13
+Reimagining life science enterprises with agentic AI
+system to tackle key challenges such as managing 
+interdependencies between systems and teams, 
+tracking delivery, and consistently maintaining 
+quality in more complex products and devices. 
+Specialized agents now oversee critical tasks, 
+including software testing, design iteration, and risk 
+mitigation, while a central AI supervisor with human 
+oversight coordinates these efforts to ensure 
+smooth integration among teams and systems. By 
+automating routine tasks and providing real-time 
+insights, the company has greatly enhanced its 
+ability to manage complexity and deliver high-
+quality products on schedule.
+4. Commercial pharma and medtech: Elevating 
+customer engagement and market success
+Commercial organizations in both pharma and medtech 
+are grappling with rising complexity in engagement, 
+increasing demands for personalization from HCPs 
+and patients, an evolving policy environment, and cost 
+constraints. Internal processes from brand planning to 
+field enablement remain fragmented and inefficient, 
+burdened by manual workflows and legacy systems. 
+In pharma, companies’ growing dependence on a 
+sprawling network of external vendors is making cost 
+structures unsustainable. 
+Agentic AI can help by taking on time-consuming 
+activities like drafting brand plans or preparing 
+contracts, freeing up teams to focus on strategic 
+execution. They can also unlock new capabilities 
+that were previously out of reach, including real-
+time insights for decision-making; self-service 
+content creation; automated first-pass medical, 
+legal, and regulatory reviews; and personalized 
+pre-call planning for field representatives. These 
+initiatives could translate into a 4 to 8 percent 
+increase in revenues and a 5 to 9 percent reduction 
+in commercial spending over the next five years. 
+Here are three transformations that can be enabled 
+by agentic AI in commercial: 
+Sales engagement : Agentic AI can transform sales 
+operations in life sciences. Intelligent assistants 
+can redefine account representative engagement 
+by supporting pre- and postcall activities, such as 
+HCP and territory planning, capturing insights from 
+individual interactions, automating follow-up tasks, 
+and providing personalized coaching feedback to reps. These tools can help identify trends early 
+and enable personalized, data-driven engagement 
+by synthesizing clinical evidence, product info, 
+and engagement data in a conversational format. 
+Virtual sales platforms can extend reach to hard-to-
+access territories and HCPs in a compliant, scalable 
+way, adding value to the HCP experience. These 
+innovations could reduce the burdens of sales 
+representatives by 15 to 25 percent and increase 
+revenue by up to 3 percent through improved 
+targeting and stronger relationships.
+Marketing : Agentic AI is revolutionizing marketing 
+workflows in strategic planning, content creation, 
+review, campaign development and execution, 
+and performance tracking. Self-serve platforms 
+let marketers produce content independently, 
+reducing their reliance on agencies and speeding 
+up turnaround times. Automated pre-MLR (medical, 
+legal, and regulatory) review systems identify 
+common issues before formal review, decreasing 
+cycle times and improving compliance. Unified 
+platforms that aggregate internal and external data, 
+with conversational interfaces, help marketers 
+understand brand performance and patient and 
+HCP needs. These tools automate tasks, speed 
+execution, and provide intelligence to enhance 
+responsiveness to changes in the market.
+Market access and payer engagement : Agentic AI 
+can enhance market access and payer engagement 
+through increased automation, better decision-
+making, and minimized value leakage. Advanced 
+gross-to-net optimization can simulate complex 
+access scenarios at brand and portfolio levels, 
+helping to inform trade-offs that were once difficult 
+to make. A contracting-intelligence platform can 
+enable smarter contract decisions by analyzing past 
+deals, modeling potential outcomes, and guiding 
+negotiation strategies. Several manual tasks can 
+also be automated, including creating initial contract 
+drafts, monitoring performance, and tracking 
+compliance. Automated invoice auditing can ensure 
+contract terms are upheld and identify discrepancies 
+early. Together, these innovations can reduce manual 
+workload, boost financial results, and support more 
+strategic, data-driven decisions while fostering more 
+consistent and effective engagement with payers. 
+14
+Reimagining life science enterprises with agentic AI
+5. Pharma and medtech operations: 
+Accelerating execution and decision making 
+Life sciences operations face many challenges, 
+including high interdependence between 
+subfunctions and the need for time-critical 
+decision-making and extensive quality and 
+compliance documentation. These issues can be 
+addressed with tailored agents or groups of agents, 
+which can speed up processes and boost efficiency 
+by improving metrics like service levels, forecast 
+accuracy, manufacturing throughput, deviation rate, 
+and cycle time for document creation. Agent-based 
+AI could help with 75 to 85 percent of workflows 
+in operations, reducing the time required for key 
+tasks in supply chain, procurement, manufacturing, 
+product development (CMC), and quality by 25 to 35 
+percent (Exhibit 7). 
+Here are three ways in which agentic AI can improve 
+operations:
+Solving interdependencies with cross-operations 
+planning : Integrated end-to-end operations 
+planning—which is essential to optimizing production 
+and ensuring product availability—requires alignment 
+among enterprise functions. Orchestrating agents 
+can enable multifunctional interactions, eliminating 
+delays from inefficient communication and approval 
+processes. Agents can connect components 
+such as supply planning, raw material supply, and 
+manufacturing by reacting to external factors such 
+as demand fluctuations. This integration transcends 
+Exhibit 7
+Incremental time spent on agents Time savings from agentsWeb <2025>
+<MCK254200 Agentic AI>
+Exhibit <7> of <9>
+Work hours shifted by agentic workforce, % of function capacity
+FunctionAgents can shift workforce hours across operations functions.
+McKinsey & Company25/endash.case35
+Supply chain
+Quality (on site)
+Quality (above site)
+Manufacturing (on site)
+Manufacturing (above site)
+Procurement
+CMC
+1
+ (pharma-speci/f_ic)
+Total Total50/endash.case55
+20/endash.case25
+30/endash.case35
+20/endash.case25
+30/endash.case35
+40/endash.case45
+35/endash.case40/endash.case5/endash.case10
+/endash.case5
+/endash.case6
+/endash.case5
+/endash.case6
+/endash.case9
+/endash.case8
+/endash.case7
+1Chemistry, manufacturing, and controls.
+15
+Reimagining life science enterprises with agentic AI
+boundaries, providing teams with visibility into inputs, 
+outputs, and decision-making. For example, a supply 
+chain planning agent can ingest demand signals to 
+simulate scenarios and create forecasts, which a 
+production planning agent can then use to schedule 
+batches. A raw materials agent can monitor inventory 
+levels to trigger reorders, ensuring the availability of 
+raw materials.
+Automating decision-making : Agentic AI tools can 
+improve decision-making and accelerate processes 
+in all operations. To improve decision-making, 
+multicomponent platform servers can be set up 
+as middleware that allows agents to access data 
+in a structured way, providing better contextual 
+awareness of multistep tasks. Agents help identify 
+changes in signals to process inputs and execute 
+optimization decisions. 
+For example, in plant operations, by directly 
+connecting to manufacturing execution and 
+process-information systems, agents can detect 
+and respond to deviations in real time. They can 
+increase yield and product quality by adjusting 
+bioreactor parameters such as pH and O2 and 
+modifying machine settings like pressure, 
+temperature, and linear motor speed for fully 
+automated medtech manufacturing lines. 
+Procurement category management agents can 
+track changes in raw material supply and commodity 
+prices to initiate targeted negotiations. Negotiation 
+agents can coach procurement managers to 
+negotiate with suppliers. Supplier management 
+agents can observe suppliers’ performance metrics 
+and detect negative trends, such as in service levels, 
+before they significantly affect operations.
+Accelerating document generation : Operations 
+teams spend a lot of time manually drafting good 
+manufacturing practice documents for on-site and 
+above-site workflows. Two types of documentation 
+agents can help ease this burden. 
+The first type creates templates for standardized 
+documents by using historical reports and good 
+documentation practices requirements to draft 
+initial versions of standard operating procedures, 
+deviation and corrective and preventive action 
+reports, validation protocols and reports, change control impact assessments, and technology 
+transfer documents, drastically reducing the labor 
+hours needed. These agents can also generate 
+engineering and maintenance reports, such as 
+equipment failure mode and effects analyses 
+and preventive maintenance plans, along with 
+procurement documents such as contracts and 
+requests for proposals. 
+The second type of document agent connects 
+to data sources, such as laboratory information 
+management system testing results and 
+manufacturing execution system process 
+parameters, to generate near-final drafts of 
+documents such as supplemental biologics license 
+application filings for technology transfers. 
+Pilots and early assessments show that 
+documentation agents can achieve 75 to 80 
+percent productivity gains for initial document 
+generation. Additional benefits are possible through 
+collaboration with document review agents that 
+ensure compliance with regulatory and quality 
+standards. End-to-end document generation 
+and review agents can cut turnaround times from 
+weeks to hours, enabling cross-functional teams to 
+concentrate on final review and approval.
+6. Information technology: Transforming 
+IT operations and driving innovation
+Agentic AI can revolutionize how IT organizations 
+develop and manage technology.
+Agent-powered application development : The 
+integration of agentic AI into software development 
+is transforming how digital products are designed 
+and built. Instead of relying on product analysts to 
+write user stories, designers to create mockups, 
+and QA analysts to develop test scripts, agents 
+can generate all these components with less 
+oversight. Developers can assemble code using 
+natural language commands rather than traditional 
+programming languages. AI can handle routine 
+coding tasks efficiently, analyze design patterns, 
+and suggest improvements, allowing human 
+designers to focus on creativity and strategic 
+planning. This streamlined process accelerates 
+development and improves the quality of new 
+software products.
+16
+Reimagining life science enterprises with agentic AI
+Automation of IT operations : As AI technology 
+advances, traditional IT operations will experience 
+significant changes. Tasks such as issue detection, 
+event correlation, and service-request fulfillment 
+can be fully automated. Agentic AI systems can 
+update continuous integration and continuous 
+delivery pipelines enterprise-wide as policies 
+evolve, disseminate insights from new software 
+updates to every deployed system, and perform 
+automated threat monitoring. AI-driven systems 
+can predict and resolve issues before they affect 
+operations, ensuring smoother and more reliable IT 
+services. This automation can save costs, improve 
+service quality, and increase user satisfaction.
+Accelerating legacy system migration with 
+intelligent automation : Agentic AI can streamline 
+the migration process to modern enterprise systems 
+by automating complex and time-consuming 
+tasks for development teams. Migration agents 
+can analyze legacy systems, map data structures, 
+and identify dependencies to ensure a smooth 
+transition. These agents can also verify data 
+integrity, detect inconsistencies, and automate data 
+cleansing, reducing errors and manual effort. Using 
+AI-driven insights, organizations can accelerate 
+their migration timelines, minimize disruptions, 
+and achieve a seamless transition to the new 
+environment, enabling faster realization of business 
+value. As many organizations rely on systems that 
+are nearing the end of their life cycles—such as 
+enterprise-resource planning—this acceleration is 
+critically needed.
+While the opportunity to transform IT with AI is real, 
+so too is the burden it will create for IT. Business units and functions are deploying new AI faster than 
+ever and are increasingly experimenting with new 
+technology that is easier to build and deploy. This 
+could create a complex technology landscape that, 
+if left unmanaged, will become the next tranche of 
+legacy systems that will be challenging to operate 
+and keep up-to-date. 
+A Fortune 500 company launched a $600 million 
+initiative to upgrade its aging systems, which 
+included 400 applications, but faced challenges 
+due to slow manual coding processes and 
+inconsistent coordination. AI tools were used 
+to automate code conversion, but they did not 
+significantly accelerate the process. Human 
+workers migrated to supervisory roles, managing 
+teams of more than 100 AI agents responsible for 
+documentation, coding, and testing. This change 
+cut time and effort by over 50 percent. Specialized 
+teams of agents worked on specific features, with 
+their work reviewed and coordinated by other 
+agents. Human supervisors ensured the smooth 
+execution of these agent-managed tasks.
+The path to implementation
+Unlocking the full potential of agentic AI in life sciences 
+requires a strategic, organization-wide approach 
+that redefines workflows, roles, and human–agent 
+collaboration. Our Rewired framework offers a 
+concrete foundation to approach this.5 To ensure 
+successful implementation at scale, organizations 
+must focus on several critical enablers:
+ 1.  Guide from the top : A clear, top-down mandate 
+from leadership is essential. Leadership’s  Unlocking the full potential of 
+agentic AI in life sciences requires a 
+strategic, organization-wide approach 
+that redefines workflows, roles, and 
+human–agent collaboration.
+5 “Rewired and running ahead: Digital and AI leaders are leaving the rest behind,” McKinsey, January 12, 2024.
+17
+Reimagining life science enterprises with agentic AI
+focus should be on aligning agentic AI’s 
+value-creation potential with corporate 
+strategy rather than on technology challenges. 
+Leadership must steer clear of small, 
+incremental improvements by championing 
+a bold vision, setting ambitious goals, and 
+ensuring accountability across functions.
+ 2.  Reimagine workflows : Operational leaders 
+should strive to reimagine work in their 
+domains. This involves identifying high-value 
+workflows that can incorporate agents, 
+providing every user with intelligent interfaces 
+to access agent capabilities, and encouraging 
+a culture of innovation and experimentation. A 
+thorough understanding of current processes 
+and the capabilities of agentic AI is essential, 
+from leaders down to the front line.
+ 3.  Invest in people : Many roles will change from 
+doing manual and repeatable tasks to setting 
+goals and steering AI agents. Traditional 
+process and people management will migrate 
+toward supervising hybrid teams, leading 
+to changes in organizational structures. 
+Employees will need new skills and tools to 
+activate and supervise agents and overcome 
+the cultural and organizational barriers 
+to adoption. Additionally, new business 
+processes will be needed to measure, monitor, 
+and improve the performance of the agentic 
+workforce. The talent function will play a 
+significant role in managing these transitions 
+and can begin exploring the implications now.
+ 4.  Build scalable foundations : To maximize 
+the benefits of AI agents, organizations 
+can invest in flexible interconnected 
+networks of AI agents that enable their rapid 
+development, deployment, and management.6 
+These “meshes” include modular, cloud-
+based architectures that can handle 
+increasing complexity and volume, as well 
+as lower-complexity agents that empower 
+nontechnical users to create and customize 
+agents. Agent-to-agent interoperability and 
+the ability to coordinate multiple agents will 
+be key to success. Scalability also requires a robust data infrastructure to ensure agents 
+have access to high-quality, real-time 
+data. Managing data well is key to success 
+and includes aligning the organization on 
+data ontologies and ownership. Strategic 
+partnerships with technology providers and 
+start-ups can provide access to cutting-edge 
+innovation.
+ 5.  Establish robust change-management to 
+ensure adoption and value at scale : The 
+transformative potential of agentic AI requires 
+a robust and sustainable change-management 
+strategy. Efforts should include role modeling 
+by executives, a compelling change story, 
+training, ongoing coaching, and incentives 
+to encourage and reward adoption. It should 
+also involve integrating agents into existing 
+business processes, such as management 
+reviews, quarterly business reviews, and sales 
+performance evaluations, along with mechanisms 
+to gather and incorporate feedback. 
+ 6.  Set risk management and governance 
+guardrails : As agentic AI becomes embedded 
+in critical workflows, it’s best for organizations 
+to establish strong governance frameworks 
+to ensure ethical use. These include clear 
+accountability for decisions made by 
+agents, guardrails to prevent unintended 
+consequences and ensure compliance with 
+regulatory requirements, regular audits, and 
+bias-detection mechanisms. 
+ 7.    Foster a culture of continuous learning : 
+The implementation of agentic AI is a long-
+term learning challenge for employees 
+and companies. Leaders should establish 
+a strategy for continuous learning and 
+adaptation, including a safe environment 
+for experimentation and a structured 
+approach to skill-building. Organizations 
+must continuously monitor technological 
+advancements, assess new capabilities, and 
+improve their own implementations. 
+ 
+6 “Seizing the agentic AI advantage,” QuantumBlack, AI by McKinsey, June 13, 2025.
+18
+Reimagining life science enterprises with agentic AI
+Copyright © 2025 McKinsey & Company. All rights reserved.Dan Tinkoff  and Jeffrey Lewis  are senior partners in McKinsey’s Newark office; Delphine Zurkiya  is a senior partner in the 
+Boston office, where Chaitanya Adabala Viswa  is a partner; Eoin Leydon  is a partner in the Dublin office; Lionel Jin  is an 
+associate partner in the Seattle office; and Meredith Langstaff  is an associate partner in the Washington, DC, office.
+The authors wish to extend special thanks to Anthony Yuen.
+The authors also wish to thank Abel Fetahi, Abhi Mukherjee, Abhi Patangay, Akshay Chhabra, Alex Devereson, Alexandra 
+Zemp, Anas El Turabi, Andrew Bendelsmith, Andrew Shih, Anton Mihic, Arnav Dey, Austin Lessin, Bhavik Shah, Caroline 
+Tennyson, Chandra Shukla, Charles Cocoual, Chithraa Veldurairaj, Chris Llewellyn, Chris Anagnostopoulos, Dandi Zhu, Daniel 
+Shea, David Champagne, Dhara Patel, Erica Tsai, Gaurav Agrawal, Gwyn Herbein, Hann Yew, Harold Brink, Hui Tan, Imran 
+Mahmud, Inn Inn Chen, Jan Svoboda, Jeff Smith, Jeffrey Algazy, Jennifer Hou, Jonathan Lichtinger, Josh Sternberg, Julia 
+Samorezov, Katie Kelleher, Kent Gryskiewicz, Kieran Slobodin, Killian Green, Kriti Jindal, Long Bin Pa, Lukas Corey, Madhao 
+Wagh, Maria Schwarz, Martin Rosendahl, Michelle Fong, Mike Joyce, Mohammad Behnam, Nicolai von Bismarck, Nils Peters, 
+Norman Carra, Oskar de Smet, Parag Patel, Pascal Schaefer, Pepe Campello Gomis, Priyank Sood, Progya Parmita, Radhika 
+Jadavji, Raj Rajendran, Rasmus Hildebrandt, Robert Linden, Sami Shariff, Savannah Bergquist, Shannon Ensor, Shayn Jiang, 
+Shelley Cao, Tafari Mbadiwe, Tatiana Elphimova, Timothy Ayo-Ajayi, Venky Anant, Vivek Arora, Wesley Leong, Yashaswi 
+Gautam, and Yeva Shan for their contributions to this article.
+Scan • Download • Personalize
+Find more content like this on the 
+McKinsey Insights App 8.  Mobilize an agent factory : A small, centralized 
+group with leadership support can ensure 
+agentic AI is deployed toward the most 
+impactful use cases. The group can facilitate 
+the process for reimagining workflows in 
+collaboration with domain leaders, contribute 
+relevant technology expertise, monitor impact 
+and adoption metrics, and help remove 
+roadblocks to deliver the transformational 
+potential of agentic AI.
+By addressing these dimensions holistically, 
+life sciences organizations can harness the 
+transformative power of agentic AI to propel 
+innovation, achieve sustainable competitive 
+advantage, and, most importantly, improve patient 
+outcomes.Defining tomorrow
+The true power of agentic AI lies in its ability to 
+amplify human ingenuity, freeing teams from 
+mundane tasks and unlocking entirely new 
+possibilities for discovery and value creation. By 
+embracing these systems, life science companies 
+can redefine the limits of innovation, accelerate 
+breakthroughs, and deliver life-changing 
+therapies to patients with unprecedented speed 
+and precision. We anticipate that pharmaceutical 
+and medtech companies that embrace this 
+transformation will operate radically differently 
+and more competitively five years from now, with 
+benefits accruing in the meantime. Are you ready to 
+reimagine what your organization could achieve with 
+an agentic workforce alongside your people?
+19
+Reimagining life science enterprises with agentic AI
