@@ -1,9 +1,6 @@
-﻿transaction_id,studio_id,timestamp,amount,type,payment_plan,member_id,program_id,fibo_class
-T2024-09-01-001,SGANG01,2024-09-01T09:15:00+09:00,990000,enrollment,PLAN_PT_PREMIUM,MEM1001,PT-PREMIUM,fibo-fbc-pas-tx:PaymentTransaction
-T2024-09-04-002,SGANG01,2024-09-04T18:05:00+09:00,-110000,refund,PLAN_PT_PREMIUM,MEM1001,PT-PREMIUM,fibo-fbc-pas-tx:Refund
-T2024-09-05-003,SBRCH02,2024-09-05T08:50:00+09:00,1320000,enrollment,PLAN_REHAB_PLUS,MEM2002,REHAB-PLUS,fibo-fbc-pas-tx:PaymentTransaction
-T2024-09-12-004,SBRCH02,2024-09-12T07:20:00+09:00,250000,addon,PLAN_REHAB_PLUS,MEM2003,REHAB-PLUS,fibo-fbc-pas-tx:AncillaryCharge
-T2024-09-06-005,SDAEG03,2024-09-06T17:05:00+09:00,540000,enrollment,PLAN_PILATES_FLOW,MEM3004,PILATES-FLOW,fibo-fbc-pas-tx:PaymentTransaction
-T2024-09-15-006,SINC04,2024-09-15T15:30:00+09:00,420000,enrollment,PLAN_BOXING_HYBRID,MEM4001,BOX-HYBRID,fibo-fbc-pas-tx:PaymentTransaction
-T2024-09-20-007,SINC04,2024-09-20T15:30:00+09:00,80000,addon,PLAN_BOXING_HYBRID,MEM4002,BOX-HYBRID,fibo-fbc-pas-tx:AncillaryCharge
-T2024-09-08-008,SGWANG05,2024-09-08T10:15:00+09:00,1650000,enrollment,PLAN_MOBILITY_PRO,MEM5002,MOBILITY-PRO,fibo-fbc-pas-tx:PaymentTransaction
+﻿txn_id,studio_id,participation_id,txn_type,amount,metric_source,description
+TX-9001,SGANG01,PART-001,Incentive,4200000,watch_activity,"Bonus for >90% watch opt-in"
+TX-9002,SBRCH02,PART-002,Penalty,-1800000,kpi_shortfall,"SLA miss on recovery adherence"
+TX-9003,SDAEG03,PART-003,UsageAdjustment,2500000,booking,"Upsell credits for Pilates add-on"
+TX-9004,SINC04,PART-004,Chargeback,-3200000,customer,"Refund for boxing hybrid session"
+TX-9005,SGWANG05,PART-005,Incentive,5100000,watch_activity,"Top performer energy burn"

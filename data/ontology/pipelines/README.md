@@ -1,19 +1,17 @@
-# LOP Ontology Pipelines
+﻿# LOP Ontology Pipelines
 
-| 스크립트 | 설명 | 필요 환경변수 |
+| Script | 역할 | 주요 옵션 |
 | --- | --- | --- |
-| `rdflib_loader.py` | 로컬 rdflib 그래프로 TTL 검사/머지 | 없음 (python 실행) |
-| `graphdb_seed.sh` | GraphDB REST `/statements` 로 TTL 순차 업로드 | `GRAPHDB_ENDPOINT`, `GRAPHDB_REPOSITORY` |
-| `neo4j_ingest.cypher` | Neo4j n10s RDF import | `.env`(`LCP_NEO4J_*`) + `basePath` 파라미터(Cypher) |
-| `apple_fitness_dataset.py` | 애플 피트니스 온톨로지 샘플 TTL 생성 | 선택 (python 실행) |
-| `seed_real_graphs.py` | GraphDB+Neo4j 전체 모듈/데이터 일괄 로드 | `.env`(`LCP_NEO4J_*`, `graphdb_endpoint`) |
-
-> 모든 Neo4j 관련 스크립트는 레포 루트의 `.env` (예: `LCP_NEO4J_PASSWORD`)를 통해 자격 증명을 읽습니다. Git에는 올리지 마세요.
+| `sync_fibo_modules.py` | `fibo-master/` → `data/ontology/raw/` 동기화 | `--module`, `--clean`, `--dry-run` |
+| `rdflib_loader.py` | `graphdb_modules.yml` 순서대로 rdflib 로딩/검증 | `--layers`, `--skip-optional`, `--list` |
+| `graphdb_seed.py` / `graphdb_seed.sh` | GraphDB `/statements` 로 TTL 업로드 | `--endpoint`, `--repository`, `--validate`, `--dry-run` |
+| `neo4j_ingest.py` | n10s `rdf.import.fetch` 기반 Neo4j 적재 | `--skip-wipe`, `--layers`, `--dry-run` |
+| `apple_fitness_dataset.py` | (기존) 샘플 TTL 생성 | 선택 |
 
 ## 실행 순서
-1. `python data/ontology/pipelines/rdflib_loader.py`
-2. `bash data/ontology/pipelines/graphdb_seed.sh`
-3. `cypher-shell -u neo4j -p pass -f data/ontology/pipelines/neo4j_ingest.cypher --param basePath="file:///.../data/ontology"`
-각 스크립트는 로그를 출력하며 누락된 파일을 경고합니다.
-- `ontology_reasoner.py` | Neo4j Reasoner (legacy ontology helper) | optional (uses bolt credentials)
+1. **Raw 동기화**: `python data/ontology/pipelines/sync_fibo_modules.py --clean` (필요 모듈만 선택 가능)
+2. **로컬 검증**: `python data/ontology/pipelines/rdflib_loader.py --skip-optional`
+3. **GraphDB 적재**: `python data/ontology/pipelines/graphdb_seed.py --endpoint http://localhost:7200 --repository lop-dev --validate`
+4. **Neo4j 적재**: `python data/ontology/pipelines/neo4j_ingest.py --skip-optional`
 
+> Neo4j 스크립트는 `.env`에 정의된 `LCP_NEO4J_*`를 사용합니다. Git에 비밀번호를 커밋하지 마세요.

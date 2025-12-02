@@ -1,0 +1,27 @@
+﻿@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rep: <http://www.openrdf.org/config/repository#> .
+@prefix sr: <http://www.openrdf.org/config/repository/sail#> .
+@prefix sail: <http://www.openrdf.org/config/sail#> .
+@prefix graphdb: <http://www.ontotext.com/trree/graphdb#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a rep:Repository ;
+   rep:repositoryID "lop-dev" ;
+   rdfs:label "lop-dev" ;
+   rep:repositoryImpl [
+       rep:repositoryType "graphdb:SailRepository" ;
+       sr:sailImpl [
+           sail:sailType "graphdb:Sail" ;
+           graphdb:base-URL "http://example.org/graphdb#" ;
+           graphdb:license "" ;
+           graphdb:defaultNS "" ;
+           graphdb:check-For-Inconsistencies "false"^^xsd:boolean ;
+           graphdb:enable-context-index "false"^^xsd:boolean ;
+           graphdb:in-memory-literal-properties "true"^^xsd:boolean ;
+           graphdb:imports "" ;
+           graphdb:repository-type-id "owlim" ;
+           graphdb:storage-folder "storage" ;
+           graphdb:ruleset "owl-horst-optimized" ;
+           graphdb:enable-literal-index "false"^^xsd:boolean
+       ]
+   ] .

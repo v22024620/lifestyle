@@ -1,6 +1,6 @@
-﻿settlement_id,studio_id,period,amount,fee_ratio,payout_date,notes,fibo_contract
-S2024-09-SGANG01,SGANG01,2024-09-01/2024-09-30,1880000,0.031,2024-10-03,"Includes PT premium loyalty rebate",fibo-fbc-pas-caa:FeeAgreement
-S2024-09-SBRCH02,SBRCH02,2024-09-01/2024-09-30,2570000,0.029,2024-10-04,"Rehab performance bonus",fibo-fbc-pas-caa:RevenueParticipationAgreement
-S2024-09-SDAEG03,SDAEG03,2024-09-01/2024-09-30,540000,0.028,2024-10-02,"Pilates flow bundle",fibo-fbc-pas-caa:FeeAgreement
-S2024-09-SINC04,SINC04,2024-09-01/2024-09-30,500000,0.030,2024-10-05,"Hybrid boxing sessions",fibo-fbc-pas-caa:FeeAgreement
-S2024-09-SGWANG05,SGWANG05,2024-09-01/2024-09-30,1650000,0.032,2024-10-03,"Installment payout schedule",fibo-fbc-pas-caa:InstallmentContract
+﻿cycle_id,studio_id,agreement_id,participation_id,period_start,period_end,gross_revenue,share_rate,lop_share,studio_share,settlement_account
+CY-2025-10,SGANG01,AGR-LOP-001,PART-001,2025-10-01,2025-10-31,185000000,0.32,59200000,125800000,ACCT-SGANG01
+CY-2025-10,SBRCH02,AGR-LOP-002,PART-002,2025-10-01,2025-10-31,92000000,0.28,25760000,66240000,ACCT-SBRCH02
+CY-2025-10,SDAEG03,AGR-LOP-003,PART-003,2025-10-01,2025-10-31,134000000,0.30,40200000,93800000,ACCT-SDAEG03
+CY-2025-10,SINC04,AGR-LOP-002,PART-004,2025-10-01,2025-10-31,76000000,0.28,21280000,54720000,ACCT-SINC04
+CY-2025-10,SGWANG05,AGR-LOP-004,PART-005,2025-10-01,2025-10-31,198000000,0.35,69300000,128700000,ACCT-SGWANG05

@@ -1,0 +1,32 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix fibo-fnd-agr-ctr: <https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/> .
+@prefix fibo-fnd-arr-lif: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/> .
+@prefix fibo-fnd-org-org: <https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/> .
+@prefix fibo-fnd-rel-rel: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix fibo-fnd-acc-cur: <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/> .
+@prefix fibo-fbc-pas-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> .
+@prefix fibo-fbc-pas-psch: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/PaymentsAndSchedules/> .
+@prefix fibo-ind-ind-ind: <https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/> .
+@prefix fibo-be-le-lp: <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/> .
+@prefix fibo-fnd-pty-pty: <https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/> .
+@prefix lop: <https://lop.apple.com/ontology/lifestyle/core/> .
+
+lop:LOPLifestyleOntology a owl:Ontology ;
+    dct:title "LOP Lifestyle Partner Ontology"@en ;
+    dct:creator "LOP Partnerships Ontology Team"@en ;
+    dct:description "Minimal custom layer aligning wellness studios, agreements, and KPI telemetry to Bloomberg FIBO."@en ;
+    dct:issued "2025-12-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    skos:scopeNote "Imports limited to LOP partner lifecycle: studio onboarding, revenue share, settlement, KPI.",
+        "LOP 커스텀 계층은 FIBO 클래스/프로퍼티를 그대로 상속하여 Protege/GraphDB 호환성을 유지한다."@ko ;
+    owl:imports fibo-be-le-lp: ,
+        fibo-fnd-pty-pty: ,
+        fibo-fnd-agr-ctr: ,
+        fibo-fnd-arr-lif: ,
+        fibo-fnd-org-org: ,
+        fibo-fnd-rel-rel: ,
+        fibo-fnd-acc-cur: ,
+        fibo-fbc-pas-fpas: ,
+        fibo-fbc-pas-psch: ,
+        fibo-ind-ind-ind: .

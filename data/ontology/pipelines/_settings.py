@@ -1,29 +1,35 @@
-"""Helpers for pipeline scripts to load app Settings/.env."""
+﻿"""Minimal settings helper for pipeline scripts."""
 from __future__ import annotations
 
-from functools import lru_cache
+import os
+from dataclasses import dataclass
 from pathlib import Path
-import sys
-from typing import Tuple
 
-ROOT_DIR = Path(__file__).resolve().parents[3]
-if str(ROOT_DIR) not in sys.path:
-    sys.path.append(str(ROOT_DIR))
+from dotenv import load_dotenv
 
-from app.config import Settings, get_settings
+load_dotenv(dotenv_path=Path('.env'), override=False)
 
 
-@lru_cache(maxsize=1)
-def load_settings() -> Settings:
-    """Return shared Settings instance for standalone scripts."""
-    return get_settings()
+def _env(key: str, fallback_keys: tuple[str, ...] | None = None) -> str:
+    keys = (key,) + tuple(fallback_keys or ())
+    for candidate in keys:
+        value = os.environ.get(candidate)
+        if value:
+            return value
+    raise RuntimeError(f"Environment variable {key} is required for this pipeline")
 
 
-def neo4j_credentials() -> Tuple[str, str, str]:
-    """Return (uri, user, password) ensuring password is configured."""
-    settings = load_settings()
-    if not settings.neo4j_password:
-        raise RuntimeError(
-            "LCP_NEO4J_PASSWORD is empty. Set it in .env before running this pipeline."
-        )
-    return settings.neo4j_uri, settings.neo4j_user, settings.neo4j_password
+@dataclass(frozen=True)
+class Neo4jSettings:
+    uri: str
+    user: str
+    password: str
+
+
+def neo4j_credentials() -> tuple[str, str, str]:
+    settings = Neo4jSettings(
+        uri=_env("LCP_NEO4J_URI", ("NEO4J_URI",)),
+        user=_env("LCP_NEO4J_USERNAME", ("LCP_NEO4J_USER", "NEO4J_USERNAME", "NEO4J_USER")),
+        password=_env("LCP_NEO4J_PASSWORD", ("NEO4J_PASSWORD",)),
+    )
+    return settings.uri, settings.user, settings.password

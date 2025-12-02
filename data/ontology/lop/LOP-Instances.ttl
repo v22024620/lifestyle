@@ -1,0 +1,148 @@
+﻿@prefix lop: <https://lop.apple.com/ontology/lifestyle/core/> .
+@prefix fibo-ind-ind-ind: <https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fibo-fnd-rel-rel: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+
+lop:Indicator-ENG-MAU a fibo-ind-ind-ind:Indicator ;
+    rdfs:label "Monthly Active Users"@en .
+
+lop:Indicator-ENG-RET a fibo-ind-ind-ind:Indicator ;
+    rdfs:label "Retention Score"@en .
+
+lop:Indicator-HK-OPT a fibo-ind-ind-ind:Indicator ;
+    rdfs:label "HealthKit Opt-In"@en .
+
+# Studios
+lop:Studio-SGANG01 a lop:WellnessStudio ;
+    rdfs:label "Lumo Balance Lab"@en .
+lop:Studio-SBRCH02 a lop:WellnessStudio ;
+    rdfs:label "PulseFrame Rehab Studio"@en .
+lop:Studio-SDAEG03 a lop:WellnessStudio ;
+    rdfs:label "Atlas Flow Pilates"@en .
+lop:Studio-SINC04 a lop:WellnessStudio ;
+    rdfs:label "NovaSpark Boxing Loft"@en .
+lop:Studio-SGWANG05 a lop:WellnessStudio ;
+    rdfs:label "Skyline Mobility Center"@en .
+
+# Programs
+lop:Program-PRG-STR-12 a lop:FitnessProgram ;
+    rdfs:label "Strength Alignment Intensive"@en .
+lop:Program-PRG-RHB-07 a lop:FitnessProgram ;
+    rdfs:label "Spine Recovery Intensive"@en .
+lop:Program-PRG-PLT-03 a lop:FitnessProgram ;
+    rdfs:label "Core Flow Signature"@en .
+lop:Program-PRG-HYB-09 a lop:FitnessProgram ;
+    rdfs:label "Hybrid Conditioning Camp"@en .
+lop:Program-PRG-MOB-05 a lop:FitnessProgram ;
+    rdfs:label "Joint Mobility Sprint"@en .
+
+# Agreements & accounts
+lop:SettlementAccount-SGANG01 a lop:SettlementAccount ;
+    lop:settlementVolume "185000000"^^xsd:decimal .
+
+lop:SettlementAccount-SBRCH02 a lop:SettlementAccount ;
+    lop:settlementVolume "92000000"^^xsd:decimal .
+
+lop:SettlementAccount-SDAEG03 a lop:SettlementAccount ;
+    lop:settlementVolume "134000000"^^xsd:decimal .
+
+lop:SettlementAccount-SINC04 a lop:SettlementAccount ;
+    lop:settlementVolume "76000000"^^xsd:decimal .
+
+lop:SettlementAccount-SGWANG05 a lop:SettlementAccount ;
+    lop:settlementVolume "198000000"^^xsd:decimal .
+
+lop:Agreement-AGR-LOP-001 a lop:RevenueShareAgreement ;
+    lop:shareRate "0.32"^^xsd:decimal ;
+    lop:hasSettlementAccount lop:SettlementAccount-SGANG01 .
+
+lop:Agreement-AGR-LOP-002 a lop:RevenueShareAgreement ;
+    lop:shareRate "0.28"^^xsd:decimal ;
+    lop:hasSettlementAccount lop:SettlementAccount-SBRCH02 , lop:SettlementAccount-SINC04 .
+
+lop:Agreement-AGR-LOP-003 a lop:RevenueShareAgreement ;
+    lop:shareRate "0.30"^^xsd:decimal ;
+    lop:hasSettlementAccount lop:SettlementAccount-SDAEG03 .
+
+lop:Agreement-AGR-LOP-004 a lop:RevenueShareAgreement ;
+    lop:shareRate "0.35"^^xsd:decimal ;
+    lop:hasSettlementAccount lop:SettlementAccount-SGWANG05 .
+
+# Program participations
+lop:Participation-PART-001 a lop:ProgramParticipation ;
+    lop:hasStudio lop:Studio-SGANG01 ;
+    lop:hasProgram lop:Program-PRG-STR-12 ;
+    lop:linkedAgreement lop:Agreement-AGR-LOP-001 ;
+    lop:effectiveDate "2025-06-01"^^xsd:date .
+
+lop:Participation-PART-002 a lop:ProgramParticipation ;
+    lop:hasStudio lop:Studio-SBRCH02 ;
+    lop:hasProgram lop:Program-PRG-RHB-07 ;
+    lop:linkedAgreement lop:Agreement-AGR-LOP-002 ;
+    lop:effectiveDate "2025-06-01"^^xsd:date .
+
+lop:Participation-PART-003 a lop:ProgramParticipation ;
+    lop:hasStudio lop:Studio-SDAEG03 ;
+    lop:hasProgram lop:Program-PRG-PLT-03 ;
+    lop:linkedAgreement lop:Agreement-AGR-LOP-003 ;
+    lop:effectiveDate "2025-06-01"^^xsd:date .
+
+lop:Participation-PART-004 a lop:ProgramParticipation ;
+    lop:hasStudio lop:Studio-SINC04 ;
+    lop:hasProgram lop:Program-PRG-HYB-09 ;
+    lop:linkedAgreement lop:Agreement-AGR-LOP-002 ;
+    lop:effectiveDate "2025-06-01"^^xsd:date .
+
+lop:Participation-PART-005 a lop:ProgramParticipation ;
+    lop:hasStudio lop:Studio-SGWANG05 ;
+    lop:hasProgram lop:Program-PRG-MOB-05 ;
+    lop:linkedAgreement lop:Agreement-AGR-LOP-004 ;
+    lop:effectiveDate "2025-06-01"^^xsd:date .
+
+# Engagement snapshots
+lop:Snapshot-SNAP-001 a lop:EngagementSnapshot ;
+    lop:capturesEngagement lop:Participation-PART-001 ;
+    lop:tracksIndicator lop:Indicator-ENG-MAU ;
+    lop:engagementScore "0.82"^^xsd:decimal ;
+    lop:activeMembers "128"^^xsd:integer ;
+    lop:healthKitOptInRate "0.93"^^xsd:decimal .
+
+lop:Snapshot-SNAP-002 a lop:EngagementSnapshot ;
+    lop:capturesEngagement lop:Participation-PART-002 ;
+    lop:tracksIndicator lop:Indicator-ENG-RET ;
+    lop:engagementScore "0.71"^^xsd:decimal ;
+    lop:activeMembers "74"^^xsd:integer ;
+    lop:healthKitOptInRate "0.88"^^xsd:decimal .
+
+lop:Snapshot-SNAP-003 a lop:EngagementSnapshot ;
+    lop:capturesEngagement lop:Participation-PART-003 ;
+    lop:tracksIndicator lop:Indicator-ENG-MAU ;
+    lop:engagementScore "0.86"^^xsd:decimal ;
+    lop:activeMembers "96"^^xsd:integer ;
+    lop:healthKitOptInRate "0.95"^^xsd:decimal .
+
+lop:Snapshot-SNAP-004 a lop:EngagementSnapshot ;
+    lop:capturesEngagement lop:Participation-PART-004 ;
+    lop:tracksIndicator lop:Indicator-ENG-RET ;
+    lop:engagementScore "0.64"^^xsd:decimal ;
+    lop:activeMembers "63"^^xsd:integer ;
+    lop:healthKitOptInRate "0.81"^^xsd:decimal .
+
+lop:Snapshot-SNAP-005 a lop:EngagementSnapshot ;
+    lop:capturesEngagement lop:Participation-PART-005 ;
+    lop:tracksIndicator lop:Indicator-HK-OPT ;
+    lop:engagementScore "0.89"^^xsd:decimal ;
+    lop:activeMembers "142"^^xsd:integer ;
+    lop:healthKitOptInRate "0.97"^^xsd:decimal .
+
+# Risk events
+lop:RiskEvent-SGANG01-1 a lop:StudioRiskEvent ;
+    lop:riskCategory "WatchDrift" ;
+    lop:riskScore "0.12"^^xsd:decimal ;
+    fibo-fnd-rel-rel:relates lop:Studio-SGANG01 .
+
+lop:RiskEvent-SBRCH02-1 a lop:StudioRiskEvent ;
+    lop:riskCategory "RecoveryCompliance" ;
+    lop:riskScore "0.32"^^xsd:decimal ;
+    fibo-fnd-rel-rel:relates lop:Studio-SBRCH02 .

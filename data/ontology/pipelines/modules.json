@@ -1,0 +1,39 @@
+﻿{
+  "modules": [
+    {
+      "name": "FND-Core",
+      "source": "FND",
+      "target": "raw/FND",
+      "paths": ["AgentsAndPeople","Agreements","Arrangements","Organizations","Accounting","Parties"],
+      "description": "Foundations agents/agreements/lifecycle modules"
+    },
+    {
+      "name": "BE-Legal",
+      "source": "BE",
+      "target": "raw/BE",
+      "paths": ["LegalEntities","FunctionalEntities"],
+      "description": "Legal persons for wellness studios"
+    },
+    {
+      "name": "FBC-Products",
+      "source": "FBC",
+      "target": "raw/FBC",
+      "paths": ["ProductsAndServices"],
+      "description": "Financial products and services"
+    },
+    {
+      "name": "IND-Indicators",
+      "source": "IND",
+      "target": "raw/IND",
+      "paths": ["Indicators"],
+      "description": "Indicator taxonomy"
+    },
+    {
+      "name": "Metadata",
+      "source": ".",
+      "target": "raw/metadata",
+      "paths": ["catalog-v001.xml","AboutFIBOProd.rdf","AboutFIBOProd-TBoxOnly.rdf"],
+      "description": "Protege catalog and metadata"
+    }
+  ]
+}

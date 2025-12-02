@@ -1,0 +1,121 @@
+﻿@prefix fibo-be-le-lp: <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/> .
+@prefix fibo-fnd-pty-pty: <https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/> .
+@prefix fibo-fnd-agr-ctr: <https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/> .
+@prefix fibo-fnd-arr-lif: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/> .
+@prefix fibo-fnd-rel-rel: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix fibo-fnd-acc-cur: <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/> .
+@prefix fibo-fbc-pas-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> .
+@prefix fibo-fbc-pas-psch: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/PaymentsAndSchedules/> .
+@prefix fibo-ind-ind-ind: <https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lop: <https://lop.apple.com/ontology/lifestyle/core/> .
+
+lop:WellnessStudio a owl:Class ;
+    rdfs:subClassOf fibo-be-le-lp:LegalPerson ;
+    rdfs:label "Wellness studio"@en ;
+    skos:definition "LOP에 등록된 오프라인/디지털 파트너 스튜디오"@ko .
+
+lop:Trainer a owl:Class ;
+    rdfs:subClassOf fibo-fnd-pty-pty:Person ;
+    rdfs:label "Fitness trainer"@en ;
+    skos:definition "스튜디오 대리인 또는 콘텐츠 제작자"@ko .
+
+lop:FitnessProgram a owl:Class ;
+    rdfs:subClassOf fibo-fnd-arr-lif:LifecycleSpecification ;
+    rdfs:label "Fitness program"@en ;
+    skos:definition "N주 단위 경험, KPI/디바이스 요건을 갖는 프로그램"@ko .
+
+lop:ProgramParticipation a owl:Class ;
+    rdfs:subClassOf fibo-fnd-agr-ctr:ContractualCommitment ;
+    skos:definition "특정 스튜디오-프로그램-계약을 묶는 LOP 약정"@ko .
+
+lop:RevenueShareAgreement a owl:Class ;
+    rdfs:subClassOf fibo-fnd-agr-ctr:Contract ;
+    skos:definition "정산율, KPI 패널티 등을 정의한 마스터 계약"@ko .
+
+lop:SettlementAccount a owl:Class ;
+    rdfs:subClassOf fibo-fnd-acc-cur:MonetaryAmount ;
+    skos:definition "Revenue share, incentive, clawback를 기록하는 원장"@ko .
+
+lop:EngagementSnapshot a owl:Class ;
+    rdfs:subClassOf fibo-ind-ind-ind:Observation ;
+    skos:definition "일별/주별 워치 지표·예약·정산을 통합한 스냅샷"@ko .
+
+lop:StudioRiskEvent a owl:Class ;
+    rdfs:subClassOf fibo-ind-ind-ind:RiskEvent ;
+    skos:definition "Opt-in 급락 등 스튜디오 운영 리스크"@ko .
+
+lop:hasProgram a owl:ObjectProperty ;
+    rdfs:domain lop:ProgramParticipation ;
+    rdfs:range lop:FitnessProgram ;
+    rdfs:subPropertyOf fibo-fnd-rel-rel:relates ;
+    skos:definition "약정이 참조하는 프로그램"@ko .
+
+lop:hasStudio a owl:ObjectProperty ;
+    rdfs:domain lop:ProgramParticipation ;
+    rdfs:range lop:WellnessStudio ;
+    skos:definition "약정의 스튜디오 당사자"@ko .
+
+lop:linkedAgreement a owl:ObjectProperty ;
+    rdfs:domain lop:ProgramParticipation ;
+    rdfs:range lop:RevenueShareAgreement ;
+    skos:definition "상속되는 마스터 계약"@ko .
+
+lop:capturesEngagement a owl:ObjectProperty ;
+    rdfs:domain lop:EngagementSnapshot ;
+    rdfs:range lop:ProgramParticipation ;
+    skos:definition "스냅샷이 커버하는 계약 범위"@ko .
+
+lop:tracksIndicator a owl:ObjectProperty ;
+    rdfs:domain lop:EngagementSnapshot ;
+    rdfs:range fibo-ind-ind-ind:Indicator ;
+    skos:definition "연동된 KPI 코드 (ENG-MAU 등)"@ko .
+
+lop:engagementScore a owl:DatatypeProperty ;
+    rdfs:domain lop:EngagementSnapshot ;
+    rdfs:range xsd:decimal ;
+    skos:definition "0~1 정규화 지표"@ko .
+
+lop:activeMembers a owl:DatatypeProperty ;
+    rdfs:domain lop:EngagementSnapshot ;
+    rdfs:range xsd:integer ;
+    skos:definition "주차별 고유 고객 수"@ko .
+
+lop:healthKitOptInRate a owl:DatatypeProperty ;
+    rdfs:domain lop:EngagementSnapshot ;
+    rdfs:range xsd:decimal ;
+    skos:definition "디바이스 동기화율"@ko .
+
+lop:settlementVolume a owl:DatatypeProperty ;
+    rdfs:domain lop:SettlementAccount ;
+    rdfs:range xsd:decimal ;
+    skos:definition "정산 회차별 금액"@ko .
+
+lop:riskCategory a owl:DatatypeProperty ;
+    rdfs:domain lop:StudioRiskEvent ;
+    rdfs:range xsd:string ;
+    skos:definition "위험 유형 (Compliance/Experience 등)"@ko .
+
+lop:riskScore a owl:DatatypeProperty ;
+    rdfs:domain lop:StudioRiskEvent ;
+    rdfs:range xsd:decimal ;
+    skos:definition "확률x영향 점수"@ko .
+
+lop:effectiveDate a owl:DatatypeProperty ;
+    rdfs:domain lop:ProgramParticipation ;
+    rdfs:range xsd:date ;
+    skos:definition "계약 효력 개시일"@ko .
+
+lop:shareRate a owl:DatatypeProperty ;
+    rdfs:domain lop:RevenueShareAgreement ;
+    rdfs:range xsd:decimal ;
+    skos:definition "스튜디오 분배율"@ko .
+
+lop:hasSettlementAccount a owl:ObjectProperty ;
+    rdfs:domain lop:RevenueShareAgreement ;
+    rdfs:range lop:SettlementAccount ;
+    skos:definition "정산 계정 연결"@ko .

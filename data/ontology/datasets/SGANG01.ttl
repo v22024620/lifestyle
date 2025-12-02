@@ -1,5 +1,0 @@
-﻿@prefix lop-core: <https://lop.com/fibo/lifestyle/core/> .
-@prefix lop-ext-ind: <https://lop.com/fibo/lifestyle/extensions/individuals/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-lop-core:SGANG01 lop-ext-ind:evidenceScore "0.92"^^xsd:decimal .

@@ -1,6 +1,6 @@
-﻿studio_id,name,category,city,modality,signature_program,target_focus,plan_type,billing_model,fibo_entity
-SGANG01,"Lumo Balance Lab",WellnessStudio,Seoul,PersonalTraining,Strength & Mobility,BodyComposition,FIXED,Monthly Subscription,fibo-well:WellnessStudio
-SBRCH02,"PulseFrame Rehab Studio",WellnessStudio,Busan,Rehab&Stretch,Spine Recovery Intensive,Recovery,MIXED,"Subscription + Performance",fibo-well:WellnessStudio
-SDAEG03,"Atlas Flow Pilates",WellnessStudio,Daegu,Pilates,Core Flow Signature,Posture,FIXED,Term Contract,fibo-well:WellnessStudio
-SINC04,"NovaSpark Boxing Loft",WellnessStudio,Incheon,Boxing/Conditioning,Hybrid Conditioning Camp,Endurance,VARIABLE,Usage Based,fibo-well:WellnessStudio
-SGWANG05,"Skyline Mobility Center",WellnessStudio,Gwangju,PhysicalTherapy,Joint Mobility Sprint,Rehab,MIXED,Installment Contract,fibo-well:WellnessStudio
+﻿studio_id,studio_iri,legal_name,city,engagement_tier,trainer_lead,agreement_id,program_id,primary_program,watch_opt_in_rate,risk_score
+SGANG01,https://lop.apple.com/partners/studios/SGANG01,"Lumo Balance Lab",Seoul,Tier-1,trainer:PT-101,AGR-LOP-001,PRG-STR-12,Strength Alignment Intensive,0.87,0.12
+SBRCH02,https://lop.apple.com/partners/studios/SBRCH02,"PulseFrame Rehab Studio",Busan,Tier-2,trainer:PT-231,AGR-LOP-002,PRG-RHB-07,Spine Recovery Intensive,0.79,0.32
+SDAEG03,https://lop.apple.com/partners/studios/SDAEG03,"Atlas Flow Pilates",Daegu,Tier-2,trainer:PT-045,AGR-LOP-003,PRG-PLT-03,Core Flow Signature,0.82,0.18
+SINC04,https://lop.apple.com/partners/studios/SINC04,"NovaSpark Boxing Loft",Incheon,Tier-3,trainer:PT-312,AGR-LOP-002,PRG-HYB-09,Hybrid Conditioning Camp,0.68,0.41
+SGWANG05,https://lop.apple.com/partners/studios/SGWANG05,"Skyline Mobility Center",Gwangju,Tier-1,trainer:PT-122,AGR-LOP-004,PRG-MOB-05,Joint Mobility Sprint,0.91,0.09

@@ -1,0 +1,16 @@
+﻿layers:
+  - name: metadata
+    description: Ontology header importing required FIBO modules
+    files:
+      - lop/LOP-Metadata.ttl
+  - name: lop-core
+    description: LOP wellness studio/program/agreement definitions
+    files:
+      - lop/LOP-Core.ttl
+      - lop/LOP-Instances.ttl
+  - name: datasets
+    description: Simulation TTL outputs (optional)
+    optional: true
+    files:
+      - datasets/provider_metrics.ttl
+

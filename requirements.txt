@@ -12,3 +12,6 @@ pytest
 streamlit
 openai
 neo4j>=5.16.0
+pyyaml
+requests
+pyvis

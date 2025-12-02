@@ -1,37 +1,38 @@
-﻿"""rdflib loader template for LOP ontology."""
-from pathlib import Path
+﻿"""Load TTL files defined in graphdb_modules.yml using rdflib."""
+from __future__ import annotations
+
+import argparse
+import sys
+from typing import Iterable, List, Sequence
+
 from rdflib import Graph
 
-LOAD_ORDER = [
-    "md/LOPFitness-Metadata.ttl",
-    "fnd/Agents/LOPAgents.ttl",
-    "fnd/Arrangements/LOPContracts.ttl",
-    "fnd/DatesAndTimes/LOPTime.ttl",
-    "be/Organizations/Studios.ttl",
-    "be/FunctionalEntities/TrainerNetworks.ttl",
-    "bp/Engagements/ProgramLifecycle.ttl",
-    "cae/ProgramParticipationAgreement.ttl",
-    "fbc/Products/FitnessSubscriptions.ttl",
-    "fbc/Accounting/FitnessSettlement.ttl",
-    "der/FitnessRiskDerivedMetrics.ttl",
-    "ind/Insurance/FitnessRisk.ttl",
-    "loan/StudioCapexLoans.ttl",
-    "sec/FitnessReceivablesSecuritization.ttl",
-    "extensions/lop-lifestyle/LOPFitness-Core.ttl",
-    "extensions/lop-lifestyle/LOPFitness-Programs.ttl",
-    "extensions/lop-lifestyle/LOPFitness-Individuals.ttl",
-    "extensions/lop-lifestyle/fibo_core_subset.ttl",
-    "extensions/lop-lifestyle/fibo_lifestyle_extension.ttl",
-    "datasets/SGANG01.ttl",
-    "datasets/risk-events.ttl",
-]
+if __name__ == "__main__" and __package__ is None:
+    import pathlib
 
-BASE_PATH = Path(__file__).resolve().parent.parent
+    sys.path.append(str(pathlib.Path(__file__).resolve().parents[3]))
 
-def load_graph() -> Graph:
+from data.ontology.pipelines.config_loader import (  # type: ignore  # pylint:disable=import-error
+    ConfigError,
+    iter_layer_files,
+    resolve_ontology_path,
+)
+
+
+def _collect_files(include_optional: bool, layer_filter: Sequence[str] | None) -> List[str]:
+    return list(
+        iter_layer_files(
+            include_optional=include_optional,
+            only_layers=layer_filter,
+        )
+    )
+
+
+def load_graph(files: Iterable[str] | None = None) -> Graph:
     graph = Graph()
-    for relative in LOAD_ORDER:
-        ttl_path = BASE_PATH / relative
+    targets = list(files) if files else _collect_files(include_optional=True, layer_filter=None)
+    for relative in targets:
+        ttl_path = resolve_ontology_path(relative)
         if not ttl_path.exists():
             print(f"[WARN] Missing TTL skipped: {ttl_path}")
             continue
@@ -40,5 +41,30 @@ def load_graph() -> Graph:
     print(f"[INFO] Triples loaded: {len(graph)}")
     return graph
 
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="rdflib loader for LOP ontology")
+    parser.add_argument("--layers", nargs="*", help="Limit to specific layer names")
+    parser.add_argument("--skip-optional", action="store_true", help="Skip optional layers")
+    parser.add_argument("--list", action="store_true", help="List files without loading")
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    files = _collect_files(include_optional=not args.skip_optional, layer_filter=args.layers)
+    if args.list:
+        print("[INFO] Files in load order:")
+        for relative in files:
+            print(f" - {relative}")
+        return
+    load_graph(files)
+
+
 if __name__ == "__main__":
-    load_graph()
+    try:
+        main()
+    except ConfigError as exc:
+        print(f"[ERROR] {exc}")
+        sys.exit(1)
+
